@@ -1,470 +1,541 @@
-#!/usr/bin/env python3
-"""
-Academic Paper Harvester - RELIABLE SOURCES ONLY
-Focuses on sources with proven working APIs
-"""
-
-import json
+# semanticscholar_scraper.py
+from rich.console import Console
+from rich.panel import Panel
+from rich.prompt import Prompt
+from rich.table import Table
+import subprocess
+import os
 import time
-import re
-import sys
+import json
+import requests
+import websocket
+from urllib.parse import quote
+import signal
+import atexit
+import shutil
 from datetime import datetime
-from typing import List
-from urllib.parse import quote_plus
-from concurrent.futures import ThreadPoolExecutor, as_completed
-import threading
+import sys
+import re
 
-try:
-    import requests
-    from requests.adapters import HTTPAdapter
-    from urllib3.util.retry import Retry
-except ImportError:
-    print("❌ Install requests: pip install requests")
-    sys.exit(1)
+console = Console()
 
-class AcademicPaper:
-    def __init__(self, paper_id, title, abstract, authors, source,
-                 published_date=None, pdf_url=None, doi=None, url=None,
-                 citation_count=None, publisher=None):
-        self.id = paper_id
-        self.title = title
-        self.abstract = abstract[:2000] if abstract else "No abstract available"
-        self.authors = authors[:5] if authors else ["Unknown"]
-        self.source = source
-        self.published_date = published_date
-        self.pdf_url = pdf_url
-        self.doi = doi
-        self.url = url
-        self.citation_count = citation_count
-        self.publisher = publisher
+# Configuration
+CHROME_PORT = 9222
+chrome_process = None
 
-    def to_dict(self):
-        return {
-            'id': self.id,
-            'title': self.title,
-            'abstract': self.abstract,
-            'authors': self.authors,
-            'source': self.source,
-            'published_date': self.published_date,
-            'pdf_url': self.pdf_url,
-            'doi': self.doi,
-            'url': self.url,
-            'citation_count': self.citation_count,
-            'publisher': self.publisher
-        }
-
-class AcademicHarvester:
-    def __init__(self, max_workers: int = 8):
-        self.max_workers = max_workers
-        self.session = self._create_session()
-        self.print_lock = threading.Lock()
-        self.results_lock = threading.Lock()
-        self.all_papers = []
-
-    def _create_session(self):
-        session = requests.Session()
-        session.headers.update({
-            'User-Agent': 'Mozilla/5.0 (compatible; AcademicBot/1.0)',
-            'Accept': 'application/json',
-        })
-        retry = Retry(total=2, backoff_factor=1, status_forcelist=[429, 500, 502, 503])
-        adapter = HTTPAdapter(max_retries=retry, pool_connections=20)
-        session.mount("https://", adapter)
-        session.mount("http://", adapter)
-        return session
-
-    def _safe_print(self, msg, end='\n'):
-        with self.print_lock:
-            print(msg, end=end, flush=True)
-
-    def _add_papers(self, papers):
-        with self.results_lock:
-            self.all_papers.extend(papers)
-
-    def _safe_request(self, url, params=None, timeout=15):
+def cleanup():
+    global chrome_process
+    if chrome_process:
         try:
-            return self.session.get(url, params=params, timeout=timeout)
+            chrome_process.terminate()
+        except Exception:
+            pass
+
+atexit.register(cleanup)
+signal.signal(signal.SIGINT, lambda sig, frame: (cleanup(), exit(0)))
+
+def find_chrome():
+    """Find Chrome/Chromium binary."""
+    candidates = [
+        "chromium-browser", "chromium", "google-chrome",
+        "google-chrome-stable", "brave-browser"
+    ]
+    for name in candidates:
+        path = shutil.which(name)
+        if path:
+            console.print(f"[green]✓ Found browser: {path}[/green]")
+            return path
+    console.print("[red]No Chrome/Chromium binary found![/red]")
+    console.print("[yellow]Install with: pkg install chromium[/yellow]")
+    return None
+
+def is_cdp_alive(port=CHROME_PORT):
+    """Check if Chrome's debugging port is responding."""
+    try:
+        requests.get(f"http://127.0.0.1:{port}/json/version", timeout=2)
+        return True
+    except Exception:
+        return False
+
+def start_chrome_headless():
+    """Launch Chrome in headless mode with CDP."""
+    global chrome_process
+    
+    # Kill any existing Chrome instances on our port
+    subprocess.run(["pkill", "-f", f"remote-debugging-port={CHROME_PORT}"], capture_output=True)
+    time.sleep(1)
+    
+    chrome_cmd = find_chrome()
+    if not chrome_cmd:
+        return False
+    
+    user_data_dir = os.path.expanduser('~/chrome-cdp-semantic')
+    os.makedirs(user_data_dir, exist_ok=True)
+    
+    cmd = [
+        chrome_cmd,
+        f"--remote-debugging-port={CHROME_PORT}",
+        "--remote-allow-origins=*",
+        f"--user-data-dir={user_data_dir}",
+        "--no-sandbox",
+        "--disable-gpu",
+        "--disable-dev-shm-usage",
+        "--window-size=1920,1080",
+        "--headless=new",
+        "--disable-extensions",
+        "--disable-background-networking",
+        "--disable-blink-features=AutomationControlled",
+        "--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    ]
+    
+    try:
+        console.print("[cyan]Launching Chrome in headless mode...[/cyan]")
+        chrome_process = subprocess.Popen(
+            cmd,
+            stdout=subprocess.DEVNULL,
+            stderr=subprocess.DEVNULL
+        )
+        
+        for i in range(30):
+            time.sleep(1)
+            if is_cdp_alive():
+                console.print(f"[green]✓ Chrome ready (headless, {i+1}s)[/green]")
+                return True
+            if chrome_process.poll() is not None:
+                rc = chrome_process.returncode
+                console.print(f"[red]Chrome crashed (exit code {rc})[/red]")
+                break
+                
+    except Exception as e:
+        console.print(f"[red]Headless launch error: {e}[/red]")
+    
+    console.print("[red]Failed to start Chrome[/red]")
+    return False
+
+def get_ws_url():
+    try:
+        tabs = requests.get(f"http://127.0.0.1:{CHROME_PORT}/json/list", timeout=5).json()
+        if tabs:
+            return tabs[0].get("webSocketDebuggerUrl")
+    except Exception as e:
+        console.print(f"[yellow]Could not get WebSocket URL: {e}[/yellow]")
+    return None
+
+def connect_cdp():
+    ws_url = get_ws_url()
+    if not ws_url:
+        return None
+    
+    console.print("[cyan]Connecting to Chrome CDP...[/cyan]")
+    ws = websocket.create_connection(ws_url, timeout=30)
+    
+    for method in ["Page.enable", "Runtime.enable", "Network.enable"]:
+        ws.send(json.dumps({"id": 1, "method": method}))
+        time.sleep(0.3)
+    
+    ws.settimeout(0.1)
+    while True:
+        try:
+            ws.recv()
         except:
-            return None
-
-    # ==================== RELIABLE SOURCES ====================
+            break
+    ws.settimeout(None)
     
-    def search_openalex(self, query: str, max_results: int = 25) -> List[AcademicPaper]:
-        """OpenAlex - Most reliable, largest database"""
-        papers = []
-        url = "https://api.openalex.org/works"
-        
-        params = {
-            "search": query,
-            "per-page": min(max_results, 25),
-            "sort": "cited_by_count:desc",
-        }
+    return ws
 
+def send_cdp(ws, _id, method, params=None):
+    ws.send(json.dumps({"id": _id, "method": method, "params": params or {}}))
+
+def recv_cdp(ws, expected_id=None):
+    while True:
         try:
-            self._safe_print(f"  📚 OpenAlex: Searching...", end='')
-            response = self._safe_request(url, params)
+            res = json.loads(ws.recv())
+            if "id" in res and (expected_id is None or res["id"] == expected_id):
+                return res
+        except Exception:
+            continue
 
-            if response and response.status_code == 200:
-                data = response.json()
-                for work in data.get('results', []):
-                    authors = [a.get('author', {}).get('display_name', '') for a in work.get('authorships', [])[:5]]
-                    authors = [a for a in authors if a]
-                    
-                    abstract = work.get('abstract', '')
-                    if abstract:
-                        abstract = re.sub('<[^<]+?>', '', abstract)
+def evaluate_cdp(ws, expression, _id=100):
+    send_cdp(ws, _id, "Runtime.evaluate", {
+        "expression": expression,
+        "returnByValue": True,
+        "awaitPromise": True
+    })
+    result = recv_cdp(ws, _id)
+    if "result" in result and "result" in result["result"]:
+        return result["result"]["result"].get("value")
+    return None
 
-                    paper = AcademicPaper(
-                        paper_id=work.get('id', '').split('/')[-1],
-                        title=work.get('title', 'No title'),
-                        abstract=abstract or 'No abstract available',
-                        authors=authors or ["Unknown"],
-                        source="OpenAlex",
-                        published_date=work.get('publication_date', '')[:10],
-                        doi=work.get('doi'),
-                        url=work.get('id'),
-                        citation_count=work.get('cited_by_count', 0),
-                        publisher=work.get('host_venue', {}).get('display_name') if work.get('host_venue') else None
-                    )
-                    papers.append(paper)
-                    if len(papers) >= max_results:
-                        break
-                self._safe_print(f" ✓ {len(papers)} found")
-            else:
-                self._safe_print(f" ✗ No response")
-        except Exception as e:
-            self._safe_print(f" ✗ Error")
-        return papers
-
-    def search_semantic_scholar(self, query: str, max_results: int = 25) -> List[AcademicPaper]:
-        """Semantic Scholar - Best for citations and AI"""
-        papers = []
-        url = "https://api.semanticscholar.org/graph/v1/paper/search"
+def navigate_cdp(ws, url):
+    console.print(f"[cyan]Navigating to: {url}[/cyan]")
+    send_cdp(ws, 1000, "Page.navigate", {"url": url})
+    time.sleep(3)
+    
+    for attempt in range(20):
+        content = evaluate_cdp(ws, """
+        (function() {
+            const results = document.querySelectorAll('.paper-card, .search-result, [data-test-id="paper-card"]');
+            if (results.length > 0) return 'results';
+            
+            const loading = document.querySelector('.loading-controls, [data-test-id="icon-loading-serp"]');
+            if (loading) return 'loading';
+            
+            const body = document.body.innerText;
+            if (body && body.length > 100) return 'content';
+            
+            return 'empty';
+        })()
+        """)
         
-        params = {
-            "query": query,
-            "limit": min(max_results, 50),
-            "fields": "title,abstract,authors,year,openAccessPdf,url,doi,citationCount,venue"
-        }
+        if content == 'results':
+            console.print("[green]✓ Results found![/green]")
+            return True
+        elif content == 'loading':
+            console.print(f"[dim]Still loading... ({attempt+1}/20)[/dim]")
+            time.sleep(1)
+        elif content == 'content':
+            console.print("[yellow]Page has content but no results?[/yellow]")
+            time.sleep(1)
+        else:
+            console.print(f"[dim]Waiting for content... ({attempt+1}/20)[/dim]")
+            time.sleep(1)
+    
+    console.print("[yellow]Page may not have loaded fully[/yellow]")
+    return True
 
-        try:
-            self._safe_print(f"  🔬 Semantic Scholar: Searching...", end='')
-            response = self._safe_request(url, params)
-
-            if response and response.status_code == 200:
-                data = response.json()
-                for p in data.get('data', [])[:max_results]:
-                    authors = [a.get('name', '') for a in p.get('authors', [])[:5]]
-                    authors = [a for a in authors if a]
-                    
-                    pdf_url = p.get('openAccessPdf', {}).get('url') if p.get('openAccessPdf') else None
-
-                    paper = AcademicPaper(
-                        paper_id=p.get('paperId', ''),
-                        title=p.get('title', 'No title'),
-                        abstract=p.get('abstract') or 'No abstract available',
-                        authors=authors or ["Unknown"],
-                        source="Semantic Scholar",
-                        published_date=str(p.get('year', '')) if p.get('year') else '',
-                        pdf_url=pdf_url,
-                        doi=p.get('doi'),
-                        url=p.get('url'),
-                        citation_count=p.get('citationCount', 0),
-                        publisher=p.get('venue')
-                    )
-                    papers.append(paper)
-                self._safe_print(f" ✓ {len(papers)} found")
-            else:
-                self._safe_print(f" ✗ No response")
-        except Exception as e:
-            self._safe_print(f" ✗ Error")
-        return papers
-
-    def search_crossref(self, query: str, max_results: int = 20) -> List[AcademicPaper]:
-        """CrossRef - DOI registry, good for exact matches"""
-        papers = []
-        url = "https://api.crossref.org/works"
+def scrape_semantic_scholar(query, max_results=50, retries=3):
+    """Scrape paper data from Semantic Scholar search results."""
+    ws = None
+    results = []
+    
+    try:
+        if not is_cdp_alive():
+            if not start_chrome_headless():
+                console.print("[red]Could not start Chrome[/red]")
+                return []
         
-        params = {
-            "query": query,
-            "rows": min(max_results, 20),
-            "sort": "relevance",
-        }
-
-        try:
-            self._safe_print(f"  🔗 CrossRef: Searching...", end='')
-            response = self._safe_request(url, params)
-
-            if response and response.status_code == 200:
-                data = response.json()
-                for item in data.get('message', {}).get('items', []):
-                    authors = []
-                    for author in item.get('author', [])[:5]:
-                        name = []
-                        if author.get('given'):
-                            name.append(author['given'])
-                        if author.get('family'):
-                            name.append(author['family'])
-                        if name:
-                            authors.append(' '.join(name))
-
-                    date = ''
-                    if item.get('issued', {}).get('date-parts'):
-                        date = '-'.join(str(p) for p in item['issued']['date-parts'][0][:3])
-
-                    paper = AcademicPaper(
-                        paper_id=item.get('DOI', ''),
-                        title=item.get('title', ['No title'])[0],
-                        abstract=item.get('abstract', 'No abstract available')[:1000],
-                        authors=authors or ["Unknown"],
-                        source="CrossRef",
-                        published_date=date,
-                        doi=item.get('DOI'),
-                        url=f"https://doi.org/{item.get('DOI')}" if item.get('DOI') else None,
-                        citation_count=item.get('reference-count', 0)
-                    )
-                    papers.append(paper)
-                    if len(papers) >= max_results:
-                        break
-                self._safe_print(f" ✓ {len(papers)} found")
-            else:
-                self._safe_print(f" ✗ No response")
-        except Exception as e:
-            self._safe_print(f" ✗ Error")
-        return papers
-
-    def search_arxiv(self, query: str, max_results: int = 20) -> List[AcademicPaper]:
-        """arXiv - Preprints, very reliable"""
-        papers = []
-        url = "http://export.arxiv.org/api/query"
+        ws = connect_cdp()
+        if not ws:
+            console.print("[red]Could not connect to CDP[/red]")
+            return []
         
-        params = {
-            "search_query": f"all:{query}",
-            "max_results": min(max_results, 20),
-            "sortBy": "relevance"
-        }
-
-        try:
-            self._safe_print(f"  📄 arXiv: Searching...", end='')
-            response = self._safe_request(url, params, timeout=10)
-
-            if response and response.status_code == 200:
-                import xml.etree.ElementTree as ET
-                root = ET.fromstring(response.content)
+        search_url = f"https://www.semanticscholar.org/search?q={quote(query)}"
+        if not navigate_cdp(ws, search_url):
+            console.print("[red]Navigation failed[/red]")
+            return []
+        
+        time.sleep(2)
+        
+        console.print("[cyan]Extracting paper data...[/cyan]")
+        
+        # FIXED: Removed optional chaining operators (?.)
+        paper_data = evaluate_cdp(ws, f"""
+        (function() {{
+            const results = [];
+            const maxResults = {max_results};
+            
+            // Try different selectors
+            const selectors = [
+                '.paper-card',
+                '.search-result',
+                '[data-test-id="paper-card"]',
+                '.result-item',
+                '.paper-row',
+                'article'
+            ];
+            
+            let items = [];
+            for (let i = 0; i < selectors.length; i++) {{
+                const found = document.querySelectorAll(selectors[i]);
+                if (found.length > 0) {{
+                    items = found;
+                    break;
+                }}
+            }}
+            
+            // If no items found, try to get links directly
+            if (items.length === 0) {{
+                const links = document.querySelectorAll('a[href^="/paper/"]');
+                const uniqueLinks = new Set();
+                links.forEach(function(link) {{
+                    if (link.href && !uniqueLinks.has(link.href)) {{
+                        uniqueLinks.add(link.href);
+                        const title = link.textContent.trim() || 'Unknown title';
+                        let paperId = '';
+                        const parts = link.href.split('/paper/');
+                        if (parts.length > 1) {{
+                            paperId = parts[1].split('?')[0] || '';
+                        }}
+                        results.push({{
+                            title: title,
+                            url: link.href,
+                            paperId: paperId
+                        }});
+                    }}
+                }});
+                return results.slice(0, maxResults);
+            }}
+            
+            // Process found items
+            for (let i = 0; i < items.length && results.length < maxResults; i++) {{
+                const item = items[i];
                 
-                for entry in root.findall('{http://www.w3.org/2005/Atom}entry'):
-                    title = entry.find('{http://www.w3.org/2005/Atom}title')
-                    summary = entry.find('{http://www.w3.org/2005/Atom}summary')
+                const titleLink = item.querySelector('a[href^="/paper/"]');
+                if (titleLink) {{
+                    const title = titleLink.textContent.trim() || 'Unknown title';
+                    const url = titleLink.href;
+                    let paperId = '';
+                    const parts = url.split('/paper/');
+                    if (parts.length > 1) {{
+                        paperId = parts[1].split('?')[0] || '';
+                    }}
                     
-                    authors = []
-                    for author in entry.findall('{http://www.w3.org/2005/Atom}author'):
-                        name = author.find('{http://www.w3.org/2005/Atom}name')
-                        if name is not None:
-                            authors.append(name.text)
+                    const authors = item.querySelector('.authors, .author-list, [data-test-id="authors"]');
+                    const authorText = authors ? authors.textContent.trim() : '';
                     
-                    pub_date = entry.find('{http://www.w3.org/2005/Atom}published')
+                    const abstract = item.querySelector('.abstract, .paper-abstract, [data-test-id="abstract"]');
+                    const abstractText = abstract ? abstract.textContent.trim() : '';
                     
-                    paper = AcademicPaper(
-                        paper_id=entry.find('{http://www.w3.org/2005/Atom}id').text.split('/')[-1] if entry.find('{http://www.w3.org/2005/Atom}id') else '',
-                        title=title.text if title is not None else 'No title',
-                        abstract=summary.text[:1000] if summary is not None else 'No abstract',
-                        authors=authors[:5] or ["Unknown"],
-                        source="arXiv",
-                        published_date=pub_date.text[:10] if pub_date is not None else '',
-                        url=entry.find('{http://www.w3.org/2005/Atom}id').text if entry.find('{http://www.w3.org/2005/Atom}id') else None
-                    )
-                    papers.append(paper)
-                self._safe_print(f" ✓ {len(papers)} found")
-            else:
-                self._safe_print(f" ✗ No response")
-        except Exception as e:
-            self._safe_print(f" ✗ Error")
-        return papers
-
-    def search_pubmed(self, query: str, max_results: int = 15) -> List[AcademicPaper]:
-        """PubMed - Biomedical literature"""
-        papers = []
-        url = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi"
+                    const citations = item.querySelector('.citations, [data-test-id="citation-count"]');
+                    const citationText = citations ? citations.textContent.trim() : '';
+                    
+                    const year = item.querySelector('.year, .publication-date, [data-test-id="year"]');
+                    const yearText = year ? year.textContent.trim() : '';
+                    
+                    results.push({{
+                        title: title,
+                        url: url,
+                        paperId: paperId,
+                        authors: authorText,
+                        abstract: abstractText.substring(0, 300),
+                        citations: citationText,
+                        year: yearText
+                    }});
+                }}
+            }}
+            
+            return results;
+        }})()
+        """)
         
-        params = {
-            "db": "pubmed",
-            "term": query,
-            "retmax": min(max_results, 15),
-            "retmode": "json"
-        }
-
-        try:
-            self._safe_print(f"  🏥 PubMed: Searching...", end='')
-            response = self._safe_request(url, params)
-
-            if response and response.status_code == 200:
-                data = response.json()
-                ids = data.get('esearchresult', {}).get('idlist', [])
-                
-                if ids:
-                    # Fetch details
-                    fetch_url = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi"
-                    fetch_params = {
-                        "db": "pubmed",
-                        "id": ",".join(ids[:10]),
-                        "retmode": "json"
-                    }
-                    fetch_response = self._safe_request(fetch_url, fetch_params)
-                    
-                    if fetch_response and fetch_response.status_code == 200:
-                        fetch_data = fetch_response.json()
-                        for uid, info in fetch_data.get('result', {}).items():
-                            if uid == 'uids':
-                                continue
-                            authors = info.get('authors', [])
-                            author_names = [a.get('name', '') for a in authors[:5] if a.get('name')]
-                            
-                            paper = AcademicPaper(
-                                paper_id=uid,
-                                title=info.get('title', 'No title'),
-                                abstract=info.get('abstract', 'No abstract available')[:1000],
-                                authors=author_names or ["Unknown"],
-                                source="PubMed",
-                                published_date=info.get('pubdate', '')[:10],
-                                url=f"https://pubmed.ncbi.nlm.nih.gov/{uid}/"
-                            )
-                            papers.append(paper)
-                self._safe_print(f" ✓ {len(papers)} found")
-            else:
-                self._safe_print(f" ✗ No response")
-        except Exception as e:
-            self._safe_print(f" ✗ Error")
-        return papers
-
-    # ==================== SEARCH ====================
-    def search(self, query: str, sources: List[str] = None, max_per_source: int = 20) -> List[AcademicPaper]:
-        """Search in parallel"""
+        if paper_data and isinstance(paper_data, list):
+            results = paper_data
+            console.print(f"[green]✓ Found {len(results)} papers[/green]")
+        else:
+            console.print("[yellow]No paper data extracted[/yellow]")
+            # Fallback: just get URLs
+            paper_urls = evaluate_cdp(ws, """
+            (function() {
+                const links = document.querySelectorAll('a[href^="/paper/"]');
+                const unique = new Set();
+                links.forEach(function(link) {
+                    if (link.href) unique.add(link.href);
+                });
+                return Array.from(unique);
+            })()
+            """)
+            
+            if paper_urls:
+                console.print(f"[green]✓ Found {len(paper_urls)} paper URLs[/green]")
+                for url in paper_urls[:max_results]:
+                    paper_id = ''
+                    if '/paper/' in url:
+                        parts = url.split('/paper/')
+                        if len(parts) > 1:
+                            paper_id = parts[1].split('?')[0] or ''
+                    results.append({
+                        'title': 'Unknown title',
+                        'url': url,
+                        'paperId': paper_id,
+                        'authors': '',
+                        'abstract': '',
+                        'citations': '',
+                        'year': ''
+                    })
         
-        if sources is None:
-            sources = ["openalex", "semantic_scholar", "crossref", "arxiv", "pubmed"]
-
-        source_map = {
-            "openalex": self.search_openalex,
-            "semantic_scholar": self.search_semantic_scholar,
-            "crossref": self.search_crossref,
-            "arxiv": self.search_arxiv,
-            "pubmed": self.search_pubmed,
-        }
-
-        print(f"\n🔍 Academic Search: '{query}'")
-        print("=" * 60)
-        print(f"🚀 Searching {len(sources)} sources in parallel...\n")
-
-        self.all_papers = []
+        return results
         
-        with ThreadPoolExecutor(max_workers=self.max_workers) as executor:
-            futures = {
-                executor.submit(search_func, query, max_per_source): name
-                for name, search_func in source_map.items() 
-                if name in sources
-            }
+    except Exception as e:
+        console.print(f"[red]Scrape error: {e}[/red]")
+        if retries > 0:
+            console.print(f"[yellow]Retrying... ({retries} attempts left)[/yellow]")
+            time.sleep(2)
+            return scrape_semantic_scholar(query, max_results, retries - 1)
+        return []
+    finally:
+        if ws:
+            try:
+                ws.close()
+            except Exception:
+                pass
 
-            for future in as_completed(futures):
-                try:
-                    papers = future.result(timeout=30)
-                    if papers:
-                        self._add_papers(papers)
-                except Exception as e:
-                    self._safe_print(f"  ❌ {futures[future]}: Timeout")
+def save_results(query, results, output_dir="semantic_results"):
+    """Save scraped results to organized files"""
+    os.makedirs(output_dir, exist_ok=True)
+    safe_query = re.sub(r'[<>:"/\\|?*]', '_', query)
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    
+    json_file = os.path.join(output_dir, f"{safe_query}_{timestamp}.json")
+    with open(json_file, 'w', encoding='utf-8') as f:
+        json.dump({
+            "query": query,
+            "timestamp": timestamp,
+            "total": len(results),
+            "results": results
+        }, f, indent=2, ensure_ascii=False)
+    console.print(f"[green]✓ Saved JSON: {json_file}[/green]")
+    
+    tsv_file = os.path.join(output_dir, f"{safe_query}_{timestamp}.tsv")
+    with open(tsv_file, 'w', encoding='utf-8') as f:
+        f.write("Title\tPaperID\tURL\tAuthors\tCitations\tYear\tAbstract\n")
+        for r in results:
+            title = r.get('title', '').replace('\t', ' ').replace('\n', ' ')
+            paper_id = r.get('paperId', '')
+            url = r.get('url', '')
+            authors = r.get('authors', '').replace('\t', ' ').replace('\n', ' ')
+            citations = r.get('citations', '').replace('\t', ' ')
+            year = r.get('year', '').replace('\t', ' ')
+            abstract = r.get('abstract', '').replace('\t', ' ').replace('\n', ' ')[:500]
+            f.write(f"{title}\t{paper_id}\t{url}\t{authors}\t{citations}\t{year}\t{abstract}\n")
+    console.print(f"[green]✓ Saved TSV: {tsv_file}[/green]")
+    
+    ids_file = os.path.join(output_dir, f"{safe_query}_{timestamp}_ids.txt")
+    with open(ids_file, 'w') as f:
+        for r in results:
+            if r.get('paperId'):
+                f.write(f"{r['paperId']}\n")
+    console.print(f"[green]✓ Saved paper IDs: {ids_file}[/green]")
+    
+    return json_file, tsv_file
 
-        # Deduplicate
-        seen = set()
-        unique = []
-        for p in self.all_papers:
-            key = p.doi if p.doi else p.title.lower()[:100]
-            if key not in seen:
-                seen.add(key)
-                unique.append(p)
+def display_results(results):
+    """Display results in a rich table"""
+    if not results:
+        console.print("[yellow]No results to display[/yellow]")
+        return
+    
+    table = Table(title=f"Semantic Scholar Results ({len(results)} papers)")
+    table.add_column("#", style="dim", width=4)
+    table.add_column("Title", style="cyan", width=40)
+    table.add_column("Paper ID", style="green", width=20)
+    table.add_column("Year", style="yellow", width=8)
+    table.add_column("Citations", style="magenta", width=10)
+    
+    for i, paper in enumerate(results[:20], 1):
+        title = paper.get('title', 'Unknown')[:50]
+        paper_id = paper.get('paperId', '')[:20]
+        year = paper.get('year', '')[:8]
+        citations = paper.get('citations', '').replace('Citations', '').strip()[:10]
+        table.add_row(str(i), title, paper_id, year, citations)
+    
+    console.print(table)
+    
+    if len(results) > 20:
+        console.print(f"[dim]... and {len(results)-20} more papers[/dim]")
 
-        unique.sort(key=lambda x: x.citation_count or 0, reverse=True)
-        return unique
-
-    # ==================== EXPORT ====================
-    def export_json(self, papers: List[AcademicPaper], filename: str):
-        with open(filename, 'w', encoding='utf-8') as f:
-            json.dump([p.to_dict() for p in papers], f, indent=2, ensure_ascii=False)
-        print(f"\n💾 JSON: {filename}")
-
-    def export_markdown(self, papers: List[AcademicPaper], filename: str, query: str):
-        with open(filename, 'w', encoding='utf-8') as f:
-            f.write(f"# Academic Research: {query}\n\n")
-            f.write(f"**Total papers:** {len(papers)}\n")
-            f.write(f"**Date:** {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n")
-            f.write("---\n\n")
-
-            for i, p in enumerate(papers, 1):
-                f.write(f"## {i}. {p.title}\n\n")
-                f.write(f"- **Authors:** {', '.join(p.authors)}\n")
-                if p.published_date:
-                    f.write(f"- **Year:** {p.published_date}\n")
-                if p.citation_count:
-                    f.write(f"- **Citations:** {p.citation_count}\n")
-                if p.source:
-                    f.write(f"- **Source:** {p.source}\n")
-                if p.doi:
-                    f.write(f"- **DOI:** `{p.doi}`\n")
-                if p.url:
-                    f.write(f"- **URL:** {p.url}\n")
-                if p.pdf_url:
-                    f.write(f"- **PDF:** {p.pdf_url}\n")
-                f.write(f"\n**Abstract:**\n{p.abstract}\n\n")
-                f.write("---\n\n")
-
-        print(f"📝 Markdown: {filename}")
-
-# ==================== MAIN ====================
 def main():
-    import argparse
-
-    parser = argparse.ArgumentParser(description="Academic Paper Harvester")
-    parser.add_argument("query", help="Search query")
-    parser.add_argument("--sources", "-s", nargs="+",
-                        default=["openalex", "semantic_scholar"],
-                        choices=["openalex", "semantic_scholar", "crossref", "arxiv", "pubmed"],
-                        help="Sources to search")
-    parser.add_argument("--max", "-m", type=int, default=20, help="Max per source")
-    parser.add_argument("--workers", "-w", type=int, default=8, help="Parallel workers")
-    parser.add_argument("--output", "-o", type=str, help="Output file name")
-    parser.add_argument("--markdown", "-md", action="store_true", help="Export Markdown")
-    parser.add_argument("--json", action="store_true", help="Export JSON")
-
-    args = parser.parse_args()
-
-    harvester = AcademicHarvester(max_workers=args.workers)
+    """Command line interface for quick queries"""
+    if len(sys.argv) > 1:
+        query = ' '.join(sys.argv[1:])
+        console.print(f"[bold blue]🔍 Searching for: {query}[/bold blue]")
+        
+        results = scrape_semantic_scholar(query, 30)
+        
+        if results:
+            display_results(results)
+            save_results(query, results)
+            
+            # Show paper IDs for API use
+            paper_ids = [r.get('paperId') for r in results if r.get('paperId')]
+            if paper_ids:
+                console.print(f"\n[green]Ready for API: {len(paper_ids)} paper IDs extracted[/green]")
+                console.print("[dim]Use these IDs with: https://api.semanticscholar.org/graph/v1/paper/[/dim]")
+                console.print(f"\n[cyan]First 10 paper IDs:[/cyan]")
+                for pid in paper_ids[:10]:
+                    console.print(f"  {pid}")
+        else:
+            console.print("[red]No results found[/red]")
+        
+        cleanup()
+        return
     
-    start = time.time()
-    papers = harvester.search(args.query, args.sources, args.max)
-    elapsed = time.time() - start
-
-    if not papers:
-        print("\n❌ No papers found")
-        sys.exit(1)
-
-    print("\n" + "=" * 60)
-    print(f"✅ Found {len(papers)} papers in {elapsed:.1f}s\n")
-
-    print("📊 Top Results:\n")
-    for i, p in enumerate(papers[:10], 1):
-        citation = f" [{p.citation_count} citations]" if p.citation_count else ""
-        print(f"{i}. {citation} [{p.source}] {p.title[:80]}")
-        print(f"   Authors: {', '.join(p.authors[:3])}")
-        if p.published_date:
-            print(f"   Year: {p.published_date}")
-        print()
-
-    base = args.output or f"academic_{args.query.replace(' ', '_')[:30]}"
-    
-    if args.json:
-        harvester.export_json(papers, f"{base}.json")
-    if args.markdown or (not args.json and not args.markdown):
-        harvester.export_markdown(papers, f"{base}.md", args.query)
-
-    print(f"\n✨ Complete in {elapsed:.1f}s")
+    # Interactive menu
+    while True:
+        console.clear()
+        console.print(Panel.fit(
+            "[bold blue]📚 SEMANTIC SCHOLAR SCRAPER[/bold blue]\n"
+            "Extract paper data using headless Chrome CDP",
+            border_style="blue"
+        ))
+        
+        console.print("\n[cyan]1.[/cyan] 🔍 Search and Scrape Papers")
+        console.print("[cyan]2.[/cyan] 📄 View Saved Results")
+        console.print("[cyan]3.[/cyan] 🚪 Exit")
+        
+        choice = Prompt.ask("\nChoice", choices=["1", "2", "3"])
+        
+        if choice == "1":
+            query = Prompt.ask("Search query", default="embeddings")
+            max_results = int(Prompt.ask("Max results", default="50"))
+            
+            console.print(f"\n[cyan]🔍 Searching for: {query}[/cyan]")
+            results = scrape_semantic_scholar(query, max_results)
+            
+            if results:
+                display_results(results)
+                save_results(query, results)
+                
+                paper_ids = [r.get('paperId') for r in results if r.get('paperId')]
+                if paper_ids:
+                    console.print(f"\n[green]Ready for API: {len(paper_ids)} paper IDs extracted[/green]")
+            else:
+                console.print("[red]No results found[/red]")
+                
+        elif choice == "2":
+            if os.path.exists("semantic_results"):
+                files = [f for f in os.listdir("semantic_results") if f.endswith('.json')]
+                if files:
+                    console.print("[cyan]Saved result files:[/cyan]")
+                    for f in sorted(files)[-10:]:
+                        console.print(f"  • {f}")
+                    
+                    file_choice = Prompt.ask("Enter filename to view (or 'q' to cancel)", default="q")
+                    if file_choice != 'q':
+                        try:
+                            with open(os.path.join("semantic_results", file_choice), 'r', encoding='utf-8') as f:
+                                data = json.load(f)
+                                console.print(Panel.fit(
+                                    f"[bold]Query: {data.get('query', 'Unknown')}[/bold]\n"
+                                    f"Papers: {data.get('total', 0)}\n"
+                                    f"Date: {data.get('timestamp', 'Unknown')}",
+                                    border_style="cyan"
+                                ))
+                                results = data.get('results', [])
+                                display_results(results)
+                        except Exception as e:
+                            console.print(f"[red]Error loading file: {e}[/red]")
+                else:
+                    console.print("[yellow]No saved result files found[/yellow]")
+            else:
+                console.print("[yellow]No results directory found[/yellow]")
+                
+        elif choice == "3":
+            cleanup()
+            console.print("[bold red]Goodbye![/bold red]")
+            break
+        
+        if choice != "3":
+            Prompt.ask("\nPress Enter to continue...", default="")
 
 if __name__ == "__main__":
+    try:
+        import websocket
+    except ImportError:
+        console.print("[yellow]Installing websocket-client...[/yellow]")
+        subprocess.run([sys.executable, "-m", "pip", "install", "websocket-client"], check=True)
+        import websocket
+    
+    os.makedirs("semantic_results", exist_ok=True)
+    console.print("[green]✓ Results directory: semantic_results[/green]")
+    
     main()
