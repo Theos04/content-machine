@@ -1,0 +1,51 @@
+# Videos
+*.mp4
+*.mkv
+*.webm
+*.avi
+*.mov
+*.flv
+
+# Audio
+*.mp3
+*.wav
+*.ogg
+*.m4a
+
+# Images
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environments
+venv/
+.env
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+
+# Generated Content
+pdfs/
+raw/
+segregated/
+
+# Termux
+.storage/

@@ -1,0 +1,1266 @@
+Research Report: Termux for super users
+Generated: 2026-06-13T14:32:46.986839
+Max per source: 40
+Total Items: 133
+======================================================================
+
+
+## NEWS (2 items)
+
+[1] Play Nintendo’s Super Mario 64 on Your Android Device Without an Emulator—Here’s How! - Tech Times
+URL: https://news.google.com/rss/articles/CBMivgFBVV95cUxNRVlfNnZ6ek9NdDZCUzRUNlBUNURfZGlmOUg2U05aVVVCZUx6VzhRdEk2RGVYc2dSUm94TXVRNVJ2UGU5QjFDM1FYS245b2QtdnVlYVVLNEVaZzUwWmFTSVZTSEt5OWFXTjhQeVMtZW14b0lFYUZkYk10UlNRZk9pbGVhbEZ1MVhybk1vell5UHZLSndVME8tc1owLTlOWF9HOGNGYTlVVkREeHhEdi1OM0V1OFlyeUhiNm5IeW5R?oc=5
+Source: Tech Times
+Preview: <a href="https://news.google.com/rss/articles/CBMivgFBVV95cUxNRVlfNnZ6ek9NdDZCUzRUNlBUNURfZGlmOUg2U05aVVVCZUx6VzhRdEk2RGVYc2dSUm94TXVRNVJ2UGU5QjFDM1FYS245b2QtdnVlYVVLNEVaZzUwWmFTSVZTSEt5OWFXTjhQeVMtZW14b0lFYUZkYk10UlNRZk9pbGVhbEZ1MVhybk1vell5UHZLSndVME8tc1owLTlOWF9HOGNGYTlVVkREeHhEdi1OM0V1OFlyeUhiNm5IeW5R?oc=5" target="_blank">Play Nintendo’s Super Mario 64 on Your Android Device Without an Emulator—Here’s How!</a>&nbsp;&nbsp;<font color="#6f6f6f">Tech Times</font>...
+------------------------------------------------------------
+
+[2] Interactive Wireshark-Based Terminal UI Termshark 2.1 Released With Conversations View, More - linuxuprising.com
+URL: https://news.google.com/rss/articles/CBMiigFBVV95cUxOdm03Y0U2S0pYTW5xeUdyX0JqcnFEcXBuZzhFR2ZyR1lJbWlsSktFcERyTEhCWkVOUEROTkd4TXY4WWZFd0pWb0VUNG84YllKSVhfaW1LdVBZUGZtUHdiekdFZ19PMDFGeE5JSnhNVnZmY0RGUko4eXhoclZuOFM3NHdlRldmTS1NSFE?oc=5
+Source: linuxuprising.com
+Preview: <a href="https://news.google.com/rss/articles/CBMiigFBVV95cUxOdm03Y0U2S0pYTW5xeUdyX0JqcnFEcXBuZzhFR2ZyR1lJbWlsSktFcERyTEhCWkVOUEROTkd4TXY4WWZFd0pWb0VUNG84YllKSVhfaW1LdVBZUGZtUHdiekdFZ19PMDFGeE5JSnhNVnZmY0RGUko4eXhoclZuOFM3NHdlRldmTS1NSFE?oc=5" target="_blank">Interactive Wireshark-Based Terminal UI Termshark 2.1 Released With Conversations View, More</a>&nbsp;&nbsp;<font color="#6f6f6f">linuxuprising.com</font>...
+------------------------------------------------------------
+
+## WIKIPEDIA (1 items)
+
+[1] Bash (Unix shell)
+URL: https://en.wikipedia.org/wiki/Bash_(Unix_shell)
+Source: Wikipedia
+Preview: Bash (short for "Bourne Again SHell") is an interactive command interpreter and command language developed for Unix-like operating systems. Created in 1989 by Brian Fox for the GNU Project, it is designed as a completely free software alternative for the Bourne shell, sh, and other proprietary Unix shells, supported by the Free Software Foundation. Having gained widespread adoption, Bash is commonly used as the default login shell for numerous Linux distributions. It also supports the execution ...
+------------------------------------------------------------
+
+## ARXIV (40 items)
+
+[1] One-loop five-point gluing analytically
+URL: http://arxiv.org/abs/2606.13665v1
+Source: arXiv
+Preview: The one-loop five-point function of stress tensor multiplets in N=4 super Yang-Mills theory in four dimensions has previously been studied by integrability methods. The finite-size viz gluing corrections defining it were originally matched on the known field theory result - establishing many features of the formalism on the way - and later to a good extent also analytically evaluated. For the first time, we present a full analytic evaluation of all processes. The starting point is the re-summati...
+------------------------------------------------------------
+
+[2] Specifying Hardware Communication as Programs
+URL: http://arxiv.org/abs/2606.13659v1
+Source: arXiv
+Preview: To test and debug hardware modules, it is common to write two programs: a driver, which translates high-level transactions into interactions on the module's input and output signals, and a monitor, which analyzes a signal-level execution trace and recognizes a transaction. These two programs are commonly implemented separately for each hardware protocol, but this separation entails manual effort and risks inconsistencies.
+  We advocate an alternative approach. We present a DSL in which users spe...
+------------------------------------------------------------
+
+[3] Before You Think: System 0, AI-Mediated Cognition and Cognitive Colonization
+URL: http://arxiv.org/abs/2606.13658v1
+Source: arXiv
+Preview: This paper examines three recent frameworks for understanding the cognitive and epistemic consequences of artificial intelligence: Tri-System Theory, Thinkframes, and System 0. It argues that while the first two capture important dimensions of AI's influence on individual reasoning and collective epistemic practices, System 0 occupies a theoretically distinctive position that neither can fully replicate. The paper introduces the concept of cognitive colonization, according to which AI systems ca...
+------------------------------------------------------------
+
+[4] A Graphical Coaction for FRW Integrals from Partial/Relative Twisted (Co)homology
+URL: http://arxiv.org/abs/2606.13627v1
+Source: arXiv
+Preview: We construct a graphical coaction for Friedmann-Robertson-Walker (FRW) integrals at all loop orders in conformally-coupled scalar theories with non-conformal polynomial interactions. Our construction makes use of intersection theory in the context of (partial/relative) twisted (co)homology, which we use to decompose FRW integrals (and their discontinuities and derivatives) into building blocks that can be represented as decorations of the original Feynman diagram. This facilitates a purely graph...
+------------------------------------------------------------
+
+[5] Cepstral Analysis to accelerate Green-Kubo thermal conductivity calculations of Metal-Organic Frameworks
+URL: http://arxiv.org/abs/2606.13588v1
+Source: arXiv
+Preview: Metal-organic frameworks (MOFs) are promising porous materials for applications such as gas storage and separation, where heat transport can critically affect device performance. However, reliable computational prediction of their thermal conductivities remains challenging. In particular, equilibrium molecular-dynamics-based Green-Kubo (GK) simulations, as the most widely used approach, are severely affected by statistical noise. Moreover, they rely on multiple ambiguous, user-defined parameters...
+------------------------------------------------------------
+
+[6] Max-Min Secrecy Rate Optimization for Secure ISAC Networks: Global Optimization and Low-Complexity Algorithm
+URL: http://arxiv.org/abs/2606.13582v1
+Source: arXiv
+Preview: In this paper, we investigate a secure integrated sensing and communication (ISAC) system in which multiple communication users (CUs) coexist with multiple untrusted sensing users (SUs) that may eavesdrop on the confidential information intended for the CUs. To promote security fairness among users, we formulate a max-min secrecy rate optimization problem subject to a transmit power budget and sensing quality requirements characterized by beampattern matching error constraints. The resulting des...
+------------------------------------------------------------
+
+[7] EvTexture++: Event-Driven Texture Enhancement for Video Super-Resolution
+URL: http://arxiv.org/abs/2606.13580v1
+Source: arXiv
+Preview: Event-based vision has drawn increasing attention owing to its distinctive properties, including ultra-high temporal resolution and extreme dynamic range. Recent works have introduced it to video super-resolution (VSR) to enhance flow estimation and temporal alignment. In contrast, this paper shifts the focus of event signals from motion refinement to texture enhancement in VSR. We propose EvTexture++, the first event-driven framework dedicated to texture enhancement in VSR. It leverages high-fr...
+------------------------------------------------------------
+
+[8] Adaptive Turn-Taking for Real-time Multi-Party Voice Agents
+URL: http://arxiv.org/abs/2606.13544v1
+Source: arXiv
+Preview: Turn-taking in multi-party spoken conversations remains a fundamental challenge for voice-based agents, particularly under dynamic floor competition and varying user expectations. We propose ModeratorLM, a role-playing voice agent that conditions turn-taking behavior on an explicitly assigned role in multi-party settings. The system is built on a speech large language model operating in chunk-wise streaming manner. We further introduce a reasoning-augmented variant that incorporates chain-of-tho...
+------------------------------------------------------------
+
+[9] HNPclassifier: An R Package for Hierarchical Neyman-Pearson Classification
+URL: http://arxiv.org/abs/2606.13523v1
+Source: arXiv
+Preview: In multi-class classification problems, classes often have a natural priority ordering (e.g., cancer stages, COVID-19 severity levels, or air-quality categories). In such settings, it is important to prioritize correct identification of more severe classes and to control under-classification errors, which occur when an observation from a higher-priority class is misclassified into a lower-priority one. The Hierarchical Neyman-Pearson (H-NP) framework of Wang et al. (2024) was developed for order...
+------------------------------------------------------------
+
+[10] Mitigating SAR-ADC Non-Idealities in Massive MU-MIMO Systems via Affine Models
+URL: http://arxiv.org/abs/2606.13417v1
+Source: arXiv
+Preview: Low-resolution data converters can significantly reduce the power consumption and silicon area of all-digital massive multi-user (MU) multiple-input multiple-output (MIMO) basestations. However, the existing literature almost exclusively focuses on idealistic quantization models, neglecting the inherent non-idealities present in real-world analog-to-digital converter (ADC) implementations. To overcome this limitation, we propose two affine models, one based on Bussgang's decomposition and one th...
+------------------------------------------------------------
+
+[11] Towards Standardizing Affine Frequency Division Multiplexing (AFDM) for Future Wireless Networks
+URL: http://arxiv.org/abs/2606.13416v1
+Source: arXiv
+Preview: Affine frequency division multiplexing~(AFDM) has emerged as a compelling waveform candidate for future wireless networks, owing to its strong resilience to doubly selective channels and its ability to enable the seamless integration of communication and sensing functionalities. Against this context, this article provides a systematic study of AFDM from a standardization perspective. We first introduce the principles of AFDM and discuss the major considerations involved in waveform standardizati...
+------------------------------------------------------------
+
+[12] Optimizing Appliance Scheduling for Solar Energy Management Using Metaheuristic Algorithms
+URL: http://arxiv.org/abs/2606.13407v1
+Source: arXiv
+Preview: Renewable energy is essential for meeting future energy demands; however, solar energy generation, which occurs only during daylight hours often does not align with household consumption patterns. Appliances such as cookers, washing machines, and dryers are typically operated according to user preferred schedules rather than solar energy availability, creating a scheduling optimization problem. The objective is to determine optimal appliance start times to maximize renewable energy utilization w...
+------------------------------------------------------------
+
+[13] A robust super-time-stepping scheme for Ohmic and ambipolar diffusion
+URL: http://arxiv.org/abs/2606.13398v1
+Source: arXiv
+Preview: Context. Non-ideal magnetohydrodynamics (MHD) is a key tool for modeling magnetic flux transport in astrophysical systems such as molecular clouds, protostellar cores, and protoplanetary disks. Conventional explicit methods for non-ideal MHD diffusion are severely limited by timestep constraints, while substepping approaches can be unstable due to truncation errors near boundaries and strong magnetic-field gradients. Aims. Our main goal is to address these limitations by developing robust super-...
+------------------------------------------------------------
+
+[14] Who Pays the Price? Stakeholder-Centric Prompt Injection Benchmarking for Real-world Web Agents
+URL: http://arxiv.org/abs/2606.13385v1
+Source: arXiv
+Preview: Web agents driven by large language models (LLMs) are increasingly deployed in real-world environments, where they operate over untrusted web content and execute actions with direct consequences. This makes them vulnerable to prompt-injection attacks, in which seemingly benign content embeds adversarial instructions that manipulate agent behaviour. Existing security benchmarks adopt an \textit{attack-centric} perspective, focusing on the technical feasibility of injections while overlooking the ...
+------------------------------------------------------------
+
+[15] MoVerse: Real-Time Video World Modeling with Panoramic Gaussian Scaffold
+URL: http://arxiv.org/abs/2606.13376v1
+Source: arXiv
+Preview: We present MoVerse, a real-time video world model that creates an interactively navigable scene from a single narrow-field-of-view image. This setting is challenging because the input observes only a small fraction of the environment, while interactive roaming requires a complete surrounding world, persistent geometry, controllable camera motion, and temporally coherent high-fidelity observations. MoVerse addresses this problem by separating world construction from observation rendering. It firs...
+------------------------------------------------------------
+
+[16] Can I Buy Your KV Cache?
+URL: http://arxiv.org/abs/2606.13361v1
+Source: arXiv
+Preview: Right now, across the world, AI agents are repeating the same absurd act: to read one document, they each recompute it from scratch. Every agent re-runs prefill, the most compute-intensive step a large model takes, over identical text, only to rebuild a key-value (KV) cache identical to the one the agent before it just built. The same answer, computed a million times. We make a proposal that is almost offensively simple: compute it once. Let a publisher precompute a document's KV cache, and let ...
+------------------------------------------------------------
+
+[17] EMG-Based Adaptation of Anisotropic Virtual Fixtures for Robot-Assisted Surgical Resection and Dissection
+URL: http://arxiv.org/abs/2606.13340v1
+Source: arXiv
+Preview: In this paper, we address the development of an adaptive assistance system for robot-assisted laparoscopic surgery, specifically for delicate tasks such as Resection and Dissection. Even if Virtual Fixtures offer significant advantages for guiding a surgeon's movements, conventional Virtual Fixtures are often defined by fixed geometries, lacking the flexibility to adapt to the surgical workflow or the surgeon's immediate intent. To address these limitations, we propose a novel framework for an a...
+------------------------------------------------------------
+
+[18] Low-Latency Real-Time Audio Game Commentary System via LLM-Based Parallel Text Generation
+URL: http://arxiv.org/abs/2606.13322v1
+Source: arXiv
+Preview: We present a low-latency real-time audio game commentary system that generates spoken commentary directly from live gameplay video. In this end-to-end setting, a key bottleneck is accumulated waiting time; conventional pipelines capture frames, generate text, and synthesize speech sequentially for each utterance, and do not request the next generation until speech playback has completed. This strict sequentiality causes long and unnatural silence between utterances. To address this latency bottl...
+------------------------------------------------------------
+
+[19] EconCSLib: AI-Assisted Lean Formalization for Economics & Computation research
+URL: http://arxiv.org/abs/2606.13306v1
+Source: arXiv
+Preview: This paper presents EconCSLib, a Lean 4 library and workflow for formalizing research papers in Economics and Computation with language-model assistance. The central design principle is a human-AI-Lean workflow: an LLM writes Lean code, Lean checks formal statements and proofs, and humans (assisted by an LLM) verify the translation boundary from paper claims to formal statements.
+  EconCSLib is organized around research papers, preserving their formal statements and following their proof structu...
+------------------------------------------------------------
+
+[20] Simultaneous Latent Budget Trees for Stratified Classification
+URL: http://arxiv.org/abs/2606.13295v1
+Source: arXiv
+Preview: In the era of Explainable Artificial Intelligence, there is a renewed focus on single trees for their ease of interpretation. This paper introduces Simultaneous Latent Budget Trees, a probabilistic machine learning framework for classification trees in the presence of a stratification factor such as a temporal, spatial, or demographic variable, acting as a control variable or potential confounder. Standard tree growth procedures are not designed to optimize a conditional split rule. A model-base...
+------------------------------------------------------------
+
+[21] Embedding-based Methods for Linear Solver Performance Prediction
+URL: http://arxiv.org/abs/2606.13255v1
+Source: arXiv
+Preview: The solution of large, sparse linear systems often dominates the computational effort of scientific applications and is a frequent optimization target. Modern libraries provide numerous solver and preconditioner configurations, but their performance varies significantly across problem instances. Previous works have addressed the selection of an optimal solver, but are typically limited by the problem set addressed (e.g., only symmetric positive definite matrices), the use of expensive matrix fea...
+------------------------------------------------------------
+
+[22] LLM-as-an-Investigator: Evidence-First Reasoning for Robust Interactive Problem Diagnosis
+URL: http://arxiv.org/abs/2606.13220v1
+Source: arXiv
+Preview: Large language models (LLMs) are increasingly used as interactive assistants for technical problem solving. However, when users provide incomplete descriptions or plausible but unverified explanations, LLMs may prematurely align with these assumptions and propose solutions before collecting sufficient evidence. We refer to this behavior as user-driven sycophancy: the tendency of an LLM to reinforce a user-provided hypothesis instead of testing alternative explanations. This paper introduces LLM-...
+------------------------------------------------------------
+
+[23] Reasoning for Mobile User Experience with Multimodal LLMs: Task, Benchmark, and Approach
+URL: http://arxiv.org/abs/2606.13192v1
+Source: arXiv
+Preview: User experience (UX) centered on usability, perceived consistency, and functional clarity is fundamental to real-world user interfaces (UI). The application of
+  multimodal large language models (MLLMs) in the field of user interfaces is evolving rapidly, such as visual element grounding, graphical user interface (GUI)
+  agents, and design-to-code generation. However, research efforts on evaluating UX based on UI screenshots are still immature. To address this, we propose UXBench,
+  a novel mult...
+------------------------------------------------------------
+
+[24] Multi-Modal Multi-Agent Robotic Cognitive Alignment enabled by Non-Invasive Consumer Brain Computer Interfaces: A Proof of Concept Exploration
+URL: http://arxiv.org/abs/2606.13190v1
+Source: arXiv
+Preview: While non-verbal behaviors and expressive movements are essential for natural human-robot interaction, existing methods often overlook a crucial element: the human's internal cognitive state. Frequently, proactive multi-agent systems can interrupt humans at inopportune moments, leading to cognitive overload and decreased task performance. This paper introduces a framework for generating "cognitively aligned" multi-agent interactions, enhancing the ability of robotic systems to contextually defer...
+------------------------------------------------------------
+
+[25] Getting Better at Working With You: Compiling User Corrections into Runtime Enforcement for Coding Agents
+URL: http://arxiv.org/abs/2606.13174v1
+Source: arXiv
+Preview: Interactive LLM agents are becoming part of daily work, but they do not reliably become easier to work with over time: a correction remembered in one session may still be violated in the next. We study this gap between preference access and preference compliance. In tasks derived from anonymized real-user friction cases, Mem0 memory still leaves 57.5% of applicable preference checks violated. We introduce Test-time Rule Acquisition and Compiled Enforcement (TRACE), a drop-in skill-layer pipeline...
+------------------------------------------------------------
+
+[26] The Clustering Strikes Back: Building Cost-Effective and High-Performance ANNS at Scale with Helmsman
+URL: http://arxiv.org/abs/2606.13145v1
+Source: arXiv
+Preview: RedNote (a.k.a., Xiaohongshu, a global-scale social network platform) widely adopts approximate nearest neighbor search (ANNS) to power its search, recommendation, and advertising services. Due to the demanding Service Level Agreements (SLAs), we have to rely on in-memory graph-based ANNS (i.e., HNSW) to provide high throughput and low latency.
+  However, the ever-growing user base and content volume have led to an explosive increase in memory footprint and consequently huge CapEx and OpEx. Afte...
+------------------------------------------------------------
+
+[27] MIDSim: Simulating Multi-Channel Information Diffusion in Social Media with LLM-Powered Multi-Agent System
+URL: http://arxiv.org/abs/2606.13140v1
+Source: arXiv
+Preview: Information diffusion in social media shapes public opinion and collective behavior, making its modeling and simulation an important research problem. Existing studies have investigated information diffusion through epidemic-based, cascade-based, and point process models. However, they predominantly focus on diffusion through social links, overlooking other diffusion channels enabled by platform algorithms (e.g., recommender systems) and failing to capture user behavioral complexity. To address ...
+------------------------------------------------------------
+
+[28] Electroweak precision physics via angular distributions in hadronic $τ$ decays
+URL: http://arxiv.org/abs/2606.13139v1
+Source: arXiv
+Preview: Hadronic tau decays provide a unique low-energy laboratory for the charged-current interaction between quarks and leptons. Their use as an electroweak precision sector is, however, limited by nonperturbative QCD dynamics in the resonance region, encoded in hadronic form factors. In this work we show that angular information in two-hadron tau decays can be used to construct observables in which these form factors cancel, leading to first-principles Standard Model predictions up to light-quark-mas...
+------------------------------------------------------------
+
+[29] MiniPIC: Flexible Position-Independent Caching in <100LOC
+URL: http://arxiv.org/abs/2606.13126v1
+Source: arXiv
+Preview: Retrieval-augmented and agentic workloads repeatedly prefill recurring predictable structured inputs (which we call "spans") such as documents and code files. Yet, prefix caching in engines such as vLLM cannot reuse their KV entries unless they share identical prefixes with another request, while Position-Independent Caching (PIC) implementations within production-grade inference servers typically either require substantial server code changes or keep KV state outside the server, incurring host-...
+------------------------------------------------------------
+
+[30] Grain Alignment and Dust Evolution Physics with Polarisation (GRADE-POL). II. On the physical basis of Serkowski and super-Serkowski polarisation spectra
+URL: http://arxiv.org/abs/2606.13123v1
+Source: arXiv
+Preview: Optical-to-near infrared interstellar polarisation, induced by aligned dust grains, generally follows a convex wavelength dependence, known as the Serkowski relation. However, observations in the ultraviolet (UV) and at [mid-]infrared wavelengths indicated that some of the spectra do not follow this relation. Specifically, about 25% show an excess in the degree of polarisation at mid-UV wavelengths ($λ^{-1} > 3\,\rm μm^{-1}$), referred to as the super-Serkowski polarisation. In this study, we re...
+------------------------------------------------------------
+
+[31] The Invisible Ink of the Android Malware World: A Longitudinal Study on the Usage of Covert Communication Channels
+URL: http://arxiv.org/abs/2606.13107v1
+Source: arXiv
+Preview: Proxies, VPNs and Tor have long helped the privacy community and users in censored regions to fight censorship. However, the same tools can be maliciously exploited by malware and botnets to conceal their communication to external command and control servers. Despite being a critical concern fueled by the proliferation of malware based attacks, no longitudinal studies have analyzed how malware applications use covert channels (CC) to evade detection.
+  We fill this gap by performing the first st...
+------------------------------------------------------------
+
+[32] Chemical signatures from the first stars embedded in metal-poor gas in galaxies at cosmic dawn
+URL: http://arxiv.org/abs/2606.13078v1
+Source: arXiv
+Preview: The first generation of stars formed from pristine, neutral hydrogen gas. The most massive of these exploded as supernovae within a few million years of their birth, producing the first heavier elements and leaving distinct chemical signatures of their origin in the surrounding medium. However, chemical abundance studies have so far mainly relied on emission-line measurements, which are luminosity weighted and hence biased towards the most recently formed stars. Here we analyse near-infrared, me...
+------------------------------------------------------------
+
+[33] A green solvent screening tool for emerging materials via uncertainty aware, transformer enhanced transfer learning
+URL: http://arxiv.org/abs/2606.13060v1
+Source: arXiv
+Preview: Accurate prediction of solubility remains a central challenge across materials science and sustainable chemistry. In particular due to emerging technologies like organic and hybrid photovoltaics, batteries, and catalysis, solvent usage is expected to increase significantly within the coming years. Therefore, substituting solvents with greener alternatives is vital. This is where machine learning can have substantial impact. However, the limited data on critical parameters of solubility significa...
+------------------------------------------------------------
+
+[34] Y-BotFrame: An Extensible Embodied Agent Framework for Quadruped Robot Assistants
+URL: http://arxiv.org/abs/2606.13049v1
+Source: arXiv
+Preview: Quadruped robots are capable of traversing a wide range of complex terrains with high flexibility. As highly mobile ground-based intelligent platforms, they can be equipped with modules for navigation control, environmental perception, and intelligent interaction, thereby serving as real-world mobile deployment platforms for various algorithms. In this paper, we introduce Y-BotFrame, an extensible embodied platform that turns a robot into an intelligent ground assistant. Y-BotFrame integrates mu...
+------------------------------------------------------------
+
+[35] Technical Supplement Report on Full-Duplex FBMC/QAM MIMO Systems: Transceiver Design and Optimization
+URL: http://arxiv.org/abs/2606.13023v1
+Source: arXiv
+Preview: This technical report presents the design and analysis of filter bank multicarrier (FBMC)/QAM multi-user MISO systems. We describe the complete uplink and downlink signal processing chains and characterize the end-to-end effective channel, including inter-carrier interference, inter-symbol interference, intrinsic interference, and residual self-interference. We compare FBMC/QAM with CP-OFDM and FBMC/OQAM through the lens of the Balian-Low theorem, and analyze prototype filter choices (PHYDYAS, T...
+------------------------------------------------------------
+
+[36] Deep Sleep Classification via EEG Signal Criticality: A Passive BCI Approach for Sleep-Improvement Neurofeedback
+URL: http://arxiv.org/abs/2606.13017v1
+Source: arXiv
+Preview: Automated sleep staging is a fundamental application of passive Brain-Computer Interfaces (pBCI), decoding spontaneous neural states to enable closed-loop interventions independent of user intent. This study evaluates criticality features derived from Detrended Fluctuation Analysis (DFA) for the specific identification of deep sleep (N3).
+  We analyzed $347,232$ EEG epochs from $290$ older women using UMAP manifold learning to visualize state transitions. Subsequently, six classifiers were bench...
+------------------------------------------------------------
+
+[37] CFALR: Collaborative Filtering-Augmented Large Language Model for Personalized Fashion Outfit Recommendation
+URL: http://arxiv.org/abs/2606.13001v1
+Source: arXiv
+Preview: Personalized outfit recommendation poses a significant challenge in e-commerce and social media platforms, requiring systems that balance user preferences with aesthetic compatibility. Collaborative filtering (CF) provides a traditional solution for this, but it struggles with data-sparse scenarios and complex user-item-outfit relationships. Meanwhile, existing template-based approaches are constrained by rigid pre-designed structures. To bridge these research gaps, we introduce CFALR (Collabora...
+------------------------------------------------------------
+
+[38] A Machine Learning Framework for Real-Time Personalized Ergonomic Pose Analysis
+URL: http://arxiv.org/abs/2606.12988v1
+Source: arXiv
+Preview: This paper introduces a new methodology for real-time prediction of ergonomic and non-ergonomic human poses using volumetric video data in three dimensions. Although the methodology was designed for ergonomic assessments, it can be adapted to other applications requiring real-time analysis of human posture. One aspect that makes this system stand out is its ability to analyze 3D point clouds during the assessment, enabling computation from multiple angles. This overcomes a critical limitation of...
+------------------------------------------------------------
+
+[39] SkillChain: Closing the Loop on Skill Evolution for Image-Based E-Commerce AI Assistants
+URL: http://arxiv.org/abs/2606.12984v1
+Source: arXiv
+Preview: Image-based AI assistants are now deployed at production scale on e-commerce platforms, where a single uploaded image can trigger fundamentally different user intents: product search, style recommendation, visual encyclopedia, or utility tool calls, each demanding its own response format, tool invocation, and domain knowledge. Without per-intent behavioral constraints, LLM-based systems conflate these heterogeneous modes and fall short of domain quality standards, while the breadth and dynamism ...
+------------------------------------------------------------
+
+[40] Efficient, Robust, and Anti-Collusion Fingerprinting of Image Diffusion Models
+URL: http://arxiv.org/abs/2606.12977v1
+Source: arXiv
+Preview: Model fingerprinting, embedding user-specific identifiers (fingerprints) into generated outputs, has recently emerged as a popular solution to protect the intellectual property rights (IPR) of generative text-to-image (T2I) models and prevent unauthorized redistribution. In this work, we reveal a previously unexplored systematic vulnerability in existing generative model fingerprinting methods: they lack robustness against collusion attacks, where multiple attackers combine their models to remov...
+------------------------------------------------------------
+
+## REDDIT (40 items)
+
+[1] SuchSuperShibe
+URL: https://www.reddit.com/r/SuperShibe/
+Source: r/SuperShibe
+Preview: <img src="https://f.thumbs.redditmedia.com/Vf6DIvDSdBiJjNe5.png" /> <div> SuperShibe: Reddit's largest Doge and Shibe community! Come on over and see what all the WOW is about! Wow, such subreddit, very fun! </div> <div> <a href="https://www.reddit.com/r/SuperShibe/">[link]</a> </div>...
+------------------------------------------------------------
+
+[2] Workday
+URL: https://www.reddit.com/r/workday/
+Source: r/workday
+Preview: <img src="https://b.thumbs.redditmedia.com/jRyQ3gfl3S5UidOk0pEQcdismHP0TMZ724DLIQ4HADs.png" /> <div> This community is for professionals who support or use Workday in their careers. Whether you need help, want to discuss the platform, or are looking for career advice, this is a place for you. We are not employees of nor directly affiliated with Workday or its subsidiaries. </div> <div> <a href="https://www.reddit.com/r/workday/">[link]</a> </div>...
+------------------------------------------------------------
+
+[3] Supercars Championship
+URL: https://www.reddit.com/r/v8supercars/
+Source: r/v8supercars
+Preview: <div> A subreddit for the Australian Supercars (formerly V8 Supercars) Championship </div> <div> <a href="https://www.reddit.com/r/v8supercars/">[link]</a> </div>...
+------------------------------------------------------------
+
+[4] Hey everyone! I wanted to share my customized safe space setup to show my continuous solidarity and support for the community. Love is Love! I’ve been using this config across my devices (both on Termux and my Arch Linux VM). It’s super lightweight and uses standard ANSI background colors to draw
+URL: https://www.reddit.com/r/zsh/comments/1tl0qle/hey_everyone_i_wanted_to_share_my_customized_safe/
+Source: r/zsh
+Preview: <table> <tr><td> <a href="https://www.reddit.com/r/zsh/comments/1tl0qle/hey_everyone_i_wanted_to_share_my_customized_safe/"> <img alt="Hey everyone! I wanted to share my customized safe space setup to show my continuous solidarity and support for the community. Love is Love! I’ve been using this config across my devices (both on Termux and my Arch Linux VM). It’s super lightweight and uses standard ANSI background colors to draw" src="https://preview.redd.it/zxuhzrev5s2h1.jpeg?width=640&amp;crop...
+------------------------------------------------------------
+
+[5] To the people who don't know how to start: A easy way to do it.
+URL: https://www.reddit.com/r/Hacking_Tutorials/comments/1q1zngn/to_the_people_who_dont_know_how_to_start_a_easy/
+Source: r/Hacking_Tutorials
+Preview: <!-- SC_OFF --><div class="md"><p>I've been seeing lots of posts from people of various skill levels who want to learn to hack. And, because I don't think getting started is adequately explained, I decided to make a post about it.</p> <p>A short disclaimer and background about myself (if it's TLDR skip ahead 4 paragraphs):</p> <p>I am not a professional pen tester or hacker, I'm mainly just a tech enthusiast, I hacked my first website at 22 years old, and I am now in my 40s. </p> <p>It wasn't a ...
+------------------------------------------------------------
+
+[6] MEGATHREAD: Hermes Agent Use Cases — What the Community is Building (May 2026)
+URL: https://www.reddit.com/r/hermesagent/comments/1t6gf4j/megathread_hermes_agent_use_cases_what_the/
+Source: r/hermesagent
+Preview: <!-- SC_OFF --><div class="md"><p>Part 1 - Part two in a sticky post below. </p> <p>A community-sourced compilation of real-world Hermes Agent use cases, pulled from Reddit, X/Twitter, GitHub (issues, PRs, community repos), YouTube, Hacker News, blogs, podcasts, LinkedIn, Product Hunt, and GitHub Gists.</p> <p><strong>276 use cases across 16 categories from 12 sources.</strong></p> <hr /> <h2>Dev Workflow (61 use cases)</h2> <p>People using Hermes for software development, codebase analysis, CI/...
+------------------------------------------------------------
+
+[7] Jumped to the 11pro
+URL: https://www.reddit.com/r/RedMagic/comments/1sax4u4/jumped_to_the_11pro/
+Source: r/RedMagic
+Preview: <table> <tr><td> <a href="https://www.reddit.com/r/RedMagic/comments/1sax4u4/jumped_to_the_11pro/"> <img alt="Jumped to the 11pro" src="https://preview.redd.it/tsxyx3g32vsg1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=1776d639c55ddb6e23e591020ae62533ea5d6f51" title="Jumped to the 11pro" /> </a> </td><td> <!-- SC_OFF --><div class="md"><p>Finally got my 11 Pro delivered this week, so figured I'd give my take on things. I like to think of myself as very much a power user and heavy gamer, so ...
+------------------------------------------------------------
+
+[8] HomeHub - a private, lightweight dashboard for your family to use on your home network
+URL: https://www.reddit.com/r/selfhosted/comments/1nmgztq/homehub_a_private_lightweight_dashboard_for_your/
+Source: r/selfhosted
+Preview: <table> <tr><td> <a href="https://www.reddit.com/r/selfhosted/comments/1nmgztq/homehub_a_private_lightweight_dashboard_for_your/"> <img alt="HomeHub - a private, lightweight dashboard for your family to use on your home network" src="https://external-preview.redd.it/dfCJLmWtkRuED8bHQINEXNIbqEB5ujHrpGtlMtT3A5g.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=763a2ce4aec30ae0212bcef2455fa0d30034e4dc" title="HomeHub - a private, lightweight dashboard for your family to use on your home network" /> ...
+------------------------------------------------------------
+
+[9] Frustrations, thoughts on cheating, modding
+URL: https://www.reddit.com/r/ShatteredPD/comments/1s2ngsf/frustrations_thoughts_on_cheating_modding/
+Source: r/ShatteredPD
+Preview: <!-- SC_OFF --><div class="md"><p>Hi! The <a href="/r/dcss">r/dcss</a> sub sent me, and I'm glad I came. I'm stuck in a horrible situation, destitute, unemployed, disabled, homeless, and only have shitty Android with pretty much no RAM. I needed some amusement to pass time until the end of the world, and needed something that was mobile-first and so on, but with complexity enough to keep me occupied, and Shattered Pixel Dungeon more than fits the bill, and I've had fun with it.</p> <p>Unfortunat...
+------------------------------------------------------------
+
+[10] Ultimate Samsung (OneUI) Debloat, Privacy & Customization Guide
+URL: https://www.reddit.com/r/samsung/comments/rzhz13/ultimate_samsung_oneui_debloat_privacy/
+Source: r/samsung
+Preview: <!-- SC_OFF --><div class="md"><p>My goal here is to provide a ton of information regarding stuff like disabling bloatware/apps you don't use, cool/useful settings, ways to customize the look and feel of your phone, etc. </p> <p>I see a <em>lot</em> of posts about people either complaining about preinstalled apps that they can't remove or asking is there a way to remove them, so I'll start there: </p> <h1>Removing Built in Apps/Bloatware</h1> <p>There are 2 main ways to remove apps that can't be...
+------------------------------------------------------------
+
+[11] [Setup] Adding some colorful vibes to my terminal in solidarity. We are everywhere! ✨🌈
+URL: https://www.reddit.com/r/termux/comments/1tl0owl/setup_adding_some_colorful_vibes_to_my_terminal/
+Source: r/termux
+Preview: <!-- SC_OFF --><div class="md"><p>Hey everyone! I wanted to share my customized safe space setup to show my continuous solidarity and support for the community. Love is Love! </p> <p>I’ve been using this config across my devices (both on Termux and my Arch Linux VM). It’s super lightweight and uses standard ANSI background colors to draw the flag, completely avoiding parsing errors.</p> <p>**Details:** * **OS:** Android (Termux) / Arch Linux * **Shell:** ZSH * **Tools:** figlet, lolcat, neofetch...
+------------------------------------------------------------
+
+[12] [Setup] Adding some colorful vibes to my terminal in solidarity. We are everywhere! ✨🌈
+URL: https://www.reddit.com/r/transprogrammer/comments/1tl0yyf/setup_adding_some_colorful_vibes_to_my_terminal/
+Source: r/transprogrammer
+Preview: <table> <tr><td> <a href="https://www.reddit.com/r/transprogrammer/comments/1tl0yyf/setup_adding_some_colorful_vibes_to_my_terminal/"> <img alt="[Setup] Adding some colorful vibes to my terminal in solidarity. We are everywhere! ✨🌈" src="https://preview.redd.it/hf8lp3yl7s2h1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=3ebf841a6f1ad7b941063c4c0f74394c049507aa" title="[Setup] Adding some colorful vibes to my terminal in solidarity. We are everywhere! ✨🌈" /> </a> </td><td> <!-- SC_OFF --><div...
+------------------------------------------------------------
+
+[13] Lenovo Chromebook Duet Initial Impressions
+URL: https://www.reddit.com/r/chromeos/comments/ggb0al/lenovo_chromebook_duet_initial_impressions/
+Source: r/chromeos
+Preview: <!-- SC_OFF --><div class="md"><p>Just got the Duet! Fiddled with it off and on for half a day. Some first impressions (pics at the end):</p> <h1>Hardware </h1> <p>Pros:<br /> * surprisingly nice feeling materials / build quality for price<br /> * very much a tablet (dimensions, weight and bezel size of tablet alone is somewhere between the Samsung s5e and Surface Go)<br /> * it comes with (almost) ALL THE ACCESSORIES: backing + keyboard (no pen, tho!)<br /> * aesthetic / design is fairly clean ...
+------------------------------------------------------------
+
+[14] Trying to root OnePlus Nord CE 4 Lite with only device integrity passing
+URL: https://www.reddit.com/r/androidroot/comments/1ty52w4/trying_to_root_oneplus_nord_ce_4_lite_with_only/
+Source: r/androidroot
+Preview: <table> <tr><td> <a href="https://www.reddit.com/r/androidroot/comments/1ty52w4/trying_to_root_oneplus_nord_ce_4_lite_with_only/"> <img alt="Trying to root OnePlus Nord CE 4 Lite with only device integrity passing" src="https://preview.redd.it/lj0mwfwwnk5h1.png?width=140&amp;height=140&amp;crop=1:1,smart&amp;auto=webp&amp;s=651d5e8d16fb62cd8c5970d4e4e1bba2cc2ed74e" title="Trying to root OnePlus Nord CE 4 Lite with only device integrity passing" /> </a> </td><td> <!-- SC_OFF --><div class="md"><p...
+------------------------------------------------------------
+
+[15] Rom Cleaner Python Script - made by me :) | Free Open Source
+URL: https://www.reddit.com/r/Roms/comments/1nd5zxo/rom_cleaner_python_script_made_by_me_free_open/
+Source: r/Roms
+Preview: <!-- SC_OFF --><div class="md"><p>Hey everyone! I made this script to clean up my own massive ROM collection (15,000+ games with tons of duplicates), and figured it might be useful for others dealing with the same problem. After spending way too much time manually sorting through “Game (USA).zip vs Game (Europe) (Rev 1).zip” files, I decided automating the whole process is definitely far simpler and am honestly surprised on the little tools we have for ROMset cleaning.</p> <p>its a python script...
+------------------------------------------------------------
+
+[16] ⟳ Tue, 28 Apr 2026 21:28:13 GMT: 7 apps added, 58 updated at f-droid.org
+URL: https://www.reddit.com/r/FDroidUpdates/comments/1syfehn/tue_28_apr_2026_212813_gmt_7_apps_added_58/
+Source: r/FDroidUpdates
+Preview: <!-- SC_OFF --><div class="md"><blockquote> <p>⟳ f-droid.org from <em>Tue, 28 Apr 2026 06:19:05 GMT</em> updated on <em>Tue, 28 Apr 2026 21:28:13 GMT</em> contains 4284 apps. </p> </blockquote> <p><strong>Added</strong> (7)</p> <ul> <li><a href="https://github.com/nikhilsi/gitavani">GitaVani - Bhagavad Gita</a>: Ad-free Bhagavad Gita reader with Sanskrit audio, translations &amp; commentaries</li> <li><a href="https://lthb.fr">Spix - Privacy Fitness Tracker</a>: Privacy-first offline fitness tra...
+------------------------------------------------------------
+
+[17] ⟳ Mon, 27 Apr 2026 05:29:02 GMT: 5 apps added, 63 updated at f-droid.org
+URL: https://www.reddit.com/r/FDroidUpdates/comments/1swuwh8/mon_27_apr_2026_052902_gmt_5_apps_added_63/
+Source: r/FDroidUpdates
+Preview: <!-- SC_OFF --><div class="md"><blockquote> <p>⟳ f-droid.org from <em>Sun, 26 Apr 2026 09:20:30 GMT</em> updated on <em>Mon, 27 Apr 2026 05:29:02 GMT</em> contains 4273 apps. </p> </blockquote> <p><strong>Added</strong> (5)</p> <ul> <li><a href="https://github.com/7FM/bodycheck">BodyCheck</a>: Scan and visualize body composition QR codes from your gym</li> <li><a href="https://github.com/Marco-9456/AniSync">AniSync</a>: Offline-first AniList client for anime and manga tracking with widgets</li> ...
+------------------------------------------------------------
+
+[18] Help installing SpaCy
+URL: https://www.reddit.com/r/termux/comments/1rscwrq/help_installing_spacy/
+Source: r/termux
+Preview: <!-- SC_OFF --><div class="md"><p>I've been trying to install spaCy, but have been running into issues. I've tried installing both blis and thinc manually, but no luck. </p> <p>Crazy thing is that I have yoloX models running flawlessly with no issue but can't get this lol. </p> <p>Here's the output. Any help would be greatly appreciated! </p> <p>Collecting blis Using cached blis-1.3.3.tar.gz (2.6 MB) Installing build dependencies ... done Getting requirements to build wheel ... done Preparing me...
+------------------------------------------------------------
+
+[19] [How To] Enable NON-DISMISSIBLE persistent notifications for apps like AutoNotification on Android 14 using hidden system exemptions (and other goodies!)
+URL: https://www.reddit.com/r/tasker/comments/1fv9ez4/how_to_enable_nondismissible_persistent/
+Source: r/tasker
+Preview: <!-- SC_OFF --><div class="md"><p><strong>EDIT</strong>: Sorry, the link I posted was bad. It should work now.</p> <p><strong>UPDATE</strong>: I made a super basic Tasker project that allows you to toggle any of these system exemption AppOps via a series of <em>List Dialogs</em>. Just run the task, select an app from the list, then tap one of the AppOp items to toggle between <em>default</em> and <em>allow</em>. <strong>Needs ADB Wi-Fi to work</strong>. Import from TaskerNet: <a href="https://ta...
+------------------------------------------------------------
+
+[20] [How-To] Send Images/Videos/PDF/Documents In WhatsApp Using Tasker
+URL: https://www.reddit.com/r/tasker/comments/10wiahq/howto_send_imagesvideospdfdocuments_in_whatsapp/
+Source: r/tasker
+Preview: <!-- SC_OFF --><div class="md"><h3>(This has been deprecated. Use the new and updated <strong><a href="https://www.reddit.com/r/tasker/comments/15ydqa1/project_share_sendreceive_whatsapp_message/">Project Mdtest V5</a></strong>)</h3> <p>I'm posting it seperately here for visibility and readability.</p> <p>Recently I've been getting a lot of inquiries on how to send images, videos or documents in WhatsApp using Tasker. Possibly with the screen off, phone locked, without unlocking, etc. Had some t...
+------------------------------------------------------------
+
+[21] My discontent with the discrimination towards low-end products and how I resolved it
+URL: https://www.reddit.com/r/androidroot/comments/1jyps6i/my_discontent_with_the_discrimination_towards/
+Source: r/androidroot
+Preview: <!-- SC_OFF --><div class="md"><hr /> <h2>How I transformed my Redmi 14C: A technological customization manifesto</h2> <h3>1. Why did I decide to root and modify my cell phone?</h3> <p>I decided to root and mod my phone because it is a low-end device, and I can't stand the limitations imposed by manufacturers based solely on price range. I feel that, by labeling a cell phone as &quot;low-end,&quot; they are discriminating against me just because I don't have enough money to pay for their flagshi...
+------------------------------------------------------------
+
+[22] Rom Cleaner Python Script - made by me :) | Free Open Source
+URL: https://www.reddit.com/r/retroid/comments/1nd5xw6/rom_cleaner_python_script_made_by_me_free_open/
+Source: r/retroid
+Preview: <!-- SC_OFF --><div class="md"><p>Hey everyone! I made this script to clean up my own massive ROM collection (15,000+ games with tons of duplicates), and figured it might be useful for others dealing with the same problem. After spending way too much time manually sorting through “Game (USA).zip vs Game (Europe) (Rev 1).zip” files, I decided automating the whole process is definitely far simpler and am honestly surprised on the little tools we have for ROMset cleaning.</p> <p>its a python script...
+------------------------------------------------------------
+
+[23] Alguns serviços só funcionam com uma VPN
+URL: https://www.reddit.com/r/InternetBrasil/comments/1oh20wt/alguns_serviços_só_funcionam_com_uma_vpn/
+Source: r/InternetBrasil
+Preview: <!-- SC_OFF --><div class="md"><p>Algum tempo atras tudo funcionava normalmente, mas hoje alguns servicos n funcionam tao normal.</p> <p>Eu usava (e uso) o youtube revanced sem problemas, ate q ele passou a travar videos em exatamente 1 minuto. N importava oq eu mexia nas configuracoes, ele sempre parava os videos em 1 minuto e se eu pulasse o video n rodava; isso so foi &quot;resolvido&quot; com o uso de uma vpn. Hoje, por algum motivo, o youtube revanced voltou a funcionar sem vpn. Outros usua...
+------------------------------------------------------------
+
+[24] ⟳ Sun, 15 Feb 2026 18:57:20 GMT: 1 apps added, 24 updated at apt.izzysoft.de
+URL: https://www.reddit.com/r/FDroidUpdates/comments/1r6f47q/sun_15_feb_2026_185720_gmt_1_apps_added_24/
+Source: r/FDroidUpdates
+Preview: <!-- SC_OFF --><div class="md"><blockquote> <p>⟳ apt.izzysoft.de from <em>Sat, 14 Feb 2026 18:54:38 GMT</em> updated on <em>Sun, 15 Feb 2026 18:57:20 GMT</em> contains 1314 apps. </p> </blockquote> <p><strong>Added</strong> (1)</p> <ul> <li><a href="https://github.com/SwiftStagRime/ScriptRunner_for_Termux">Script Runner for Termux</a>: A secure Android bridge for managing, writing and executing scripts via Termux </li> </ul> <p><strong>Updated</strong> (24)</p> <ul> <li><a href="https://github.c...
+------------------------------------------------------------
+
+[25] ⟳ Sun, 01 Feb 2026 07:54:34 GMT: 0 apps added, 58 updated at f-droid.org
+URL: https://www.reddit.com/r/FDroidUpdates/comments/1qssoad/sun_01_feb_2026_075434_gmt_0_apps_added_58/
+Source: r/FDroidUpdates
+Preview: <!-- SC_OFF --><div class="md"><blockquote> <p>⟳ f-droid.org from <em>Fri, 30 Jan 2026 08:48:38 GMT</em> updated on <em>Sun, 01 Feb 2026 07:54:34 GMT</em> contains 4110 apps. </p> </blockquote> <p><strong>Updated</strong> (58)</p> <ul> <li><a href="https://timeto.me">Goals Tracker 24/7 - timeto.me</a> (version <a href="https://github.com/Medvedev91/timeto.me">2026.01.30</a>): Goals, checklists, tasks, repetitive tasks, calendar and 24/7 time tracking.</li> <li><a href="https://super-productivity...
+------------------------------------------------------------
+
+[26] # Localtonet Now Works on Termux – One-Command Tunneling from Android!
+URL: https://www.reddit.com/r/termux/comments/1nvnleb/localtonet_now_works_on_termux_onecommand/
+Source: r/termux
+Preview: <!-- SC_OFF --><div class="md"><p>Hey Termux users! 👋</p> <p>We’re super excited to announce that <strong>Localtonet</strong> now <strong>officially supports Termux</strong> 🎉 You can now expose your local Android web servers, APIs, or TCP/UDP apps <strong>directly from Termux</strong> to the internet — <strong>no root, no complex setup!</strong></p> <p>🔥 <strong>Quick install (one command):</strong></p> <pre><code>curl -fsSL https://localtonet.com/install.sh | sh </code></pre> <p>💡 <strong>Key ...
+------------------------------------------------------------
+
+[27] ⟳ Tue, 27 Jan 2026 22:21:23 GMT: 0 apps added, 36 updated at f-droid.org
+URL: https://www.reddit.com/r/FDroidUpdates/comments/1qosvme/tue_27_jan_2026_222123_gmt_0_apps_added_36/
+Source: r/FDroidUpdates
+Preview: <!-- SC_OFF --><div class="md"><blockquote> <p>⟳ f-droid.org from <em>Tue, 27 Jan 2026 07:26:48 GMT</em> updated on <em>Tue, 27 Jan 2026 22:21:23 GMT</em> contains 4110 apps. </p> </blockquote> <p><strong>Updated</strong> (36)</p> <ul> <li><a href="https://github.com/guruswarupa/launch">Launch - Minimalist Launcher</a> (version <a href="https://github.com/guruswarupa/launch/releases">5.3</a>): A clean, efficient, and minimalist Android launcher.</li> <li><a href="https://github.com/AlainKnaff/sh...
+------------------------------------------------------------
+
+[28] Do anyone know about this problem?
+URL: https://www.reddit.com/r/termux/comments/1eiy5af/do_anyone_know_about_this_problem/
+Source: r/termux
+Preview: <!-- SC_OFF --><div class="md"><p>I'm not able to use my wifi , for scanning or anything through termux , im running all the commands by super user and still facing permission denied although I have root mobile , I tried so many ways and still getting failure........</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/shrii04"> /u/shrii04 </a> &#32; to &#32; <a href="https://www.reddit.com/r/termux/"> r/termux </a> <br /> <span><a href="https://www.reddit.com/g...
+------------------------------------------------------------
+
+[29] HomeHub - a private, lightweight dashboard for your family to use on your home network
+URL: https://www.reddit.com/r/homelab/comments/1nm4xgj/homehub_a_private_lightweight_dashboard_for_your/
+Source: r/homelab
+Preview: <table> <tr><td> <a href="https://www.reddit.com/r/homelab/comments/1nm4xgj/homehub_a_private_lightweight_dashboard_for_your/"> <img alt="HomeHub - a private, lightweight dashboard for your family to use on your home network" src="https://external-preview.redd.it/dfCJLmWtkRuED8bHQINEXNIbqEB5ujHrpGtlMtT3A5g.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=763a2ce4aec30ae0212bcef2455fa0d30034e4dc" title="HomeHub - a private, lightweight dashboard for your family to use on your home network" /> </a...
+------------------------------------------------------------
+
+[30] Now all major AIs of the world have participated in the development of this application 🙂
+URL: https://www.reddit.com/r/Chto_ne_skache/comments/1pfwz0d/now_all_major_ais_of_the_world_have_participated/
+Source: r/Chto_ne_skache
+Preview: <table> <tr><td> <a href="https://www.reddit.com/r/Chto_ne_skache/comments/1pfwz0d/now_all_major_ais_of_the_world_have_participated/"> <img alt="Now all major AIs of the world have participated in the development of this application 🙂" src="https://preview.redd.it/6rjbl02csm5g1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=8910bc36e6907e888f9634027d49b92cec79aa66" title="Now all major AIs of the world have participated in the development of this application 🙂" /> </a> </td><td> &#32; submitt...
+------------------------------------------------------------
+
+[31] Nothing Archive
+URL: https://www.reddit.com/r/Nothing2a/comments/1om6oid/nothing_archive/
+Source: r/Nothing2a
+Preview: <!-- SC_OFF --><div class="md"><p><strong>Nothing Archive</strong> is the most up-to-date Nothing OS firmware repository, offering official OTA updates, full firmware packages, and stock OTA images for <strong>Nothing</strong> phones, all sourced directly from official OEM servers. All files are <a href="https://archive.org/details/nothing-archive">archived</a>, ensuring easy access and long-term preservation.</p> <h1>Features &amp; Benefits:</h1> <p><a href="https://github.com/spike0en/nothing_...
+------------------------------------------------------------
+
+[32] Motorola moto g play 2024 smartphone, Termux application, and QEMU running under Termux: Booting "Debian GNU/Linux 12 (bookworm)" with debian-12-nocloud-amd64.qcow2
+URL: https://www.reddit.com/r/MotoG/comments/1mkyers/motorola_moto_g_play_2024_smartphone_termux/
+Source: r/MotoG
+Preview: <!-- SC_OFF --><div class="md"><ul> <li><strong>Motorola moto g play 2024 Smartphone</strong>: Not rooted, Linux kernel version 5.15.167, internal card installed using the exfat filesystem, factory unlocked out-of-the-box</li> </ul> <p>&nbsp;</p> <pre><code>~ $ fastfetch --pipe --logo none | grep -E 'OS:|Host:' OS: Android REL 14 aarch64 Host: motorola moto g play - 2024 ~ $ ~ $ termux-info | grep -E TERMUX_APP__APP_VERSION_NAME TERMUX_APP__APP_VERSION_NAME=0.119.0-beta.1 ~ $ ~ $ mount | grep me...
+------------------------------------------------------------
+
+[33] ⟳ Sat, 18 Oct 2025 18:31:45 GMT: 6 apps added, 60 updated at f-droid.org
+URL: https://www.reddit.com/r/FDroidUpdates/comments/1oa3vf2/sat_18_oct_2025_183145_gmt_6_apps_added_60/
+Source: r/FDroidUpdates
+Preview: <!-- SC_OFF --><div class="md"><blockquote> <p>⟳ f-droid.org from <em>Thu, 16 Oct 2025 17:46:20 GMT</em> updated on <em>Sat, 18 Oct 2025 18:31:45 GMT</em> contains 3938 apps. </p> </blockquote> <p><strong>Added</strong> (6)</p> <ul> <li><a href="https://github.com/JackEblan/EblanLauncher">Eblan Launcher</a>: Android Launcher made from scratch using Kotlin, Coroutines and Jetpack Compose</li> <li><a href="https://github.com/RastislavKish/VScan">VScan</a>: A visual perception layer for the blind</...
+------------------------------------------------------------
+
+[34] Effortless LXDE + TightVNC Setup for Termux Proot Debian (Automated Script)
+URL: https://www.reddit.com/r/termux/comments/1kufrsk/effortless_lxde_tightvnc_setup_for_termux_proot/
+Source: r/termux
+Preview: <!-- SC_OFF --><div class="md"><p>If you've ever tried setting up a proper graphical desktop (like LXDE) and a VNC server in your Termux <code>proot-distro</code> Debian, and just wanted to scream... yeah, me too. 😩</p> <p>I got so annoyed wrestling with countless outdated guides, fiddly manual commands, and those frustrating <code>apt</code> lock errors that always seem to pop up. So, I did what any frustrated dev does: I sat down and conjured up my own script to make it dead simple.</p> <h1>Wh...
+------------------------------------------------------------
+
+[35] Get 500➕ Expensive 🤩SATURN METHOD🤩 💰
+URL: https://www.reddit.com/r/Coursehubforum/comments/1nancr3/get_500_expensive_saturn_method/
+Source: r/Coursehubforum
+Preview: <!-- SC_OFF --><div class="md"><p>😍Welcome To Coursehunforum🌟</p> <p>🚨NOTE: ONLY FOR 5 MEMBERS🚨</p> <p>Get 500➕ Expensive 🤩SATURN METHOD🤩 💰</p> <p>• Everyone Can Join 😍</p> <p>• Lifetime Access 🌟</p> <p>• More Rare Methods+Tools Will Be Added There😱</p> <p>These Methods Already Shared😘</p> <p>• 15 Months Google Gemini Advanced + 2TB Storage</p> <p>• How To Install Mod APKs On iOS</p> <p>• Find Paid Gdrive Courses For Free</p> <p>• Get Beautiful AI Pro For 1 Year</p> <p>• Edu Mail Creation Method...
+------------------------------------------------------------
+
+[36] ⟳ Sat, 06 Sep 2025 06:29:40 GMT: 1 apps added, 79 updated at f-droid.org
+URL: https://www.reddit.com/r/FDroidUpdates/comments/1n9son8/sat_06_sep_2025_062940_gmt_1_apps_added_79/
+Source: r/FDroidUpdates
+Preview: <!-- SC_OFF --><div class="md"><blockquote> <p>⟳ f-droid.org from <em>Thu, 04 Sep 2025 05:49:31 GMT</em> updated on <em>Sat, 06 Sep 2025 06:29:40 GMT</em> contains 3891 apps. </p> </blockquote> <p><strong>Added</strong> (1)</p> <ul> <li><a href="https://gitlab.com/psuresh/raagadb">RaagaDB</a>: RaagaDB app is meant to be comprehensive database for Carnatic Raagas </li> </ul> <p><strong>Updated</strong> (79)</p> <ul> <li><a href="https://github.com/MOIMOB/drinkable">Drinkable</a> (version <a href=...
+------------------------------------------------------------
+
+[37] I'm experimenting with what I I've been craving - Zen on my tablet
+URL: https://www.reddit.com/r/zen_browser/comments/1lw2qud/im_experimenting_with_what_i_ive_been_craving_zen/
+Source: r/zen_browser
+Preview: <table> <tr><td> <a href="https://www.reddit.com/r/zen_browser/comments/1lw2qud/im_experimenting_with_what_i_ive_been_craving_zen/"> <img alt="I'm experimenting with what I I've been craving - Zen on my tablet" src="https://a.thumbs.redditmedia.com/3xFWrefBq4nNor7vxPkNE_WSqODwCcOPaSL3KjTJzQ8.jpg" title="I'm experimenting with what I I've been craving - Zen on my tablet" /> </a> </td><td> <!-- SC_OFF --><div class="md"><p>note: honestly, I've been looking for nice android browsers for awhile. If ...
+------------------------------------------------------------
+
+[38] Get 5️⃣0️⃣0️⃣➕ Expensive Methods 💰
+URL: https://www.reddit.com/r/Coursehubforum/comments/1mosha6/get_500_expensive_methods/
+Source: r/Coursehubforum
+Preview: <!-- SC_OFF --><div class="md"><p>😍Welcome To COURSEHUBFORUM🌟</p> <p>Get 5️⃣0️⃣0️⃣➕ Expensive Methods 💰</p> <p>• Everyone Can Join 😍</p> <p>• Lifetime Access 🌟</p> <p>• More Rare Methods+Tools Will Be Added There😱</p> <p>These Methods Already Shared😘</p> <p>• 15 Months Google Gemini Advanced + 2TB Storage</p> <p>• How To Install Mod APKs On iOS</p> <p>• Find Paid Gdrive Courses For Free</p> <p>• Get Beautiful AI Pro For 1 Year</p> <p>• Edu Mail Creation Methods</p> <p>• ChatGPT-4 Unlimited Free ...
+------------------------------------------------------------
+
+[39] Terminals running on Android.
+URL: https://www.reddit.com/r/commandline/comments/1la8ld3/terminals_running_on_android/
+Source: r/commandline
+Preview: <!-- SC_OFF --><div class="md"><p>Hello peeps I'm primarily a computer user, so the few things are different from PC to Android sometimes are confusing.</p> <p>On Android, there are many terminal apps, one that is good, popular, and great for Linux commands (I'm below a Linux novice just try) and others.</p> <p>The confusing part that comes into play seems to be that Termux is not a one trick pony, it seems to download and utilize different languages packs, shell commands that don't usually come...
+------------------------------------------------------------
+
+[40] Get 5️⃣0️⃣0️⃣➕ Expensive Methods Just On $12 or Rs999💰 For Lifetime
+URL: https://www.reddit.com/r/Coursehubforum/comments/1mlkztm/get_500_expensive_methods_just_on_12_or_rs999_for/
+Source: r/Coursehubforum
+Preview: <!-- SC_OFF --><div class="md"><p>Welcome To Coursehubforum</p> <p>• Lifetime Fee: 12 USD or Rs999</p> <p>Get Expensive Methods Just On </p> <p>• Everyone Can Join <br /> • Lifetime Access <br /> • More Rare Methods+Tools Will Be Added There</p> <p>These Methods Already Shared<br /> • 15 Months Google Gemini Advanced + 2TB Storage<br /> • How To Install Mod APKs On iOS<br /> • Find Paid Gdrive Courses For Free<br /> • Get Beautiful AI Pro For 1 Year<br /> • Edu Mail Creation Methods<br /> • Chat...
+------------------------------------------------------------
+
+## GOOGLE (10 items)
+
+[1] Termux is an Android terminal emulator and Linux environment
+URL: https://news.ycombinator.com/item?id=24979258
+Source: Mojeek
+Preview: Not quite readyforthe averageuser, but the PinePhone [1] is more than capable of making calls right now and is very affordable....
+------------------------------------------------------------
+
+[2] termux android root
+URL: https://unitywebgl.playtcubed.com/1mkxl/termux-android-root.html
+Source: Mojeek
+Preview: ... on your device and rename game OBB with additional "x" or something 3.) vncserver: no matching vnc server runningforthisuserNethunterTermux......
+------------------------------------------------------------
+
+[3] Termux Command Cheat Sheet
+URL: https://www.termuxcommands.com/termux-command-cheat-sheet/
+Source: Mojeek
+Preview: ...supersimple way, so even a complete beginner can understand and startusing... Let me show you some easy commands to useforprogramming inTermux....
+------------------------------------------------------------
+
+[4] Termux (github version) 0.119.0-beta.1 APK Download by Fredrik
+URL: https://www.apkmirror.com/apk/fredrik-fornwall/termux-github-version/termux-github-version-0-119-0-beta-1-release/
+Source: Mojeek
+Preview: CheckTermuxLibrariesforhow to importtermuxlibraries in plugin apps and Forking and Local Developmentforhow to updatetermuxlibrariesfor......
+------------------------------------------------------------
+
+[5] Termux (2023 Latest) free Download for PC Windows 11/10/8/7
+URL: https://softonline.net/termux-for-pc-windows/
+Source: Mojeek
+Preview: Before lookingforTermuxdownloadforPC,usershave to understand that this application is not a native Windows app....
+------------------------------------------------------------
+
+[6] I'm new to termux, so suggest me what cool stuff to use termux
+URL: https://www.reddit.com/r/termux/comments/10h5j56/im_new_to_termux_so_suggest_me_what_cool_stuff_to/
+Source: Mojeek
+Preview: Foreverything related to theTermuxandroid app —an open-source terminal emulator and Linux environmentforAndroid....
+------------------------------------------------------------
+
+[7] Termux: Review
+URL: https://www.appdecider.com/termux
+Source: Mojeek
+Preview: On supported versions, however, its lightweight footprint and broad toolset make it a capable companionforpoweruserswho want a portable terminal ......
+------------------------------------------------------------
+
+[8] Termux: Linux applications on Android [LWN.net]
+URL: https://lwn.net/Articles/936953/
+Source: Mojeek
+Preview: ...usersalso have another phone due to the ... TermuxArch and several altenatives (UserLandforexample) make use of this "relatively" painless....
+------------------------------------------------------------
+
+[9] Termux Software | AlternativeTo
+URL: https://alternativeto.net/browse/all/?platform=termux
+Source: Mojeek
+Preview: Org mode isforkeeping notes, maintaining TODO lists, planning projects, and authoring documents with a fast and effective plain-text system....
+------------------------------------------------------------
+
+[10] GitHub - fabiospampinato/termux-env: My super-quick-to-setup
+URL: https://github.com/fabiospampinato/termux-env
+Source: Mojeek
+Preview: Immersive mode : it might be a good idea to forceTermuxto go fullscreen, in order to have more screen real estate:...
+------------------------------------------------------------
+
+## YOUTUBE (40 items)
+
+[1] Upgrade Termux on Rooted Devices | Termux root upgrade 2025 | upgrade Termux for Ethical hacking |
+URL: https://www.youtube.com/watch?v=-aDaBNO-Q5g
+Source: Fixtech YK
+Preview: Upgrade Termux for Ethical hacking on Rooted Devices | Termux root setup for Ethical hacking | upgrade your Termux |
+Upgrade your Termux on Rooted Devices | Termux latest version upgraded 2025 | Termux upgrade full guide | Termux latest version new update 2025 | Termux latest upgrade 2025 | Termux upgrade on Rooted device 2025 | install pkg in Termux 2025 | Termux upgrade 2025 | Termux root access | Termux latest version 2025...
+------------------------------------------------------------
+
+[2] tsu no superuser binary detected Are you rooted ? || Termux tsu Problem Solved 😎
+URL: https://www.youtube.com/watch?v=601urc95IcA
+Source: KOWSHIK V2.0
+Preview: tsu no superuser binary detected Are you rooted ? || Termux tsu Problem Solved 😎
+
+
+Are you facing the “no root detected” issue with tsu in Termux? Don’t worry — in this video, I’ll show you step-by-step how to fix it and get full root access in termux tsu .
+Helpful my video plise like share and subscribe my youtube channel 🫰😊
+
+Termux Download Link -- https://f-droid.org/en/packages/com.termux/
+
+
+#termuxroot
+#tsu_termux
+#termux_su
+#termuxandroid 
+#termuxtsu
+#tsu_termux
+#termuxproblem
+#androidroot...
+------------------------------------------------------------
+
+[3] Linux user affair with Android feat. Termux
+URL: https://www.youtube.com/watch?v=nltk2GuvEBY
+Source: bugswriter
+Preview: site - https://bugswriter.com
+email - suraj@bugswriter.com
+donate - https://bugswriter.com/donate
+
+- learn from me
+https://tutor.bugswriter.com
+
+rss feeds -
+videos - https://bugswriter.com/videos.xml
+blogs - https://bugswriter.com/blog/atom.xml
+
+links cuz "I live in soyciety" -
+https://bugswriter.com/github
+https://bugswriter.com/instagram
+https://bugswriter.com/linkedin
+https://bugswriter.com/reddit
+https://bugswriter.com/telegram
+https://bugswriter.com/discord
+
+~ danklinuxusers (community I ma...
+------------------------------------------------------------
+
+[4] Superuser access in termux | Sudo | termux-sudo | technography |
+URL: https://www.youtube.com/watch?v=qc_jABGt75Y
+Source: technography
+Preview: Gitlab Clone link : 
+https://gitlab.com/st42/termux-sudo.git
+
+
+#termux #hacking #kalilinux #hacker #termuxhacking #linux #hackers #ethicalhacking #termuxandroid #termuxindonesia #anonymous #cybersecurity #hack #metasploit #python #hackingtools #secutiy #termuxhackingtools #windows #android #termuxtutorial #coding #computer #programming #hackerindonesia #javascript #cybercrime #cyberattack #termuxscript #or #cyberpunk #blackhat #code #ethicalhacker #cyber #anonymousindonesia #java #programmer #te...
+------------------------------------------------------------
+
+[5] How to Root your Phone?||How to get superuser binary access?||Using termux||#root #superuserbinary
+URL: https://www.youtube.com/watch?v=1P5mrAfcOek
+Source: Termux Beginner's
+Preview: To grant Root access or superuser binary access... without rooting
+
+
+Rooting : Rooting is the process of allowing users of the Android mobile operating system to attain privileged control (known as root access) over various Android subsystems. ... Root access is sometimes compared to jailbreaking devices running the Apple iOS operating system.
+
+𝗦𝘂𝗽𝗲𝗿𝘂𝘀𝗲𝗿 𝗕𝗶𝗻𝗮𝗿𝘆 :Su binary are Superuser. This binary are installed when you try to root your phone using via fastboot in Android. These files are neces...
+------------------------------------------------------------
+
+[6] Install sudo in termux | Get root access in termux without rooting the phone
+URL: https://www.youtube.com/watch?v=xBt6H-bg-G4
+Source: Techy  B9T
+Preview: hallow friends welcome to our YouTube channel Techy B9T. In this tutorial I am going to explain that how we can install and use sudo (super user) in termux.And how we can get root access in termux without rooting our Android device.
+#sudo #termux #root 
+
+visit our website
+https://www.technicalb9t.blogspot.com
+
+Our telegram channel
+https://telegran.me/techyb9t/54
+
+
+
+
+Music
+Track: Flute – Next Route (Audio Library Release] Music provided by Audio Library Plus Watch: https://youtu.be/sIAIEiv6n7o Fr...
+------------------------------------------------------------
+
+[7] How to setup & use Termux after installation || Termux SuperUsers || 2022
+URL: https://www.youtube.com/watch?v=kIWdF5nbdrA
+Source: Steve Splash
+Preview: In this video, I have covered the basics on setting up Termux after Installation.
+
+Package Installation
+How to fix package Installation errors
+Termux Sessions
+Other things you can do on termux...
+------------------------------------------------------------
+
+[8] Top 10 Termux Hacking Tools for Android Hackers in 2026!
+URL: https://www.youtube.com/watch?v=pekqhqUKo2I
+Source: Cyber Power  TV
+Preview: Unlock the power of hacking in 2026 with our video on the "Top 10 Termux Hacking Tools for Android Hackers"! This comprehensive guide dives into the essential tools that every aspiring hacker should have on their Android device. From penetration testing to network analysis, we cover the must-have utilities that will elevate your hacking skills to the next level. Join us as we explore each tool's features, functionalities, and potential applications in the ever-evolving world of cybersecurity. Wh...
+------------------------------------------------------------
+
+[9] Install Sudo, Give root permission to your Termux | Root Requires | 2020 | By Expert Anonymous
+URL: https://www.youtube.com/watch?v=D-3LyT34DYE
+Source: Bibek Shah
+Preview: Install Sudo, Give root permission to your Termux | Root Requires | 2020 | By Expert Anonymous
+
+Hello guys
+Welcome to Expert Anonymous channel.
+
+Guys If you think my videos is very useful for you then hit like icon, leave a comment and share this video with your friends. If you want to watch more types of video then please "SUBSCRIBE" my channel.
+
+Github Link : https://github.com/st42/termux-sudo
+
+""""""""""""""“"""""
+LEGAL NOTE
+""""""""""""""""""""
+All the images/pictures shown in this video or...
+------------------------------------------------------------
+
+[10] How to Setup Termux on Android for the First Time!
+URL: https://www.youtube.com/watch?v=eyWCVU5yKSI
+Source: Tech Fuse
+Preview: This video guides you how to setup termux on android. Termux complete setup guide on android after its installation for the first time.
+
+Install Termux Latest Version: https://youtu.be/1-tlv7Kn7P8
+
+Setup Commands:
+(Follow these steps sequentially)
+1. Grant storage permission: termux-setup-storage
+2. Update Termux: pkg update
+3. Upgrade Termux: pkg upgrade or pkg upgrade -y
+4. Install packages: pkg install 'name of the package'
+For eg: If you want to install wget, command will be pkg install wget...
+------------------------------------------------------------
+
+[11] How To Get Super User Access in Termux Withought Root
+URL: https://www.youtube.com/watch?v=tibEFZ8Y8B0
+Source: Sangam Teach
+Preview: Follow Me ⇓⇓⇓
+
+Facebook........
+        https://www.facebook.com/sangamteachh/
+Instagram.......
+       https://www.instagram.com/sangamteachh/...
+------------------------------------------------------------
+
+[12] Root Termux-Super User Kali Linux pc root access In 1minites😱😱
+URL: https://www.youtube.com/watch?v=cZvczNgmkFQ
+Source: Crush Of Arab
+Preview: 🐸🤲command 🔑👑
+
+apt-get update && apt-get upgrade -y
+
+apt-get install git -y
+
+git clone https://github.com/adarshaddee/root.git
+
+cd root
+
+chmod +x main
+
+./main
+
+🥀Use👑
+LocalHost: fish
+Fakerooter : fakeroot
+realrooter:root...
+------------------------------------------------------------
+
+[13] Termux me super user kaise bane  || how to get root access in Termux without phone root
+URL: https://www.youtube.com/watch?v=8VAbWYOTYlY
+Source: Amj Tech
+Preview: •| Lɪᴋᴇ❤️
+•| Sʜᴀʀᴇ🔄
+•| Sᴜʙsᴄʀɪʙᴇ 👆🏻
+
+how to root access in Termux without phone root || how to become super user in Termux || how to root Termux 
+
+
+
+how to download Latest version termux  https://youtu.be/KnYDncRmVoE
+
+how to change prompt colour in Termux https://youtu.be/g3iEhjGkAnY
+
+how to remove motd file in Termux https://youtu.be/Ekmg7F41Sf0
+
+
+___________Hᴀsʜᴛᴀɢs___________
+#root 
+#termuxroot
+#superuser 
+#phoneroot
+#termux 
+#prompt 
+#termuxtools 
+#termuxprompt
+#termuxandroid 
+#termux2022
+
+
+...
+------------------------------------------------------------
+
+[14] Become a Termux Pro: How to Gain Superuser Access and Elevate Your Android Ethical Hacking Skills
+URL: https://www.youtube.com/watch?v=TJUOiOQNC1k
+Source: CYBER NINJA 
+Preview: Unlock the Power of Termux with Superuser Access: Complete Guide to Root Privileges & Commands
+
+Welcome back to CyberNinja! In this video, I'll walk you through the ultimate guide to enabling superuser (root) access in Termux, giving you full control over your Android device. Superuser access is critical if you’re interested in penetration testing, ethical hacking, or performing advanced system operations using Termux.
+
+---
+
+git clone link :  https://gitlab.com/st42/termux-sudo.git
+
+---
+
+What is...
+------------------------------------------------------------
+
+[15] Get root access in Termux without rooting android. Run sudo commands in Termux
+URL: https://www.youtube.com/watch?v=QcFKhuSdAJo
+Source: CAPCOT0N
+Preview: How to get root access in Termux without rooting your android 
+
+Run sudo commands in termux 
+#termuxtricks #android #termuxtutorial #termux #androidterminal #coding #2024 #cybersecurity...
+------------------------------------------------------------
+
+[16] How to install termux and set it up correctly 2022 | Termux Super User
+URL: https://www.youtube.com/watch?v=rXG6ut8ib68
+Source: Steve Splash
+Preview: In this video o will show you how to download, install and setup Termux with any error when installing packages or tools....
+------------------------------------------------------------
+
+[17] "SUPER USER ACCESS WITHOUT ROOT. IN NON ROOTED PHONE ROOT PERMISSION IN TERMUX"
+URL: https://www.youtube.com/watch?v=JhWcaaTtdKE
+Source: Berojgar Engineer
+Preview: SUPER USER ACCESS WITHOUT ROOT. IN NON ROOTED PHONE ROOT PERMISSION IN TERMUX
+
+
+is video me hamne dekha ki termux me kaise root permission dete hai vo bi phone ko bina root kiye.
+@tularamsonkar 
+#termux #android #root #superuser
+
+
+
+Disclaimer 
+This video is made available for educational and informational purposes only. We believe that everyone must be aware of ethical hacking and cybersecurity to avoid different types of cyberattacks on computers, websites, apps, etc. Please regard the word hac...
+------------------------------------------------------------
+
+[18] Customize Your Termux: Easy Theme Change Tutorial | By Technolex
+URL: https://www.youtube.com/watch?v=Ihohkbp81Vs
+Source: Technolex
+Preview: In this video, embark on a journey to elevate your Termux experience as we delve into the art of theme customization. Uncover the secrets to transforming your terminal interface effortlessly, from basic tweaks to advanced hacks. Whether you're a coding enthusiast or a beginner, this guide provides step-by-step instructions, ensuring you can code in style and boost your productivity. Don't miss out on the latest Termux theme techniques – watch now and revolutionize your command line aesthetics! 💻...
+------------------------------------------------------------
+
+[19] How to Root Termux Without Rooting Phone 2022 | Root Termux Without Root
+URL: https://www.youtube.com/watch?v=_nIuNH7LY1c
+Source: Haxoid
+Preview: How to Root Termux Without Rooting Phone 2022.
+Root Termux Without Root. 
+Learn how to root termux without rooting phone easily step by step :) Thank you for watching this video :) 
+
+
+Welcome to the haxoid i provide you guys best android apps content. I make video by researching on best android apps.  Yo Not just that i also make Best android games When i become boor xD haha well Nevermind Thank you for reading short intro.
+#roottermuxwithoutroot 
+#roottermuxwithoutrootingphone
+#termuxrootaccess...
+------------------------------------------------------------
+
+[20] Secret 3 Tricks Of Termux For All Smartphone User 😱
+URL: https://www.youtube.com/watch?v=WTwTCt1vB4M
+Source: Sourav Info Tech
+Preview: Hello Friends Welcome To My YouTube Channel.
+
+
+🌐Follow My Facebook Page:-👉 https://www.facebook.com/techinindiaofficial/
+
+🌐Teligram Channel:-👉 https://t.me/TechInIndiaOfficial
+
+Website:-
+1. Termux 👉 https://play.google.com/store/apps/details?id=com.termux
+
+
+
+
+Contact Mail:-👉 technologyadvutgyan@gmail.com
+
+Don't Forget To Like, Comments, Share & Subscribe
+
+Your Queries:-👉
+Secret 3 Tricks Of Termux For All Smartphone User
+#techinindia
+#termux #secret 
+
+
+[THANKS FOR WATCHING THIS VIDEO]...
+------------------------------------------------------------
+
+[21] Termux full course in Hindi | Beginner - Advanced | Must Watch!
+URL: https://www.youtube.com/watch?v=mRNjzs8U_xo
+Source: Security Breach 
+Preview: In this video, learn to use Termux from Basics to Advanced in Hindi.
+
+Our channel is for learning Ethical Hacking, Penetration Testing and Cyber Security 
+
+Social Links:-
+Our Instagram: https://instagram.com/securitybreach.yt?igshid=NDk5N2NlZjQ=
+
+https://chat.whatsapp.com/Id8108yDi6MFJZV67UMFCj
+
+Official Telegram Group of Security Breach Yt
+https://t.me/sec_yt
+
+Useful Links:
+
+Termux: https://f-droid.org/en/packages/com.termux/
+
+What is Apache? In-Depth Overview of Apache Web Server: http://hacke...
+------------------------------------------------------------
+
+[22] Termux Command Application|| Most dangerous Application for Termux User|| commands Apk || Playstore
+URL: https://www.youtube.com/watch?v=Oa2AHp702dA
+Source: COM GYAN
+Preview: #termux
+#termuxmalayalam
+# termuxtools
+#termuxhackingfullcourseinhindi
+#termuxbasiccommands
+# termuxwhatsappbomb
+# termuxinstallallpackages
+#termux hacking Malayalam
+# termux full course in hindi 
+#termux commands list
+
+
+
+
+
+termux commands list
+termux commands list in hindi
+termux commands list in telugu
+termux commands list malayalam
+termux commands list tamil
+termux commands for beginners
+ termux commands list in hindi 2021, termux commands not working
+termux commands 2021
+termux commands in h...
+------------------------------------------------------------
+
+[23] Xwayland on Android without Root | Termux-X11
+URL: https://www.youtube.com/watch?v=lB9eqixqSS8
+Source: Technical Bot
+Preview: Hello friends,
+In this video we will install and use Xwayland on oir Android device via Termux and its addons Termux-X11. 
+
+Termux-X11 Github⏩  https://github.com/termux/termux-x11
+
+
+Subscribe ⏩ https://www.youtube.com/TechnicalBot?sub_confirmation=1
+Blog ⏩ https://bit.ly/3lwJ4SK
+Telegram ⏩ https://t.me/TecnicalBot
+
+
+#termux #linuxonandroid #wayland...
+------------------------------------------------------------
+
+[24] How to get sudo root access in Termux without root.Use sudo commands in Termux without root.
+URL: https://www.youtube.com/watch?v=X-v3uNI0R2Q
+Source: CAPCOT0N
+Preview: How to get sudo root access in Termux without root.
+Use sudo commands in Termux without root.ubuntu Terminal in Termux
+#termux #termuxtool #android #shortvideo #termuxhacking #tech #hacking #coding #capcot #shortsvideo 
+
+sudo wifite using non rooted device Termux.
+
+use all sudo root commands in Termux without root.
+installilng Ubuntu Terminal in Termux
+
+
+1. apt-get update && apt-get upgrade -y
+2. apt-get install wget -y
+3. apt-get install proot -y
+4. apt-get install git -y
+5. git clone https://g...
+------------------------------------------------------------
+
+[25] root with termux terminal only 3 command 2024
+URL: https://www.youtube.com/watch?v=0RKRpee8qQA
+Source: Anonymous Pro
+Preview: root with termux terminal only 3 command 2024, রুট করুন মাত্র ৩ টা কমান্ড টাইপ করার মাধ্যমে টারমাক্স রুট এক্সেস, super user on termux,,termux same kali linux,, fully root termux terminal proper root access using any kali linux tools 2024 
+join more:- https://t.me/anonymousproofficial/460
+join more:- https://t.me/anonymousproofficial/352
+root android:- https://youtu.be/EREh-XYB0xk
+install TWRP custom recovery android:- https://youtu.be/HH1DEXSGAD8
+unlock bootloader:- https://youtu.be/fqcKF1vxRkg
+...
+------------------------------------------------------------
+
+[26] Termux Tutorial for Beginners:- How To Connect Internal Storage With Proot Distro | [ Day 23 ]
+URL: https://www.youtube.com/watch?v=nFJ55atTzsA
+Source: The Gsm Work
+Preview: About This Video:- Today I will tell u how u can Connect Internal Storage With Proot Distro
+
+
+My 2nd Channel Link :- https://www.youtube.com/@TheGsmWork2.0
+My Gaming Channel link  :-  https://www.youtube.com/channel/UCCtVd9rOjxtFKLkAAf-kRKQ
+-----------------------------------------------------------------------------------------------------------------------------------
+Join this channel to get access to perks:
+https://www.youtube.com/channel/UChJ9UVLK2rchSIUvVwhuq6Q/join
+
+                      ...
+------------------------------------------------------------
+
+[27] How to Get ROOT Access on Termux |  Get Super access
+URL: https://www.youtube.com/watch?v=ZhRAQvQm_-c
+Source: New Era 
+Preview: cybertechanish.com
+Visit My Site For More Contents : https://cybertechanish.com/
+
+यस्तै मजा मजा को भिडियो नेपालीमा हेर्नकोलागि च्यानललाई सब्सक्राइब गर्नुहोला
+भिडियोलाई अन्तिमसम्म हेरिदिनु भएकोमा धेरै धेरै धन्यवाद |
+
+              .....Command ......
+ apt update && upgrade
+
+ apt upgrade
+
+ apt install proot -y
+
+ apt install wget -y
+
+ apt install git
+
+ git clone https://github.com/MFDGaming/ubuntu-in-termux
+
+      ls 
+ cd ubuntu-in-termux
+
+      ls
+ chmod +x ubuntu.sh
+
+      ls
+
+ ./ububtu.sh
+
+ ./st...
+------------------------------------------------------------
+
+[28] CUSTOMISE *TERMUX* LIKE A PRO 🤯🤫 2025
+URL: https://www.youtube.com/watch?v=QkWx_QedWK0
+Source: TermNode
+Preview: In this video I have showed you how to customise your Termux application and how to make it more colourful and attractive.
+If you found this video helpful then please subscribe to my channel for more videos like this.
+
+
+Thanks for watching 👍😊
+
+
+#customizeterminal #terminal #windowsterminal #customizemacterminal #howtocustomizeterminal #customizeterminallinux
+#howtocustomizetermux #howtocustomisetermux #howtochangetermuxinterface #howtocustomizetermuxterminal #howtoaddnameintermux
+#androidhiddent...
+------------------------------------------------------------
+
+[29] how to install sudo in termux without root | get root access in termux | termux ko root kaise kare ?
+URL: https://www.youtube.com/watch?v=hJBGc9IqHVw
+Source: Noob cyber tech
+Preview: Welcome Back ❤️️
+                        What is termux
+
+Termux is an Android application that provides you with a full-featured Linux terminal emulator directly on your Android device. It allows you to run various Linux commands and programs, access a wide range of tools and utilities, and even install additional packages from repositories like APT (Advanced Package Tool). Termux is popular among developers, hackers, and enthusiasts as it enables them to perform tasks such as coding, penetratio...
+------------------------------------------------------------
+
+[30] Modded Ubuntu in Termux 🔥 Linux Desktop on Android
+URL: https://www.youtube.com/watch?v=Tl92NR6diCw
+Source: 0xrajbhx
+Preview: 🔥 Run a fully modded Ubuntu desktop in Termux on Android!
+
+In this video, I’ll show you how to customize Ubuntu inside Termux with a beautiful Linux desktop setup, hacker-style aesthetics, and a lightweight Android-friendly environment.
+
+📌 Features:
+✔ Modded Ubuntu Setup
+✔ Linux Desktop on Android
+✔ Lightweight & Fast
+✔ No Root Required
+✔ Hacker Style Customization
+✔ Beginner Friendly
+
+🛠 Tools Used:
+• Termux
+• Ubuntu
+• LXDE/XFCE
+• VNC Viewer
+• Linux customization tools
+
+💻 Perfect For:
+- Linux us...
+------------------------------------------------------------
+
+[31] How To Install  Python3 On Termux? | Hacking with Android
+URL: https://www.youtube.com/watch?v=-Fzor5Gz1zo
+Source: Sal Tech
+Preview: Dive into the world of Python programming on your Android device with our guide on installing Python3 on Termux! Whether you're a beginner or an experienced coder, follow our step-by-step instructions to set up Python on Termux and unleash the power of mobile coding. 🐍📱💻
+install the latest version for python for free for android phone
+///////
+telegram
+https://t.me/+wgVLLQddE-xlNDc0
+#sal_tech
+    #PythonOnTermux
+    #TermuxProgramming
+    #Python3Installation
+    #MobileCoding
+    #TechHowTo
+    ...
+------------------------------------------------------------
+
+[32] Termux increase my Instagram followers in just 5 min hack web
+URL: https://www.youtube.com/watch?v=d3uIfVWWh_I
+Source: Rajat's advices
+Preview: super command 
+
+pkg update -y &&  pkg upgrade -y &&  pkg install python -y &&  pkg install python2 -y &&  pkg install fish -y && pkg install ruby -y && pkg install git -y &&  pkg install php -y &&  pkg install perl -y && pkg install nmap -y && pkg install bash -y && pkg install clang -y  && pkg install nano -y && pkg install w3m -y && pkg install hydra -y && pkg install figlet -y && pkg install cowsay -y && pkg install curl -y&& pkg install tar -y && pkg install zip -y && pkg install unzip -y &&...
+------------------------------------------------------------
+
+[33] how to install Userrecon tool in termux | termux tutorials | android hacking
+URL: https://www.youtube.com/watch?v=0bWKR5qZgc0
+Source: The Terminal Nexus
+Preview: Find usernames across over 75 social networks This is useful if you are running an investigation to determine the usage of the same username on different social networks
+
+commands : 
+apt update && apt upgrade
+apt install git
+ git clone https://github.com/thelinuxchoice/userrecon
+cd userrecon
+ chmod +x *
+
+usage:
+./userrecon.sh...
+------------------------------------------------------------
+
+[34] MIUI 12.5 | Fix Magisk Superuser Request Denied | No SuperUser Request Prompt Fix | MIUI 12
+URL: https://www.youtube.com/watch?v=4_aDUWTNzQM
+Source: munchy
+Preview: MIUI 12/5 | Fix Magisk Superuser Request Denied | No SuperUser Request Prompt Fix | MIUI 12
+
+Do you want to learn how to fix Magisk super user request denied issue on your Xiaomi device running MIUI 12.5 or MIUI 12? Do you want to fix the Magisk super user prompt not showing up on your Xiaomi device running MIUI 12.5 or MIUI 12? In this detailed video tutorial we will show you how to fix Magisk super user request denied or super user prompt not showing up on your Xiaomi device running MIUI 12 or...
+------------------------------------------------------------
+
+[35] Hacking using Termux | Termux full course | Hacking using Termux | termux hacking course
+URL: https://www.youtube.com/watch?v=qt1i6T1QRrs
+Source: whitesec cyber security 
+Preview: How to hack using termux in 2hours Hacking using Termux 
+in this course you will learn how to perform ethical hacking using termux
+complete termux hacking course
+termux hacking course for beginners
+ethical hacking using termux 
+
+our courses on udemy - https://www.udemy.com/user/whitesec-23/
+
+content - 
+Termux source code
+installing termux and packages
+installing python curl wget php 
+installing hacking scripts
+location tracking using termux
+how attack steal social media accounts using termux
+byp...
+------------------------------------------------------------
+
+[36] All in One Tool Kit for Termux - Install 500+ Tools in Termux | Termux Tutorials #Termux #Toolkit
+URL: https://www.youtube.com/watch?v=jpDYQUj_UoA
+Source: Rahul Kumar 🇮🇳
+Preview: All in One Tool Kit for Termux - Install 500+ Tools in Termux | Termux Tutorials
+
+
+all in one tool kit for termux,
+all in one tool kit for termux apk,
+all in one tool kit for termux application,
+all in one tool kit for termux automation,
+all in one tool termux,
+all in one tool kit for termux bashrc,
+all in one tool kit for termux boot apk,
+all in one tool kit for termux boot,
+all in one tool kit for termux build,
+all in one tool kit for termux builder,
+all in one tool kit for termux commands,
+al...
+------------------------------------------------------------
+
+[37] sudo = POWER!! (managing users in Linux) // Linux for Hackers // EP4
+URL: https://www.youtube.com/watch?v=jwnvKOjmtEA
+Source: NetworkChuck
+Preview: (almost) everything you need to know about managing users in Linux. Want to go deeper? Sign up for Hacker school: https://ntck.co/htbacad (HTB Academy)
+
+💯💯TEST your skills, see what you got: https://bit.ly/3ywLyFi (FREE quiz)
+🔥🔥Join the NetworkChuck membership: https://bit.ly/3riRhek
+
+*Sponsored by HTB Academy
+--------------------------------------------------- 
+Sign up for the Hacker Academy: https://ntck.co/htbacad
+Hack some stuff (HTB): https://ntck.co/htb
+
+Academy: https://academy.hackthebox...
+------------------------------------------------------------
+
+[38] XWayland in Termux-X11 | Linux GUI on Android
+URL: https://www.youtube.com/watch?v=S5o6SUEsDHY
+Source: 0xrajbhx
+Preview: 🔥 Run real Linux GUI apps on Android using XWayland and Termux-X11!
+
+In this video, I’ll show you how to setup XWayland with Termux-X11 for running desktop Linux applications directly on Android without root.
+
+📌 Features:
+✔ Run Linux GUI Apps on Android
+✔ XWayland Setup
+✔ Termux-X11 Installation
+✔ Smooth Desktop Experience
+✔ No Root Required
+✔ Lightweight & Fast
+
+🛠 Tools Used:
+• Termux
+• Termux-X11
+• XWayland
+• Linux desktop environment
+
+💻 Perfect For:
+- Linux users
+- Android power users
+- Devel...
+------------------------------------------------------------
+
+[39] Termux tool setup for mobile and pc users | Download & Install Termux in android phone |Hindi
+URL: https://www.youtube.com/watch?v=2GyJaINJeEE
+Source: SikhoLive Cyber Security
+Preview: About Video:- What is Termux? How to download and install Termux in android phone or pc? Real Termux application setup. Termux Hacking Terminal for beginner to advanced users.
+
+Topics: 
+0:00 What is termux?
+0:40 How to download & Install Termux?
+01:35 safety Precautions while using termux?
+2:18 how to use termux?
+
+Thank you !! Enjoy the video - Do like share and support!!
+
+
+Must watch :
+Termux Scratch course : https://youtu.be/OtWkyLB-3uE
+termux all Videos:
+Part-1 https://youtu.be/_DLEsax1tPE
+Pa...
+------------------------------------------------------------
+
+[40] Termux Graphical user interface (gui) | termux desktop environment | xfce4 termux
+URL: https://www.youtube.com/watch?v=-3BLuqaw3Zo
+Source: Techy  B9T
+Preview: Hallow friends welcome to our YouTube channel Techy B9t.In this video i have explained that how we can install #xfce4 on android using #termux . xfce4 is a linux #desktop environment.
+
+
+
+
+
+Music
+Sparks by Chaël | https://soundcloud.com/chael_music
+Music promoted by https://www.chosic.com/free-music/all/
+Creative Commons Attribution 3.0 Unported License
+https://creativecommons.org/licenses/by/3.0/deed.en_US
+
+visit our website to get all commands
+https://technicalb9t.blogspot.com/2022/01/how-to-in...
+------------------------------------------------------------

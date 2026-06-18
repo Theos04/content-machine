@@ -1,0 +1,1122 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-06-13">
+    <creator>NetworkX 3.6.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="type" type="string" />
+      <attribute id="1" title="collector" type="string" />
+      <attribute id="2" title="url" type="string" />
+    </attributes>
+    <nodes>
+      <node id="Detection and characterisation of binary asteroid " label="Detection and characterisation of binary asteroid ">
+        <attvalues>
+          <attvalue for="0" value="source" />
+          <attvalue for="1" value="arxiv" />
+          <attvalue for="2" value="http://arxiv.org/abs/2606.13353v1" />
+        </attvalues>
+      </node>
+      <node id="they" label="they">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="indications" label="indications">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="positives" label="positives">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="work" label="work">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="poorly" label="poorly">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="Split Tallies: A Discrete Certificate Calculus for" label="Split Tallies: A Discrete Certificate Calculus for">
+        <attvalues>
+          <attvalue for="0" value="source" />
+          <attvalue for="1" value="arxiv" />
+          <attvalue for="2" value="http://arxiv.org/abs/2606.13272v1" />
+        </attvalues>
+      </node>
+      <node id="words" label="words">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="semantics" label="semantics">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="predecessor" label="predecessor">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="wrong" label="wrong">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="require" label="require">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="MÖVE: A Holistic LLM Benchmark for the German Publ" label="MÖVE: A Holistic LLM Benchmark for the German Publ">
+        <attvalues>
+          <attvalue for="0" value="source" />
+          <attvalue for="1" value="arxiv" />
+          <attvalue for="2" value="http://arxiv.org/abs/2606.13111v1" />
+        </attvalues>
+      </node>
+      <node id="administration" label="administration">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="summarization" label="summarization">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="sensitivity" label="sensitivity">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="metric" label="metric">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="Generating Training Targets for Real-World Speech " label="Generating Training Targets for Real-World Speech ">
+        <attvalues>
+          <attvalue for="0" value="source" />
+          <attvalue for="1" value="arxiv" />
+          <attvalue for="2" value="http://arxiv.org/abs/2606.13109v1" />
+        </attvalues>
+      </node>
+      <node id="enhancement" label="enhancement">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="source" label="source">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="such" label="such">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="capturing" label="capturing">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="input" label="input">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="Observation of the decays $B^{+} \to Σ_{c}(2455)^{" label="Observation of the decays $B^{+} \to Σ_{c}(2455)^{">
+        <attvalues>
+          <attvalue for="0" value="source" />
+          <attvalue for="1" value="arxiv" />
+          <attvalue for="2" value="http://arxiv.org/abs/2606.12905v1" />
+        </attvalues>
+      </node>
+      <node id="measured" label="measured">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="including" label="including">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="states" label="states">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="samples" label="samples">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="data" label="data">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="Feedback in Extragalactic Star Clusters (FEAST): S" label="Feedback in Extragalactic Star Clusters (FEAST): S">
+        <attvalues>
+          <attvalue for="0" value="source" />
+          <attvalue for="1" value="arxiv" />
+          <attvalue for="2" value="http://arxiv.org/abs/2606.13391v1" />
+        </attvalues>
+      </node>
+      <node id="attenuation" label="attenuation">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="hydrocarbon" label="hydrocarbon">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="ratio" label="ratio">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="polycyclic" label="polycyclic">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="fractional" label="fractional">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="Can I Buy Your KV Cache?" label="Can I Buy Your KV Cache?">
+        <attvalues>
+          <attvalue for="0" value="source" />
+          <attvalue for="1" value="arxiv" />
+          <attvalue for="2" value="http://arxiv.org/abs/2606.13361v1" />
+        </attvalues>
+      </node>
+      <node id="right" label="right">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="discount" label="discount">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="shipping" label="shipping">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="India news: Cockroaches overtake Modi's BJP on Ins" label="India news: Cockroaches overtake Modi's BJP on Ins">
+        <attvalues>
+          <attvalue for="0" value="source" />
+          <attvalue for="1" value="news" />
+          <attvalue for="2" value="https://news.google.com/rss/articles/CBMilAFBVV95cUxORDFhdmNNRmxFVHY2T3BZY2FDeEpRT2RoT2FUVGJGQ2thNnBuNVFnVnFTOVA1dWFhbEVoNEYxRmVYb2pUX2tfVFVpUVRZZUJEUXJIVXl1MlVrY3podXdYMWp0S09UamdzMkx0VGs5anBGUG9kVnBISk0xQk9pTl9abTdSSEZYdTVfT3FkRjBnVF84VU1l?oc=5" />
+        </attvalues>
+      </node>
+      <node id="modi" label="modi">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="nbsp" label="nbsp">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="cockroaches" label="cockroaches">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="color" label="color">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="google" label="google">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="Cockroach Janta Party’s rise reflects people’s fru" label="Cockroach Janta Party’s rise reflects people’s fru">
+        <attvalues>
+          <attvalue for="0" value="source" />
+          <attvalue for="1" value="news" />
+          <attvalue for="2" value="https://news.google.com/rss/articles/CBMizwFBVV95cUxPMjhFdlU1TFJxcHdwZUg5ZFpyTndDNkNlOUhKYnp5TldDRUdJc0pkN1dXVlZHS3RBYjlGWnhnTjA2alBtdlZPRWR6cFRJc2FEdFFPd1Zwakl3ZzR5ZTVueXJKVXBNMXlEVEJ5Zndma2cwTzVuU0NxNXByZDBTNHhubWEyUS0tckhVZWstOFR4VkJTUkNBb0UxaktpZ3ZJVlhZanQ5N2x0cWZMallrdGZmYVJaU3J6RmZBRjFrdGpMemkza1V4bi0tZXEyLUxsYmfSAdYBQVVfeXFMT3hYcVdoLU1CT2ZaTXVEeFBxaFhqcW5FWVRoekpMcDB3azlCWGpJZHFQLW9ORnBCTU9zU2xyckw1VUoyNUhYY25QZnFjNlhpdllwVHA1WlVIdEhweEJTT0dqcXBLZHJndVFLVGJ6RUZ2YldBZU1rcFRGc1JVdHBrSDdrVXRxNEpJNGdaYzI3VU1OY20xTnRNSk40b3hyQVNsV0pSRzRxejBUTDJ2UGpLbklUbnNYMVFRT1hDSmZVYW5iVFhESWRKZWdFaXBoTFdkdE9hdkJLdw?oc=5" />
+        </attvalues>
+      </node>
+      <node id="hindu" label="hindu">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="hooda" label="hooda">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="people" label="people">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="Rajnath Singh - Britannica" label="Rajnath Singh - Britannica">
+        <attvalues>
+          <attvalue for="0" value="source" />
+          <attvalue for="1" value="news" />
+          <attvalue for="2" value="https://news.google.com/rss/articles/CBMiX0FVX3lxTE9OUmdTR2xfdVZCTFkyZjhBRVJyUmE2VUJJWFZTT0JBNERoeDh3dkwwUkUzOUg5OGl5WWRLSDRVd0RqOHhTQUx2ckdMeDBJZEtQLXlxXy14bzdyTmtReUVz?oc=5" />
+        </attvalues>
+      </node>
+      <node id="singh" label="singh">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="news" label="news">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="Modi's party takes control of India's West Bengal " label="Modi's party takes control of India's West Bengal ">
+        <attvalues>
+          <attvalue for="0" value="source" />
+          <attvalue for="1" value="news" />
+          <attvalue for="2" value="https://news.google.com/rss/articles/CBMisgFBVV95cUxOMUFNanZHR1hYN1BpNmx5MnlxVlF5cnFpYmloNG9iSWlaaHZycFJ6eVZEOWhXVzBBWkZmaHdoN0R1NkswZjRFU2RWZm5acjdfaDliblgtQ3BrbU9NbHhPTmJDMDhKVG95WG04V0NrbnhxeVBlQjlfVENydHJJcmNmc1V2MXIyN280Q0pZZngtVmE0cno2dm5xdGk5NmNPSHE4ZnRTLUo2UHAyZUpSOWFDRXF3?oc=5" />
+        </attvalues>
+      </node>
+      <node id="west" label="west">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="Can the Cockroach party contest Indian elections?:" label="Can the Cockroach party contest Indian elections?:">
+        <attvalues>
+          <attvalue for="0" value="source" />
+          <attvalue for="1" value="news" />
+          <attvalue for="2" value="https://news.google.com/rss/articles/CBMizgFBVV95cUxON3VSeFl3S09xNDc1bU5maHdRQUc1eUdkMVJjcnFXbThWcGpFazBsY1g0blJaelNETFVFOGttWmx6M1VDb04zLWNucEh4cjZ4cGJ6QUFhRkZTOTBaNm9WN2E3OWdqMjQyWE1UdGJHRl9oX0E0MVFmZm0wUTRCWFctaWxaQVZHZDBNTkN0OFFJalp4QkYtcVlqbEpYcjE0WC1wQTJ4a3BHLTB6a0pKRE9odU9fMWpYZUR1Z2phb3J6YmZBZV9ZeGQ4QVlrZHBod9IB0wFBVV95cUxPamd2RlJlX0JzczB3X2ZDNEhNS3VZTDJvemRUYk4tZDFhQ25XbGNLcUxZYVpWQ0xnRWxhODg0SG9kbHFNNERuMjR0X3pwcElSUHlsVEphVEtWdFFIU0NNdC0yYmJuZGNoTzFXalI0SmRUSEEwbTdGYUNCOG44c1lBTEozc1h6R0VrZ2dZZU5welNpVThrd3phV2JDeXBOTDY4dWlJNmwwNDZZSzlEcHBmQm1mZTc1bGhUVzVuZ3lnYlR3eEFhUXhVdTJLSXU3cnNMYVk0?oc=5" />
+        </attvalues>
+      </node>
+      <node id="virality" label="virality">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="href" label="href">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="support" label="support">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="Cockroach Janta Party &gt;&gt;&gt; Bharatiya Janata Party. " label="Cockroach Janta Party &gt;&gt;&gt; Bharatiya Janata Party. ">
+        <attvalues>
+          <attvalue for="0" value="source" />
+          <attvalue for="1" value="news" />
+          <attvalue for="2" value="https://news.google.com/rss/articles/CBMi2AFBVV95cUxOZFNHVmt4aGVURzRzVzR1SmVXY3Jlbmh0NjBPVE5CYlBnSEV6YXduUWxuVmNYd1NOZWVHUm1YZnMtTzRhdHV3REQzR3hCSUc0cFBrZlpOek44TWFKSkZ0Y2U1WTc2Q2tVU0RlMEF2S3g3XzViZnlGRGFWaVJVQUtTSlZuQ3VOVFNHd29taDczak43b0daX2RfaThaZF9JVXZLZzMzZTgyQ0lIS1AzWHprZjc2NEloVnZ1aU9LNXVlN1pCYUpvUC1yREhPT3ZFc2U3MlVqdmRmQm0?oc=5" />
+        </attvalues>
+      </node>
+      <node id="janata" label="janata">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="least" label="least">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="bharatiya" label="bharatiya">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="‘Hegemonic power’: How Modi’s BJP won India’s Beng" label="‘Hegemonic power’: How Modi’s BJP won India’s Beng">
+        <attvalues>
+          <attvalue for="0" value="source" />
+          <attvalue for="1" value="news" />
+          <attvalue for="2" value="https://news.google.com/rss/articles/CBMirwFBVV95cUxPRVRkTFY3b2dUSldkaDltZDJyS013MjlkUnVzZWhhd29CTUhEVmR2cERXMkR5VXBvSmd2Z1dINGJKZXZEM2FVTGo5a05IUkdaQ1VTRE1KdFVOVTFRT01rLUprelhiTmV1R210ZjdRREhDOGNfOW1wVVZrZDQxRGF1eG9UVFVBaHMxczRxUWMzV2xfV2FIQmY1d0lOSk9DNW5DX2h2N2oxQ3UxeG4taW1J0gG0AUFVX3lxTE1hTzFxYzQycWROdkp5ZVprbGJHMEVtU29hRWpLUzQ2ZVFrek5UR1B3ZUFVSURRUmpQTjlrU3RWa1d0TFN2Ul9mS215YU1WTkVlMlE1cmhCNHl0OFZPNnVPb1c2TnlOUW9UMXRlbGVJZmNqVWJ6aGxhb0lBUTlMUGJSOERfMms0NUhfZkZCeTVzU3ZoQmVnNWFTYXREb1pVN3o3Q2R0bkx0UGk0SW5UelBQSGRCbA?oc=5" />
+        </attvalues>
+      </node>
+      <node id="time" label="time">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="power" label="power">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="Ex-CMs Amarinder, Bahuguna, Reddy—how many Congres" label="Ex-CMs Amarinder, Bahuguna, Reddy—how many Congres">
+        <attvalues>
+          <attvalue for="0" value="source" />
+          <attvalue for="1" value="news" />
+          <attvalue for="2" value="https://news.google.com/rss/articles/CBMi0AFBVV95cUxPVjVNdXd6NWtQeFdoQ0p6Mi1XT042U2FtWGtReUpSc21QNlRRZk95UHpTRzFoRGRTWXVqOVhza1ZiMks4U005SjBrRXoxY3lHWmRqMzdVejY4ckVtcDFoeGxZcFBtSzZLS3gzZmlWbXpqVEg0ZWhSRW5KZ01DbExiZFUzSWtXempjQ3Jia1hTTzlvS245QUJiZDhHaWllUTcyYTdUZ014cV9uTy1DaGNaVGc1Zy1lZV94SmVtS04yaU1wWHUxV2hRaHdOcVk4YkRX0gHWAUFVX3lxTFBCQm9WWEppZVZuUzFZNmJhSC11b3dfN2IzRkRzMUpiekVkcmNqajhWZmg2ejBkbWZGUzU4Wm9LenRyY0JRZmtLdFZVeExGcUNDN1NPNTQxSVBqdnBlZDRwMjh2a2k3eE5QODZMWi1FM2Z2X1hfSDRxdzE1cndCS0plc05NTERvTzdBY2FMenRGY2JJS1FJMTdzdnpXck1PbEtzNUZCbFU4N2d2Rm5md3AyaWpyLTlFbUxPQi1TWlk2N2NoWXM5aWZRU0p3WDZfaEU3Q1NQZnc?oc=5" />
+        </attvalues>
+      </node>
+      <node id="bahuguna" label="bahuguna">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="many" label="many">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="congress" label="congress">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="have" label="have">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="West Bengal: Modi's BJP conquers one of India's to" label="West Bengal: Modi's BJP conquers one of India's to">
+        <attvalues>
+          <attvalue for="0" value="source" />
+          <attvalue for="1" value="news" />
+          <attvalue for="2" value="https://news.google.com/rss/articles/CBMiWkFVX3lxTFBFM1hCRUpNeFJYcUxkeTAzaDBiM09SRGhxMWN1cWxKUkgtSDM2V1pFRXBFOGcwVW5ISlVqUldTY3M5cjZnUXdvY09zWjlxNGlvektOTEdwWWJyZw?oc=5" />
+        </attvalues>
+      </node>
+      <node id="conquers" label="conquers">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="First Measurement of Sub-GeV $ν_μ$ Charged-Current" label="First Measurement of Sub-GeV $ν_μ$ Charged-Current">
+        <attvalues>
+          <attvalue for="0" value="source" />
+          <attvalue for="1" value="arxiv" />
+          <attvalue for="2" value="http://arxiv.org/abs/2606.13613v1" />
+        </attvalues>
+      </node>
+      <node id="nuclear" label="nuclear">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="constraining" label="constraining">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="neutrino" label="neutrino">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="Adaptive Turn-Taking for Real-time Multi-Party Voi" label="Adaptive Turn-Taking for Real-time Multi-Party Voi">
+        <attvalues>
+          <attvalue for="0" value="source" />
+          <attvalue for="1" value="arxiv" />
+          <attvalue for="2" value="http://arxiv.org/abs/2606.13544v1" />
+        </attvalues>
+      </node>
+      <node id="improved" label="improved">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="expectations" label="expectations">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="voice" label="voice">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="model" label="model">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="floor" label="floor">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="Observation of Non-Gaussian Magnon Dynamics in a T" label="Observation of Non-Gaussian Magnon Dynamics in a T">
+        <attvalues>
+          <attvalue for="0" value="source" />
+          <attvalue for="1" value="arxiv" />
+          <attvalue for="2" value="http://arxiv.org/abs/2606.13499v1" />
+        </attvalues>
+      </node>
+      <node id="miscalibration" label="miscalibration">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="different" label="different">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="magnon" label="magnon">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="evolution" label="evolution">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="dimensional" label="dimensional">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="Shivraj Singh Chouhan" label="Shivraj Singh Chouhan">
+        <attvalues>
+          <attvalue for="0" value="source" />
+          <attvalue for="1" value="wikipedia" />
+          <attvalue for="2" value="https://en.wikipedia.org/wiki/Shivraj_Singh_Chouhan" />
+        </attvalues>
+      </node>
+      <node id="development" label="development">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="indian" label="indian">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="assembly" label="assembly">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="committee" label="committee">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="hindi" label="hindi">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="1997 Brihanmumbai Municipal Corporation election" label="1997 Brihanmumbai Municipal Corporation election">
+        <attvalues>
+          <attvalue for="0" value="source" />
+          <attvalue for="1" value="wikipedia" />
+          <attvalue for="2" value="https://en.wikipedia.org/wiki/1997_Brihanmumbai_Municipal_Corporation_election" />
+        </attvalues>
+      </node>
+      <node id="corporation" label="corporation">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="bhartiya" label="bhartiya">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="parties" label="parties">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="janta" label="janta">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="Bhartiya Janta Party" label="Bhartiya Janta Party">
+        <attvalues>
+          <attvalue for="0" value="source" />
+          <attvalue for="1" value="reddit" />
+          <attvalue for="2" value="https://www.reddit.com/r/BJP2019/" />
+        </attvalues>
+      </node>
+      <node id="link" label="link">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="club" label="club">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="reddit" label="reddit">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="Shit BJP or its Ministers say in public space" label="Shit BJP or its Ministers say in public space">
+        <attvalues>
+          <attvalue for="0" value="source" />
+          <attvalue for="1" value="reddit" />
+          <attvalue for="2" value="https://www.reddit.com/r/shitbjpsays/" />
+        </attvalues>
+      </node>
+      <node id="shit" label="shit">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="space" label="space">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="shitbjpsays" label="shitbjpsays">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="BJP: Bharatiya Janata Party" label="BJP: Bharatiya Janata Party">
+        <attvalues>
+          <attvalue for="0" value="source" />
+          <attvalue for="1" value="reddit" />
+          <attvalue for="2" value="https://www.reddit.com/r/BharatiyaJanataParty/" />
+        </attvalues>
+      </node>
+      <node id="subreddit" label="subreddit">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="👋Welcome to r/BhartiyaJantaPartyBJP - Introduce Yo" label="👋Welcome to r/BhartiyaJantaPartyBJP - Introduce Yo">
+        <attvalues>
+          <attvalue for="0" value="source" />
+          <attvalue for="1" value="reddit" />
+          <attvalue for="2" value="https://www.reddit.com/r/BhartiyaJantaPartyBJP/comments/1tjkt19/welcome_to_rbhartiyajantapartybjp_introduce/" />
+        </attvalues>
+      </node>
+      <node id="user" label="user">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="submitted" label="submitted">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="comments" label="comments">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="cockroachjantaparty" label="cockroachjantaparty">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="simple" label="simple">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="things" label="things">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="helping" label="helping">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="excited" label="excited">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="looking" label="looking">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="Advantages and Disadvantages of Social Media" label="Advantages and Disadvantages of Social Media">
+        <attvalues>
+          <attvalue for="0" value="source" />
+          <attvalue for="1" value="reddit" />
+          <attvalue for="2" value="https://www.reddit.com/r/TheSEOGuy/comments/1q3px2k/advantages_and_disadvantages_of_social_media/" />
+        </attvalues>
+      </node>
+      <node id="skills" label="skills">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="webp" label="webp">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="scrolling" label="scrolling">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="Reality of cockroach janta party!" label="Reality of cockroach janta party!">
+        <attvalues>
+          <attvalue for="0" value="source" />
+          <attvalue for="1" value="reddit" />
+          <attvalue for="2" value="https://www.reddit.com/r/indiadiscussion/comments/1tlk0xf/reality_of_cockroach_janta_party/" />
+        </attvalues>
+      </node>
+      <node id="Living In The Monopoly Of Violence - Now Is No Tim" label="Living In The Monopoly Of Violence - Now Is No Tim">
+        <attvalues>
+          <attvalue for="0" value="source" />
+          <attvalue for="1" value="reddit" />
+          <attvalue for="2" value="https://www.reddit.com/r/IndianSocialists/comments/1nrqe19/living_in_the_monopoly_of_violence_now_is_no_time/" />
+        </attvalues>
+      </node>
+      <node id="anywhere" label="anywhere">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="lotus" label="lotus">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="Cockroach Janta Party (CJP): How Abhijeet Dipke's " label="Cockroach Janta Party (CJP): How Abhijeet Dipke's ">
+        <attvalues>
+          <attvalue for="0" value="source" />
+          <attvalue for="1" value="news" />
+          <attvalue for="2" value="https://news.google.com/rss/articles/CBMiWkFVX3lxTE9Lc0Q0bU44S1NCUEdodXF2enMwVDlsLUlrV08tTFJ1TUppNGFWNlhFV1VtQlpMRndaNEo4TXdJRUsza0lGYjRLcmJhZkswbTlxRjBUbW9MZy0tZw?oc=5" />
+        </attvalues>
+      </node>
+      <node id="dipke" label="dipke">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="became" label="became">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="Bharatiya Janata Party" label="Bharatiya Janata Party">
+        <attvalues>
+          <attvalue for="0" value="source" />
+          <attvalue for="1" value="wikipedia" />
+          <attvalue for="2" value="https://en.wikipedia.org/wiki/Bharatiya_Janata_Party" />
+        </attvalues>
+      </node>
+      <node id="organisational" label="organisational">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="sangh" label="sangh">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="left" label="left">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="terms" label="terms">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="2017 Uttar Pradesh Legislative Assembly election" label="2017 Uttar Pradesh Legislative Assembly election">
+        <attvalues>
+          <attvalue for="0" value="source" />
+          <attvalue for="1" value="wikipedia" />
+          <attvalue for="2" value="https://en.wikipedia.org/wiki/2017_Uttar_Pradesh_Legislative_Assembly_election" />
+        </attvalues>
+      </node>
+      <node id="contested" label="contested">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="part" label="part">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="leadership" label="leadership">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="mostly" label="mostly">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="Aazad Samaj Party (Kanshi Ram)" label="Aazad Samaj Party (Kanshi Ram)">
+        <attvalues>
+          <attvalue for="0" value="source" />
+          <attvalue for="1" value="wikipedia" />
+          <attvalue for="2" value="https://en.wikipedia.org/wiki/Aazad_Samaj_Party_(Kanshi_Ram)" />
+        </attvalues>
+      </node>
+      <node id="azad" label="azad">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="abbr" label="abbr">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="known" label="known">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="pradesh" label="pradesh">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="aazad" label="aazad">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="Bharatiya Janata Yuva Morcha" label="Bharatiya Janata Yuva Morcha">
+        <attvalues>
+          <attvalue for="0" value="source" />
+          <attvalue for="1" value="wikipedia" />
+          <attvalue for="2" value="https://en.wikipedia.org/wiki/Bharatiya_Janata_Yuva_Morcha" />
+        </attvalues>
+      </node>
+      <node id="dissolved" label="dissolved">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="political" label="political">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="Bharatiya Janata Party – Gujarat" label="Bharatiya Janata Party – Gujarat">
+        <attvalues>
+          <attvalue for="0" value="source" />
+          <attvalue for="1" value="wikipedia" />
+          <attvalue for="2" value="https://en.wikipedia.org/wiki/Bharatiya_Janata_Party_–_Gujarat" />
+        </attvalues>
+      </node>
+      <node id="bhupendrabhai" label="bhupendrabhai">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="gandhinagar" label="gandhinagar">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="serves" label="serves">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="vishwakarma" label="vishwakarma">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="Vijay Jolly" label="Vijay Jolly">
+        <attvalues>
+          <attvalue for="0" value="source" />
+          <attvalue for="1" value="wikipedia" />
+          <attvalue for="2" value="https://en.wikipedia.org/wiki/Vijay_Jolly" />
+        </attvalues>
+      </node>
+      <node id="tripura" label="tripura">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="cell" label="cell">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="born" label="born">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="jolly" label="jolly">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="Apna Dal (Soneylal)" label="Apna Dal (Soneylal)">
+        <attvalues>
+          <attvalue for="0" value="source" />
+          <attvalue for="1" value="wikipedia" />
+          <attvalue for="2" value="https://en.wikipedia.org/wiki/Apna_Dal_(Soneylal)" />
+        </attvalues>
+      </node>
+      <node id="apna" label="apna">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="number" label="number">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="anupriya" label="anupriya">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="level" label="level">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="Sushil Singh" label="Sushil Singh">
+        <attvalues>
+          <attvalue for="0" value="source" />
+          <attvalue for="1" value="wikipedia" />
+          <attvalue for="2" value="https://en.wikipedia.org/wiki/Sushil_Singh" />
+        </attvalues>
+      </node>
+      <node id="chandauli" label="chandauli">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="represents" label="represents">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+      <node id="member" label="member">
+        <attvalues>
+          <attvalue for="0" value="keyword" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Detection and characterisation of binary asteroid " target="they" id="0" weight="1" />
+      <edge source="Detection and characterisation of binary asteroid " target="indications" id="1" weight="1" />
+      <edge source="Detection and characterisation of binary asteroid " target="positives" id="2" weight="1" />
+      <edge source="Detection and characterisation of binary asteroid " target="work" id="3" weight="1" />
+      <edge source="Detection and characterisation of binary asteroid " target="poorly" id="4" weight="1" />
+      <edge source="they" target="MÖVE: A Holistic LLM Benchmark for the German Publ" id="5" weight="1" />
+      <edge source="they" target="Can I Buy Your KV Cache?" id="6" weight="1" />
+      <edge source="they" target="Living In The Monopoly Of Violence - Now Is No Tim" id="7" weight="1" />
+      <edge source="Split Tallies: A Discrete Certificate Calculus for" target="words" id="8" weight="1" />
+      <edge source="Split Tallies: A Discrete Certificate Calculus for" target="semantics" id="9" weight="1" />
+      <edge source="Split Tallies: A Discrete Certificate Calculus for" target="predecessor" id="10" weight="1" />
+      <edge source="Split Tallies: A Discrete Certificate Calculus for" target="wrong" id="11" weight="1" />
+      <edge source="Split Tallies: A Discrete Certificate Calculus for" target="require" id="12" weight="1" />
+      <edge source="MÖVE: A Holistic LLM Benchmark for the German Publ" target="administration" id="13" weight="1" />
+      <edge source="MÖVE: A Holistic LLM Benchmark for the German Publ" target="summarization" id="14" weight="1" />
+      <edge source="MÖVE: A Holistic LLM Benchmark for the German Publ" target="sensitivity" id="15" weight="1" />
+      <edge source="MÖVE: A Holistic LLM Benchmark for the German Publ" target="metric" id="16" weight="1" />
+      <edge source="Generating Training Targets for Real-World Speech " target="enhancement" id="17" weight="1" />
+      <edge source="Generating Training Targets for Real-World Speech " target="source" id="18" weight="1" />
+      <edge source="Generating Training Targets for Real-World Speech " target="such" id="19" weight="1" />
+      <edge source="Generating Training Targets for Real-World Speech " target="capturing" id="20" weight="1" />
+      <edge source="Generating Training Targets for Real-World Speech " target="input" id="21" weight="1" />
+      <edge source="Observation of the decays $B^{+} \to Σ_{c}(2455)^{" target="measured" id="22" weight="1" />
+      <edge source="Observation of the decays $B^{+} \to Σ_{c}(2455)^{" target="including" id="23" weight="1" />
+      <edge source="Observation of the decays $B^{+} \to Σ_{c}(2455)^{" target="states" id="24" weight="1" />
+      <edge source="Observation of the decays $B^{+} \to Σ_{c}(2455)^{" target="samples" id="25" weight="1" />
+      <edge source="Observation of the decays $B^{+} \to Σ_{c}(2455)^{" target="data" id="26" weight="1" />
+      <edge source="measured" target="Can I Buy Your KV Cache?" id="27" weight="1" />
+      <edge source="measured" target="First Measurement of Sub-GeV $ν_μ$ Charged-Current" id="28" weight="1" />
+      <edge source="data" target="First Measurement of Sub-GeV $ν_μ$ Charged-Current" id="29" weight="1" />
+      <edge source="Feedback in Extragalactic Star Clusters (FEAST): S" target="attenuation" id="30" weight="1" />
+      <edge source="Feedback in Extragalactic Star Clusters (FEAST): S" target="hydrocarbon" id="31" weight="1" />
+      <edge source="Feedback in Extragalactic Star Clusters (FEAST): S" target="ratio" id="32" weight="1" />
+      <edge source="Feedback in Extragalactic Star Clusters (FEAST): S" target="polycyclic" id="33" weight="1" />
+      <edge source="Feedback in Extragalactic Star Clusters (FEAST): S" target="fractional" id="34" weight="1" />
+      <edge source="Can I Buy Your KV Cache?" target="right" id="35" weight="1" />
+      <edge source="Can I Buy Your KV Cache?" target="discount" id="36" weight="1" />
+      <edge source="Can I Buy Your KV Cache?" target="shipping" id="37" weight="1" />
+      <edge source="right" target="Living In The Monopoly Of Violence - Now Is No Tim" id="38" weight="1" />
+      <edge source="India news: Cockroaches overtake Modi's BJP on Ins" target="modi" id="39" weight="1" />
+      <edge source="India news: Cockroaches overtake Modi's BJP on Ins" target="nbsp" id="40" weight="1" />
+      <edge source="India news: Cockroaches overtake Modi's BJP on Ins" target="cockroaches" id="41" weight="1" />
+      <edge source="India news: Cockroaches overtake Modi's BJP on Ins" target="color" id="42" weight="1" />
+      <edge source="India news: Cockroaches overtake Modi's BJP on Ins" target="google" id="43" weight="1" />
+      <edge source="modi" target="Modi's party takes control of India's West Bengal " id="44" weight="1" />
+      <edge source="modi" target="‘Hegemonic power’: How Modi’s BJP won India’s Beng" id="45" weight="1" />
+      <edge source="modi" target="West Bengal: Modi's BJP conquers one of India's to" id="46" weight="1" />
+      <edge source="nbsp" target="Cockroach Janta Party’s rise reflects people’s fru" id="47" weight="1" />
+      <edge source="nbsp" target="Rajnath Singh - Britannica" id="48" weight="1" />
+      <edge source="nbsp" target="Modi's party takes control of India's West Bengal " id="49" weight="1" />
+      <edge source="nbsp" target="Cockroach Janta Party &gt;&gt;&gt; Bharatiya Janata Party. " id="50" weight="1" />
+      <edge source="nbsp" target="‘Hegemonic power’: How Modi’s BJP won India’s Beng" id="51" weight="1" />
+      <edge source="nbsp" target="Ex-CMs Amarinder, Bahuguna, Reddy—how many Congres" id="52" weight="1" />
+      <edge source="nbsp" target="West Bengal: Modi's BJP conquers one of India's to" id="53" weight="1" />
+      <edge source="nbsp" target="Cockroach Janta Party (CJP): How Abhijeet Dipke's " id="54" weight="1" />
+      <edge source="color" target="Cockroach Janta Party’s rise reflects people’s fru" id="55" weight="1" />
+      <edge source="color" target="Rajnath Singh - Britannica" id="56" weight="1" />
+      <edge source="color" target="Modi's party takes control of India's West Bengal " id="57" weight="1" />
+      <edge source="color" target="Cockroach Janta Party &gt;&gt;&gt; Bharatiya Janata Party. " id="58" weight="1" />
+      <edge source="color" target="‘Hegemonic power’: How Modi’s BJP won India’s Beng" id="59" weight="1" />
+      <edge source="color" target="West Bengal: Modi's BJP conquers one of India's to" id="60" weight="1" />
+      <edge source="color" target="Cockroach Janta Party (CJP): How Abhijeet Dipke's " id="61" weight="1" />
+      <edge source="google" target="Rajnath Singh - Britannica" id="62" weight="1" />
+      <edge source="google" target="Modi's party takes control of India's West Bengal " id="63" weight="1" />
+      <edge source="google" target="Can the Cockroach party contest Indian elections?:" id="64" weight="1" />
+      <edge source="google" target="Cockroach Janta Party (CJP): How Abhijeet Dipke's " id="65" weight="1" />
+      <edge source="Cockroach Janta Party’s rise reflects people’s fru" target="hindu" id="66" weight="1" />
+      <edge source="Cockroach Janta Party’s rise reflects people’s fru" target="hooda" id="67" weight="1" />
+      <edge source="Cockroach Janta Party’s rise reflects people’s fru" target="people" id="68" weight="1" />
+      <edge source="people" target="Shit BJP or its Ministers say in public space" id="69" weight="1" />
+      <edge source="people" target="Advantages and Disadvantages of Social Media" id="70" weight="1" />
+      <edge source="people" target="Bharatiya Janata Yuva Morcha" id="71" weight="1" />
+      <edge source="Rajnath Singh - Britannica" target="singh" id="72" weight="1" />
+      <edge source="Rajnath Singh - Britannica" target="news" id="73" weight="1" />
+      <edge source="news" target="Can the Cockroach party contest Indian elections?:" id="74" weight="1" />
+      <edge source="Modi's party takes control of India's West Bengal " target="west" id="75" weight="1" />
+      <edge source="west" target="West Bengal: Modi's BJP conquers one of India's to" id="76" weight="1" />
+      <edge source="Can the Cockroach party contest Indian elections?:" target="virality" id="77" weight="1" />
+      <edge source="Can the Cockroach party contest Indian elections?:" target="href" id="78" weight="1" />
+      <edge source="Can the Cockroach party contest Indian elections?:" target="support" id="79" weight="1" />
+      <edge source="href" target="Reality of cockroach janta party!" id="80" weight="1" />
+      <edge source="Cockroach Janta Party &gt;&gt;&gt; Bharatiya Janata Party. " target="janata" id="81" weight="1" />
+      <edge source="Cockroach Janta Party &gt;&gt;&gt; Bharatiya Janata Party. " target="least" id="82" weight="1" />
+      <edge source="Cockroach Janta Party &gt;&gt;&gt; Bharatiya Janata Party. " target="bharatiya" id="83" weight="1" />
+      <edge source="janata" target="BJP: Bharatiya Janata Party" id="84" weight="1" />
+      <edge source="bharatiya" target="BJP: Bharatiya Janata Party" id="85" weight="1" />
+      <edge source="bharatiya" target="Bharatiya Janata Party – Gujarat" id="86" weight="1" />
+      <edge source="‘Hegemonic power’: How Modi’s BJP won India’s Beng" target="time" id="87" weight="1" />
+      <edge source="‘Hegemonic power’: How Modi’s BJP won India’s Beng" target="power" id="88" weight="1" />
+      <edge source="Ex-CMs Amarinder, Bahuguna, Reddy—how many Congres" target="bahuguna" id="89" weight="1" />
+      <edge source="Ex-CMs Amarinder, Bahuguna, Reddy—how many Congres" target="many" id="90" weight="1" />
+      <edge source="Ex-CMs Amarinder, Bahuguna, Reddy—how many Congres" target="congress" id="91" weight="1" />
+      <edge source="Ex-CMs Amarinder, Bahuguna, Reddy—how many Congres" target="have" id="92" weight="1" />
+      <edge source="congress" target="1997 Brihanmumbai Municipal Corporation election" id="93" weight="1" />
+      <edge source="congress" target="Bharatiya Janata Party" id="94" weight="1" />
+      <edge source="congress" target="Bharatiya Janata Yuva Morcha" id="95" weight="1" />
+      <edge source="West Bengal: Modi's BJP conquers one of India's to" target="conquers" id="96" weight="1" />
+      <edge source="First Measurement of Sub-GeV $ν_μ$ Charged-Current" target="nuclear" id="97" weight="1" />
+      <edge source="First Measurement of Sub-GeV $ν_μ$ Charged-Current" target="constraining" id="98" weight="1" />
+      <edge source="First Measurement of Sub-GeV $ν_μ$ Charged-Current" target="neutrino" id="99" weight="1" />
+      <edge source="Adaptive Turn-Taking for Real-time Multi-Party Voi" target="improved" id="100" weight="1" />
+      <edge source="Adaptive Turn-Taking for Real-time Multi-Party Voi" target="expectations" id="101" weight="1" />
+      <edge source="Adaptive Turn-Taking for Real-time Multi-Party Voi" target="voice" id="102" weight="1" />
+      <edge source="Adaptive Turn-Taking for Real-time Multi-Party Voi" target="model" id="103" weight="1" />
+      <edge source="Adaptive Turn-Taking for Real-time Multi-Party Voi" target="floor" id="104" weight="1" />
+      <edge source="Observation of Non-Gaussian Magnon Dynamics in a T" target="miscalibration" id="105" weight="1" />
+      <edge source="Observation of Non-Gaussian Magnon Dynamics in a T" target="different" id="106" weight="1" />
+      <edge source="Observation of Non-Gaussian Magnon Dynamics in a T" target="magnon" id="107" weight="1" />
+      <edge source="Observation of Non-Gaussian Magnon Dynamics in a T" target="evolution" id="108" weight="1" />
+      <edge source="Observation of Non-Gaussian Magnon Dynamics in a T" target="dimensional" id="109" weight="1" />
+      <edge source="different" target="Advantages and Disadvantages of Social Media" id="110" weight="1" />
+      <edge source="Shivraj Singh Chouhan" target="development" id="111" weight="1" />
+      <edge source="Shivraj Singh Chouhan" target="indian" id="112" weight="1" />
+      <edge source="Shivraj Singh Chouhan" target="assembly" id="113" weight="1" />
+      <edge source="Shivraj Singh Chouhan" target="committee" id="114" weight="1" />
+      <edge source="Shivraj Singh Chouhan" target="hindi" id="115" weight="1" />
+      <edge source="assembly" target="2017 Uttar Pradesh Legislative Assembly election" id="116" weight="1" />
+      <edge source="committee" target="Vijay Jolly" id="117" weight="1" />
+      <edge source="1997 Brihanmumbai Municipal Corporation election" target="corporation" id="118" weight="1" />
+      <edge source="1997 Brihanmumbai Municipal Corporation election" target="bhartiya" id="119" weight="1" />
+      <edge source="1997 Brihanmumbai Municipal Corporation election" target="parties" id="120" weight="1" />
+      <edge source="1997 Brihanmumbai Municipal Corporation election" target="janta" id="121" weight="1" />
+      <edge source="bhartiya" target="Bhartiya Janta Party" id="122" weight="1" />
+      <edge source="bhartiya" target="Living In The Monopoly Of Violence - Now Is No Tim" id="123" weight="1" />
+      <edge source="bhartiya" target="Sushil Singh" id="124" weight="1" />
+      <edge source="parties" target="Bharatiya Janata Yuva Morcha" id="125" weight="1" />
+      <edge source="janta" target="Bhartiya Janta Party" id="126" weight="1" />
+      <edge source="janta" target="Reality of cockroach janta party!" id="127" weight="1" />
+      <edge source="Bhartiya Janta Party" target="link" id="128" weight="1" />
+      <edge source="Bhartiya Janta Party" target="club" id="129" weight="1" />
+      <edge source="Bhartiya Janta Party" target="reddit" id="130" weight="1" />
+      <edge source="link" target="Shit BJP or its Ministers say in public space" id="131" weight="1" />
+      <edge source="link" target="BJP: Bharatiya Janata Party" id="132" weight="1" />
+      <edge source="link" target="👋Welcome to r/BhartiyaJantaPartyBJP - Introduce Yo" id="133" weight="1" />
+      <edge source="reddit" target="BJP: Bharatiya Janata Party" id="134" weight="1" />
+      <edge source="reddit" target="👋Welcome to r/BhartiyaJantaPartyBJP - Introduce Yo" id="135" weight="1" />
+      <edge source="Shit BJP or its Ministers say in public space" target="shit" id="136" weight="1" />
+      <edge source="Shit BJP or its Ministers say in public space" target="space" id="137" weight="1" />
+      <edge source="Shit BJP or its Ministers say in public space" target="shitbjpsays" id="138" weight="1" />
+      <edge source="BJP: Bharatiya Janata Party" target="subreddit" id="139" weight="1" />
+      <edge source="👋Welcome to r/BhartiyaJantaPartyBJP - Introduce Yo" target="user" id="140" weight="1" />
+      <edge source="👋Welcome to r/BhartiyaJantaPartyBJP - Introduce Yo" target="submitted" id="141" weight="1" />
+      <edge source="👋Welcome to r/BhartiyaJantaPartyBJP - Introduce Yo" target="comments" id="142" weight="1" />
+      <edge source="👋Welcome to r/BhartiyaJantaPartyBJP - Introduce Yo" target="cockroachjantaparty" id="143" weight="1" />
+      <edge source="👋Welcome to r/BhartiyaJantaPartyBJP - Introduce Yo" target="simple" id="144" weight="1" />
+      <edge source="👋Welcome to r/BhartiyaJantaPartyBJP - Introduce Yo" target="things" id="145" weight="1" />
+      <edge source="👋Welcome to r/BhartiyaJantaPartyBJP - Introduce Yo" target="helping" id="146" weight="1" />
+      <edge source="👋Welcome to r/BhartiyaJantaPartyBJP - Introduce Yo" target="excited" id="147" weight="1" />
+      <edge source="👋Welcome to r/BhartiyaJantaPartyBJP - Introduce Yo" target="looking" id="148" weight="1" />
+      <edge source="submitted" target="Reality of cockroach janta party!" id="149" weight="1" />
+      <edge source="comments" target="Reality of cockroach janta party!" id="150" weight="1" />
+      <edge source="Advantages and Disadvantages of Social Media" target="skills" id="151" weight="1" />
+      <edge source="Advantages and Disadvantages of Social Media" target="webp" id="152" weight="1" />
+      <edge source="Advantages and Disadvantages of Social Media" target="scrolling" id="153" weight="1" />
+      <edge source="webp" target="Reality of cockroach janta party!" id="154" weight="1" />
+      <edge source="Living In The Monopoly Of Violence - Now Is No Tim" target="anywhere" id="155" weight="1" />
+      <edge source="Living In The Monopoly Of Violence - Now Is No Tim" target="lotus" id="156" weight="1" />
+      <edge source="Cockroach Janta Party (CJP): How Abhijeet Dipke's " target="dipke" id="157" weight="1" />
+      <edge source="Cockroach Janta Party (CJP): How Abhijeet Dipke's " target="became" id="158" weight="1" />
+      <edge source="Bharatiya Janata Party" target="organisational" id="159" weight="1" />
+      <edge source="Bharatiya Janata Party" target="sangh" id="160" weight="1" />
+      <edge source="Bharatiya Janata Party" target="left" id="161" weight="1" />
+      <edge source="Bharatiya Janata Party" target="terms" id="162" weight="1" />
+      <edge source="terms" target="Apna Dal (Soneylal)" id="163" weight="1" />
+      <edge source="2017 Uttar Pradesh Legislative Assembly election" target="contested" id="164" weight="1" />
+      <edge source="2017 Uttar Pradesh Legislative Assembly election" target="part" id="165" weight="1" />
+      <edge source="2017 Uttar Pradesh Legislative Assembly election" target="leadership" id="166" weight="1" />
+      <edge source="2017 Uttar Pradesh Legislative Assembly election" target="mostly" id="167" weight="1" />
+      <edge source="Aazad Samaj Party (Kanshi Ram)" target="azad" id="168" weight="1" />
+      <edge source="Aazad Samaj Party (Kanshi Ram)" target="abbr" id="169" weight="1" />
+      <edge source="Aazad Samaj Party (Kanshi Ram)" target="known" id="170" weight="1" />
+      <edge source="Aazad Samaj Party (Kanshi Ram)" target="pradesh" id="171" weight="1" />
+      <edge source="Aazad Samaj Party (Kanshi Ram)" target="aazad" id="172" weight="1" />
+      <edge source="Bharatiya Janata Yuva Morcha" target="dissolved" id="173" weight="1" />
+      <edge source="Bharatiya Janata Yuva Morcha" target="political" id="174" weight="1" />
+      <edge source="Bharatiya Janata Party – Gujarat" target="bhupendrabhai" id="175" weight="1" />
+      <edge source="Bharatiya Janata Party – Gujarat" target="gandhinagar" id="176" weight="1" />
+      <edge source="Bharatiya Janata Party – Gujarat" target="serves" id="177" weight="1" />
+      <edge source="Bharatiya Janata Party – Gujarat" target="vishwakarma" id="178" weight="1" />
+      <edge source="Vijay Jolly" target="tripura" id="179" weight="1" />
+      <edge source="Vijay Jolly" target="cell" id="180" weight="1" />
+      <edge source="Vijay Jolly" target="born" id="181" weight="1" />
+      <edge source="Vijay Jolly" target="jolly" id="182" weight="1" />
+      <edge source="born" target="Sushil Singh" id="183" weight="1" />
+      <edge source="Apna Dal (Soneylal)" target="apna" id="184" weight="1" />
+      <edge source="Apna Dal (Soneylal)" target="number" id="185" weight="1" />
+      <edge source="Apna Dal (Soneylal)" target="anupriya" id="186" weight="1" />
+      <edge source="Apna Dal (Soneylal)" target="level" id="187" weight="1" />
+      <edge source="Sushil Singh" target="chandauli" id="188" weight="1" />
+      <edge source="Sushil Singh" target="represents" id="189" weight="1" />
+      <edge source="Sushil Singh" target="member" id="190" weight="1" />
+    </edges>
+  </graph>
+</gexf>

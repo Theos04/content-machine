@@ -1,0 +1,143 @@
+Research Report: climate change
+Generated: 2026-06-14T16:06:59.462424
+Max per source: 3
+Total Items: 18
+======================================================================
+
+
+## REDDIT (3 items)
+
+[1] A place for a rational discussion on a divisive topic.
+URL: https://www.reddit.com/r/climatechange/
+Source: r/climatechange
+Preview: <img src="https://b.thumbs.redditmedia.com/JQgfgZVmHIlgdo2CxcGI8hSgFlFTJxXPYiXS2kUT7PY.png" /> <div> This is a place for the rational discussion of the science of climate change. If you want to post about politics or climate policy, try /r/ClimateNews or /r/climatepolicy. </div> <div> <a href="https://www.reddit.com/r/climatechange/">[link]</a> </div>...
+------------------------------------------------------------
+
+[2] Is climate change as bad as they say?
+URL: https://www.reddit.com/r/NoStupidQuestions/comments/1svnzuf/is_climate_change_as_bad_as_they_say/
+Source: r/NoStupidQuestions
+Preview: <!-- SC_OFF --><div class="md"><p>Are we finished?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/Present-Ebb4615"> /u/Present-Ebb4615 </a> &#32; to &#32; <a href="https://www.reddit.com/r/NoStupidQuestions/"> r/NoStupidQuestions </a> <br /> <span><a href="https://www.reddit.com/r/NoStupidQuestions/comments/1svnzuf/is_climate_change_as_bad_as_they_say/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/NoStupidQuestions/comments/1svnzuf/is_cl...
+------------------------------------------------------------
+
+[3] Where did all the climate change go?
+URL: https://www.reddit.com/r/conspiracy/comments/1pksvqa/where_did_all_the_climate_change_go/
+Source: r/conspiracy
+Preview: <table> <tr><td> <a href="https://www.reddit.com/r/conspiracy/comments/1pksvqa/where_did_all_the_climate_change_go/"> <img alt="Where did all the climate change go?" src="https://preview.redd.it/st5g0duy6s6g1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=ec2b9110aa269cb59478db0bf9a50bfc7677d6fd" title="Where did all the climate change go?" /> </a> </td><td> &#32; submitted by &#32; <a href="https://www.reddit.com/user/AnomLenskyFeller"> /u/AnomLenskyFeller </a> &#32; to &#32; <a href="https:/...
+------------------------------------------------------------
+
+## ARXIV (3 items)
+
+[1] EvoArena: Tracking Memory Evolution for Robust LLM Agents in Dynamic Environments
+URL: http://arxiv.org/abs/2606.13681v1
+Source: arXiv
+Preview: Large language model (LLM) agents have achieved strong performance on a wide range of benchmarks, yet most evaluations assume static environments. In contrast, real-world deployment is inherently dynamic, requiring agents to continually align their knowledge, skills, and behavior with changing environments and updated task conditions. To address this gap, we introduce EvoArena, a benchmark suite that models environment changes as sequences of progressive updates across terminal, software, and so...
+------------------------------------------------------------
+
+[2] HyperTool: Beyond Step-Wise Tool Calls for Tool-Augmented Agents
+URL: http://arxiv.org/abs/2606.13663v1
+Source: arXiv
+Preview: Tool-augmented LLM agents commonly rely on step-wise atomic tool calls, where each invocation, observation, and value transfer is exposed in the main reasoning trace. This creates an \emph{execution-granularity mismatch}: locally deterministic tool workflows are unfolded into repeated model-visible decisions, consuming context and forcing the model to manage low-level dataflow in the trace. We introduce \textbf{HyperTool}, a unified executable MCP-style tool interface that changes the model-visi...
+------------------------------------------------------------
+
+[3] Robust Control of ECH Deposition Profiles on DIII-D
+URL: http://arxiv.org/abs/2606.13661v1
+Source: arXiv
+Preview: Electron Cyclotron Heating (ECH) is a key actuator in DIII-D and future tokamaks that provides auxiliary heating, localized current drive for scenario development and MHD stability, and even impurity pump-out. Due to its control flexibility and applications, a gyrotron optimization algorithm was developed to multitask and fine-tune the deposition location and heating power of each gyrotron while providing robustness to hardware failure. The ECH Optimization (ECHO) algorithm finds the optimal gyr...
+------------------------------------------------------------
+
+## NEWS (3 items)
+
+[1] Trump Administration Ordered To Restore History, Climate Change Information Removed From Parks - National Parks Traveler
+URL: https://news.google.com/rss/articles/CBMiywFBVV95cUxNTFdhLTVuWEpSbVJXTW1LaEI5VUFZcnFYeF8xYURQX1pMVmw3MFhxclRnM3NkenRUQldRNEhjZENFcGs3UGNtSVhXZGh0UE1hWXRtYzI2ZExJNHF5bnpxMWhGdnFVd3JQS0ozZUJMY0RtNUJqcU5NOF9KSXBrTWZrWHFuSEd5QXVjZGRlUl9PS2RYYnVUcGNxN1RCcnhFcW9LaFRaR3pwMlRGa0h4eUx2OHNvUEpQd3ctLUpNMnVIUVIyRkNqM0FSTmNBTQ?oc=5
+Source: National Parks Traveler
+Preview: <a href="https://news.google.com/rss/articles/CBMiywFBVV95cUxNTFdhLTVuWEpSbVJXTW1LaEI5VUFZcnFYeF8xYURQX1pMVmw3MFhxclRnM3NkenRUQldRNEhjZENFcGs3UGNtSVhXZGh0UE1hWXRtYzI2ZExJNHF5bnpxMWhGdnFVd3JQS0ozZUJMY0RtNUJqcU5NOF9KSXBrTWZrWHFuSEd5QXVjZGRlUl9PS2RYYnVUcGNxN1RCcnhFcW9LaFRaR3pwMlRGa0h4eUx2OHNvUEpQd3ctLUpNMnVIUVIyRkNqM0FSTmNBTQ?oc=5" target="_blank">Trump Administration Ordered To Restore History, Climate Change Information Removed From Parks</a>&nbsp;&nbsp;<font color="#6f6f6f">National Parks Travel...
+------------------------------------------------------------
+
+[2] Lee Raymond, Exxon CEO Who Doubted Climate Change, Dies at 87 - Bloomberg
+URL: https://news.google.com/rss/articles/CBMirwFBVV95cUxPcm0zTUp3Ti1QWEo3NVdWdUVra0V4YlRPdjFEdzQtR3R5VVZla3ZmZko3N0M2bE1wWVgyTDhGRVJBd25OU1ZHNk1DRE95WFBhVHE2VVJwdHdFOU81Y01lQ3hETXpWZXU3bVJJOUgxSDRMZDZXU2M0R2ZRWVNBNUxmVEMtS3hBM2FHRzJIbGlfbEstbDd0Z0lvS0VyVXI4dEhlLTVaZFF5dWxRNm9TZ2dF?oc=5
+Source: Bloomberg
+Preview: <a href="https://news.google.com/rss/articles/CBMirwFBVV95cUxPcm0zTUp3Ti1QWEo3NVdWdUVra0V4YlRPdjFEdzQtR3R5VVZla3ZmZko3N0M2bE1wWVgyTDhGRVJBd25OU1ZHNk1DRE95WFBhVHE2VVJwdHdFOU81Y01lQ3hETXpWZXU3bVJJOUgxSDRMZDZXU2M0R2ZRWVNBNUxmVEMtS3hBM2FHRzJIbGlfbEstbDd0Z0lvS0VyVXI4dEhlLTVaZFF5dWxRNm9TZ2dF?oc=5" target="_blank">Lee Raymond, Exxon CEO Who Doubted Climate Change, Dies at 87</a>&nbsp;&nbsp;<font color="#6f6f6f">Bloomberg</font>...
+------------------------------------------------------------
+
+[3] Judge orders Trump officials to re-install signs and exhibits at national parks on topics like slavery and climate change - NBC News
+URL: https://news.google.com/rss/articles/CBMizwFBVV95cUxQQm43eWIzNkpvaDJ4ZEJlRDV3NkRvME1hWGd2QUlHZjJuYnRXbFFqTjIxdXhXTURFVDB2ZFVMN1NBSG04T29YX0RFREJBRlhuSi1qZzF2ZnRIZ2tBMnd2aFNpbDVMRHdjanl4RlJZa3dlOU5rMFllRUJZS1Y5cVJ6Ml90WmpGUTJtM0FUNHQ5WVRNRllJRWVhUzMzZVFNVDdUVW1CT1VkRVpJUjJ6RWVxcWpLRDZJVExNTlBTTWdSWF83blpDN1FycV90TTFPbEE?oc=5
+Source: NBC News
+Preview: <a href="https://news.google.com/rss/articles/CBMizwFBVV95cUxQQm43eWIzNkpvaDJ4ZEJlRDV3NkRvME1hWGd2QUlHZjJuYnRXbFFqTjIxdXhXTURFVDB2ZFVMN1NBSG04T29YX0RFREJBRlhuSi1qZzF2ZnRIZ2tBMnd2aFNpbDVMRHdjanl4RlJZa3dlOU5rMFllRUJZS1Y5cVJ6Ml90WmpGUTJtM0FUNHQ5WVRNRllJRWVhUzMzZVFNVDdUVW1CT1VkRVpJUjJ6RWVxcWpLRDZJVExNTlBTTWdSWF83blpDN1FycV90TTFPbEE?oc=5" target="_blank">Judge orders Trump officials to re-install signs and exhibits at national parks on topics like slavery and climate change</a>&nbsp;&nbsp;<font color...
+------------------------------------------------------------
+
+## WIKIPEDIA (3 items)
+
+[1] Climate change
+URL: https://en.wikipedia.org/wiki/Climate_change
+Source: Wikipedia
+Preview: Present-day climate change includes both global warming—the ongoing increase in global average temperature—and its wider effects on Earth's climate system. Climate change in a broader sense also includes previous long-term changes to Earth's climate. The modern-day rise in global temperatures is driven by human activities, especially fossil fuel (coal, oil and natural gas) burning since the Industrial Revolution. Fossil fuel use, deforestation, and some agricultural and industrial practices rele...
+------------------------------------------------------------
+
+[2] Climate change denial
+URL: https://en.wikipedia.org/wiki/Climate_change_denial
+Source: Wikipedia
+Preview: Climate change denial (also global warming denial) is a form of science denial characterized by rejecting, refusing to acknowledge, disputing, or fighting the extensive evidence for anthropogenic global warming that has led to a scientific consensus on climate change. Those promoting denial commonly use rhetorical tactics to give the appearance of a scientific controversy where none exists. Climate change denial includes raising unreasonable doubts about the extent to which climate change is cau...
+------------------------------------------------------------
+
+[3] Climate change mitigation
+URL: https://en.wikipedia.org/wiki/Climate_change_mitigation
+Source: Wikipedia
+Preview: Climate change mitigation, also called climate change decarbonisation, is an action to limit the greenhouse gases in the atmosphere that cause climate change. Climate change mitigation actions include conserving energy and replacing fossil fuels with clean energy sources. Secondary mitigation strategies include changes to land use and removing carbon dioxide (CO2) from the atmosphere. 2022 assessments emphasize that global greenhouse gas emissions must peak before 2025 and decline by about 43% b...
+------------------------------------------------------------
+
+## GOOGLE (2 items)
+
+[1] Climate Change - Wikipedia
+URL: https://en.wikipedia.org/wiki/climate_change
+Source: Wikipedia
+Preview: Overview and history of climate change....
+------------------------------------------------------------
+
+[2] Recent Papers on Climate Change
+URL: https://arxiv.org/search/?query=climate+change&searchtype=all
+Source: arXiv
+Preview: Academic papers and latest research....
+------------------------------------------------------------
+
+## WEB (1 items)
+
+[1] Effects of climate change - Wikipedia
+URL: https://en.wikipedia.org/wiki/Effects_of_climate_change
+Source: Mojeek
+Preview: Climatechangecauses a drop in the ocean's pH value (called ocean acidification ): Time series of atmospheric CO 2 at Mauna Loa (in parts per ......
+------------------------------------------------------------
+
+## YOUTUBE (3 items)
+
+[1] The easiest climate change win ever
+URL: https://www.youtube.com/watch?v=BWHfkkHmMJI
+Source: Simon Clark
+Preview: A video about the OTHER greenhouse gas, and one that CAN do something about quickly.
+
+Earlier this year I had the privilege of attending the Methane Action for People & Planet conference in Angera, Italy, celebrating the 250th anniversary of the discovery of methane by Alessandro Volta. In this video I talk about my key takeaways from that conference, and justify eating a cake as a business expense.
+
+Sponsored travel provided by Environmental Defense Fund Europe. Content created independently; o...
+------------------------------------------------------------
+
+[2] Greenland's Ice Loss Accelerates As Climate Change Fuels Iceberg Boom | Climate Tracker
+URL: https://www.youtube.com/watch?v=JKh26eyr4rw
+Source: WION
+Preview: Climate change is accelerating the loss of Greenland’s ice, with new research warning that the region is now producing far more icebergs than before. Scientists say Greenland’s glaciers are releasing four times more icebergs than they did 25 years ago. A change that could impact sea levels, Arctic shipping and marine ecosystems.
+
+
+#greenland #iceberg #wion 
+
+About Channel: 
+
+WION The World is One News examines global issues with in-depth analysis. We provide much more than the news of the day. O...
+------------------------------------------------------------
+
+[3] Causes and Effects of Climate Change | National Geographic
+URL: https://www.youtube.com/watch?v=G4H1N_yXBiA
+Source: National Geographic
+Preview: What causes climate change (also known as global warming)? And what are the effects of climate change? Learn the human impact and consequences of climate change for the environment, and our lives.
+➡ Subscribe: https://on.natgeo.com/4p5A0D6
+
+About National Geographic:
+National Geographic is the world's premium destination for science, exploration, and adventure. Through their world-class scientists, photographers, journalists, and filmmakers, Nat Geo gets you closer to the stories that matter and...
+------------------------------------------------------------

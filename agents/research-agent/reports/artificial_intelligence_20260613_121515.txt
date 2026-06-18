@@ -1,0 +1,431 @@
+================================================================================
+RESEARCH REPORT: ARTIFICIAL INTELLIGENCE
+================================================================================
+Generated:       2026-06-13T12:15:15+05:30
+Total Items:     50
+Total Keywords:  5
+Sources:         wikipedia, web, reddit, news, arxiv
+================================================================================
+
+## EXECUTIVE SUMMARY
+----------------------------------------
+This is a sample content snippet for 'artificial intelligence' from reddit. This is a sample content snippet for 'artificial intelligence' from reddit. This is a sample content snippet for 'artificial intelligence' from reddit. This is a sample content snippet for 'artificial intelligence' from reddit. This is a sample content snippet for 'artificial intelligence' from reddit. This is a sample content snippet for 'artificial intelligence' from reddit.
+
+
+## DETAILED FINDINGS BY SOURCE
+----------------------------------------
+
+### WIKIPEDIA (10 items)
+----------------------------------------
+
+[1] Artificial intelligence — wikipedia result 1
+  Source:    wikipedia
+  URL:       https://wikipedia.example.com/artificial-intelligence-1
+  Published: 2026-06-12T12:15:14Z
+  Preview:
+  This is a sample content snippet for 'artificial intelligence' from wikipedia. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[2] Artificial intelligence — wikipedia result 2
+  Source:    wikipedia
+  URL:       https://wikipedia.example.com/artificial-intelligence-2
+  Published: 2026-06-11T12:15:14Z
+  Preview:
+  This is a sample content snippet for 'artificial intelligence' from wikipedia. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[3] Artificial intelligence — wikipedia result 3
+  Source:    wikipedia
+  URL:       https://wikipedia.example.com/artificial-intelligence-3
+  Published: 2026-06-10T12:15:14Z
+  Preview:
+  This is a sample content snippet for 'artificial intelligence' from wikipedia. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[4] Artificial intelligence — wikipedia result 4
+  Source:    wikipedia
+  URL:       https://wikipedia.example.com/artificial-intelligence-4
+  Published: 2026-06-09T12:15:14Z
+  Preview:
+  This is a sample content snippet for 'artificial intelligence' from wikipedia. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[5] Artificial intelligence — wikipedia result 5
+  Source:    wikipedia
+  URL:       https://wikipedia.example.com/artificial-intelligence-5
+  Published: 2026-06-08T12:15:14Z
+  Preview:
+  This is a sample content snippet for 'artificial intelligence' from wikipedia. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[6] Artificial intelligence — wikipedia result 6
+  Source:    wikipedia
+  URL:       https://wikipedia.example.com/artificial-intelligence-6
+  Published: 2026-06-07T12:15:14Z
+  Preview:
+  This is a sample content snippet for 'artificial intelligence' from wikipedia. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[7] Artificial intelligence — wikipedia result 7
+  Source:    wikipedia
+  URL:       https://wikipedia.example.com/artificial-intelligence-7
+  Published: 2026-06-06T12:15:14Z
+  Preview:
+  This is a sample content snippet for 'artificial intelligence' from wikipedia. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[8] Artificial intelligence — wikipedia result 8
+  Source:    wikipedia
+  URL:       https://wikipedia.example.com/artificial-intelligence-8
+  Published: 2026-06-05T12:15:14Z
+  Preview:
+  This is a sample content snippet for 'artificial intelligence' from wikipedia. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[9] Artificial intelligence — wikipedia result 9
+  Source:    wikipedia
+  URL:       https://wikipedia.example.com/artificial-intelligence-9
+  Published: 2026-06-04T12:15:14Z
+  Preview:
+  This is a sample content snippet for 'artificial intelligence' from wikipedia. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[10] Artificial intelligence — wikipedia result 10
+  Source:    wikipedia
+  URL:       https://wikipedia.example.com/artificial-intelligence-10
+  Published: 2026-06-03T12:15:14Z
+  Preview:
+  This is a sample content snippet for 'artificial intelligence' from wikipedia. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+### WEB (10 items)
+----------------------------------------
+
+[1] Artificial intelligence — web result 1
+  Source:    web
+  URL:       https://web.example.com/artificial-intelligence-1
+  Published: 2026-06-12T12:15:14Z
+  Preview:
+  This is a sample content snippet for 'artificial intelligence' from web. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[2] Artificial intelligence — web result 2
+  Source:    web
+  URL:       https://web.example.com/artificial-intelligence-2
+  Published: 2026-06-11T12:15:14Z
+  Preview:
+  This is a sample content snippet for 'artificial intelligence' from web. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[3] Artificial intelligence — web result 3
+  Source:    web
+  URL:       https://web.example.com/artificial-intelligence-3
+  Published: 2026-06-10T12:15:14Z
+  Preview:
+  This is a sample content snippet for 'artificial intelligence' from web. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[4] Artificial intelligence — web result 4
+  Source:    web
+  URL:       https://web.example.com/artificial-intelligence-4
+  Published: 2026-06-09T12:15:14Z
+  Preview:
+  This is a sample content snippet for 'artificial intelligence' from web. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[5] Artificial intelligence — web result 5
+  Source:    web
+  URL:       https://web.example.com/artificial-intelligence-5
+  Published: 2026-06-08T12:15:14Z
+  Preview:
+  This is a sample content snippet for 'artificial intelligence' from web. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[6] Artificial intelligence — web result 6
+  Source:    web
+  URL:       https://web.example.com/artificial-intelligence-6
+  Published: 2026-06-07T12:15:14Z
+  Preview:
+  This is a sample content snippet for 'artificial intelligence' from web. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[7] Artificial intelligence — web result 7
+  Source:    web
+  URL:       https://web.example.com/artificial-intelligence-7
+  Published: 2026-06-06T12:15:14Z
+  Preview:
+  This is a sample content snippet for 'artificial intelligence' from web. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[8] Artificial intelligence — web result 8
+  Source:    web
+  URL:       https://web.example.com/artificial-intelligence-8
+  Published: 2026-06-05T12:15:14Z
+  Preview:
+  This is a sample content snippet for 'artificial intelligence' from web. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[9] Artificial intelligence — web result 9
+  Source:    web
+  URL:       https://web.example.com/artificial-intelligence-9
+  Published: 2026-06-04T12:15:14Z
+  Preview:
+  This is a sample content snippet for 'artificial intelligence' from web. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[10] Artificial intelligence — web result 10
+  Source:    web
+  URL:       https://web.example.com/artificial-intelligence-10
+  Published: 2026-06-03T12:15:14Z
+  Preview:
+  This is a sample content snippet for 'artificial intelligence' from web. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+### REDDIT (10 items)
+----------------------------------------
+
+[1] Artificial intelligence — reddit result 1
+  Source:    reddit
+  URL:       https://reddit.example.com/artificial-intelligence-1
+  Published: 2026-06-12T12:15:14Z
+  Preview:
+  This is a sample content snippet for 'artificial intelligence' from reddit. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[2] Artificial intelligence — reddit result 2
+  Source:    reddit
+  URL:       https://reddit.example.com/artificial-intelligence-2
+  Published: 2026-06-11T12:15:14Z
+  Preview:
+  This is a sample content snippet for 'artificial intelligence' from reddit. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[3] Artificial intelligence — reddit result 3
+  Source:    reddit
+  URL:       https://reddit.example.com/artificial-intelligence-3
+  Published: 2026-06-10T12:15:14Z
+  Preview:
+  This is a sample content snippet for 'artificial intelligence' from reddit. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[4] Artificial intelligence — reddit result 4
+  Source:    reddit
+  URL:       https://reddit.example.com/artificial-intelligence-4
+  Published: 2026-06-09T12:15:14Z
+  Preview:
+  This is a sample content snippet for 'artificial intelligence' from reddit. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[5] Artificial intelligence — reddit result 5
+  Source:    reddit
+  URL:       https://reddit.example.com/artificial-intelligence-5
+  Published: 2026-06-08T12:15:14Z
+  Preview:
+  This is a sample content snippet for 'artificial intelligence' from reddit. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[6] Artificial intelligence — reddit result 6
+  Source:    reddit
+  URL:       https://reddit.example.com/artificial-intelligence-6
+  Published: 2026-06-07T12:15:14Z
+  Preview:
+  This is a sample content snippet for 'artificial intelligence' from reddit. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[7] Artificial intelligence — reddit result 7
+  Source:    reddit
+  URL:       https://reddit.example.com/artificial-intelligence-7
+  Published: 2026-06-06T12:15:14Z
+  Preview:
+  This is a sample content snippet for 'artificial intelligence' from reddit. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[8] Artificial intelligence — reddit result 8
+  Source:    reddit
+  URL:       https://reddit.example.com/artificial-intelligence-8
+  Published: 2026-06-05T12:15:14Z
+  Preview:
+  This is a sample content snippet for 'artificial intelligence' from reddit. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[9] Artificial intelligence — reddit result 9
+  Source:    reddit
+  URL:       https://reddit.example.com/artificial-intelligence-9
+  Published: 2026-06-04T12:15:14Z
+  Preview:
+  This is a sample content snippet for 'artificial intelligence' from reddit. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[10] Artificial intelligence — reddit result 10
+  Source:    reddit
+  URL:       https://reddit.example.com/artificial-intelligence-10
+  Published: 2026-06-03T12:15:14Z
+  Preview:
+  This is a sample content snippet for 'artificial intelligence' from reddit. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+### NEWS (10 items)
+----------------------------------------
+
+[1] Artificial intelligence — news result 1
+  Source:    news
+  URL:       https://news.example.com/artificial-intelligence-1
+  Published: 2026-06-12T12:15:14Z
+  Preview:
+  This is a sample content snippet for 'artificial intelligence' from news. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[2] Artificial intelligence — news result 2
+  Source:    news
+  URL:       https://news.example.com/artificial-intelligence-2
+  Published: 2026-06-11T12:15:14Z
+  Preview:
+  This is a sample content snippet for 'artificial intelligence' from news. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[3] Artificial intelligence — news result 3
+  Source:    news
+  URL:       https://news.example.com/artificial-intelligence-3
+  Published: 2026-06-10T12:15:14Z
+  Preview:
+  This is a sample content snippet for 'artificial intelligence' from news. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[4] Artificial intelligence — news result 4
+  Source:    news
+  URL:       https://news.example.com/artificial-intelligence-4
+  Published: 2026-06-09T12:15:14Z
+  Preview:
+  This is a sample content snippet for 'artificial intelligence' from news. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[5] Artificial intelligence — news result 5
+  Source:    news
+  URL:       https://news.example.com/artificial-intelligence-5
+  Published: 2026-06-08T12:15:14Z
+  Preview:
+  This is a sample content snippet for 'artificial intelligence' from news. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[6] Artificial intelligence — news result 6
+  Source:    news
+  URL:       https://news.example.com/artificial-intelligence-6
+  Published: 2026-06-07T12:15:14Z
+  Preview:
+  This is a sample content snippet for 'artificial intelligence' from news. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[7] Artificial intelligence — news result 7
+  Source:    news
+  URL:       https://news.example.com/artificial-intelligence-7
+  Published: 2026-06-06T12:15:14Z
+  Preview:
+  This is a sample content snippet for 'artificial intelligence' from news. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[8] Artificial intelligence — news result 8
+  Source:    news
+  URL:       https://news.example.com/artificial-intelligence-8
+  Published: 2026-06-05T12:15:14Z
+  Preview:
+  This is a sample content snippet for 'artificial intelligence' from news. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[9] Artificial intelligence — news result 9
+  Source:    news
+  URL:       https://news.example.com/artificial-intelligence-9
+  Published: 2026-06-04T12:15:14Z
+  Preview:
+  This is a sample content snippet for 'artificial intelligence' from news. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[10] Artificial intelligence — news result 10
+  Source:    news
+  URL:       https://news.example.com/artificial-intelligence-10
+  Published: 2026-06-03T12:15:14Z
+  Preview:
+  This is a sample content snippet for 'artificial intelligence' from news. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+### ARXIV (10 items)
+----------------------------------------
+
+[1] Artificial intelligence — arxiv result 1
+  Source:    arxiv
+  URL:       https://arxiv.example.com/artificial-intelligence-1
+  Published: 2026-06-12T12:15:14Z
+  Preview:
+  This is a sample content snippet for 'artificial intelligence' from arxiv. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[2] Artificial intelligence — arxiv result 2
+  Source:    arxiv
+  URL:       https://arxiv.example.com/artificial-intelligence-2
+  Published: 2026-06-11T12:15:14Z
+  Preview:
+  This is a sample content snippet for 'artificial intelligence' from arxiv. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[3] Artificial intelligence — arxiv result 3
+  Source:    arxiv
+  URL:       https://arxiv.example.com/artificial-intelligence-3
+  Published: 2026-06-10T12:15:14Z
+  Preview:
+  This is a sample content snippet for 'artificial intelligence' from arxiv. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[4] Artificial intelligence — arxiv result 4
+  Source:    arxiv
+  URL:       https://arxiv.example.com/artificial-intelligence-4
+  Published: 2026-06-09T12:15:14Z
+  Preview:
+  This is a sample content snippet for 'artificial intelligence' from arxiv. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[5] Artificial intelligence — arxiv result 5
+  Source:    arxiv
+  URL:       https://arxiv.example.com/artificial-intelligence-5
+  Published: 2026-06-08T12:15:14Z
+  Preview:
+  This is a sample content snippet for 'artificial intelligence' from arxiv. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[6] Artificial intelligence — arxiv result 6
+  Source:    arxiv
+  URL:       https://arxiv.example.com/artificial-intelligence-6
+  Published: 2026-06-07T12:15:14Z
+  Preview:
+  This is a sample content snippet for 'artificial intelligence' from arxiv. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[7] Artificial intelligence — arxiv result 7
+  Source:    arxiv
+  URL:       https://arxiv.example.com/artificial-intelligence-7
+  Published: 2026-06-06T12:15:14Z
+  Preview:
+  This is a sample content snippet for 'artificial intelligence' from arxiv. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[8] Artificial intelligence — arxiv result 8
+  Source:    arxiv
+  URL:       https://arxiv.example.com/artificial-intelligence-8
+  Published: 2026-06-05T12:15:14Z
+  Preview:
+  This is a sample content snippet for 'artificial intelligence' from arxiv. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[9] Artificial intelligence — arxiv result 9
+  Source:    arxiv
+  URL:       https://arxiv.example.com/artificial-intelligence-9
+  Published: 2026-06-04T12:15:14Z
+  Preview:
+  This is a sample content snippet for 'artificial intelligence' from arxiv. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[10] Artificial intelligence — arxiv result 10
+  Source:    arxiv
+  URL:       https://arxiv.example.com/artificial-intelligence-10
+  Published: 2026-06-03T12:15:14Z
+  Preview:
+  This is a sample content snippet for 'artificial intelligence' from arxiv. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------

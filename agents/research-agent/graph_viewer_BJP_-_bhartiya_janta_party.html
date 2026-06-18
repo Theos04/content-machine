@@ -1,0 +1,224 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Knowledge Graph - BJP - bhartiya janta party</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f0f2f5;
+        }
+        #header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        #container {
+            display: flex;
+            height: calc(100vh - 120px);
+        }
+        #graph {
+            flex: 3;
+            border: 1px solid #ddd;
+            background: white;
+        }
+        #sidebar {
+            flex: 1;
+            background: white;
+            padding: 20px;
+            overflow-y: auto;
+            border-left: 1px solid #ddd;
+        }
+        .stat {
+            padding: 10px;
+            margin: 10px 0;
+            background: #f5f5f5;
+            border-radius: 5px;
+        }
+        .keyword {
+            display: inline-block;
+            background: #e0e0e0;
+            padding: 5px 10px;
+            margin: 5px;
+            border-radius: 15px;
+            font-size: 12px;
+            cursor: pointer;
+        }
+        .keyword:hover {
+            background: #667eea;
+            color: white;
+        }
+        button {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 5px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #5a67d8;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1>📊 Knowledge Graph Explorer</h1>
+        <p>Query: BJP - bhartiya janta party | 40 Sources | 86 Nodes | 80 Edges</p>
+        <button onclick="toggleLayout()">Change Layout</button>
+        <button onclick="resetView()">Reset View</button>
+    </div>
+    <div id="container">
+        <div id="graph"></div>
+        <div id="sidebar">
+            <div class="stat">
+                <h3>📈 Statistics</h3>
+                <div>Sources: <b>40</b></div>
+                <div>Nodes: <b>86</b></div>
+                <div>Edges: <b>80</b></div>
+                <div>Density: <b>0.022</b></div>
+            </div>
+            <div class="stat">
+                <h3>📚 Source Types</h3>
+                <div>arxiv: 10</div><div>news: 10</div><div>wikipedia: 10</div><div>reddit: 10</div>
+            </div>
+            <div class="stat">
+                <h3>🔑 Top Keywords</h3>
+                <div id="keywords">
+                    <span class="keyword" onclick="highlightKeyword('modi')">modi</span><span class="keyword" onclick="highlightKeyword('janta')">janta</span><span class="keyword" onclick="highlightKeyword('party')">party</span><span class="keyword" onclick="highlightKeyword('india')">india</span><span class="keyword" onclick="highlightKeyword('cockroach')">cockroach</span><span class="keyword" onclick="highlightKeyword('this')">this</span><span class="keyword" onclick="highlightKeyword('belle')">belle</span><span class="keyword" onclick="highlightKeyword('singh')">singh</span><span class="keyword" onclick="highlightKeyword('west')">west</span><span class="keyword" onclick="highlightKeyword('gaussian')">gaussian</span><span class="keyword" onclick="highlightKeyword('bhartiya')">bhartiya</span><span class="keyword" onclick="highlightKeyword('fair')">fair</span><span class="keyword" onclick="highlightKeyword('reality')">reality</span><span class="keyword" onclick="highlightKeyword('they')">they</span><span class="keyword" onclick="highlightKeyword('binary')">binary</span><span class="keyword" onclick="highlightKeyword('solar')">solar</span><span class="keyword" onclick="highlightKeyword('system')">system</span><span class="keyword" onclick="highlightKeyword('honest')">honest</span><span class="keyword" onclick="highlightKeyword('checkpoint')">checkpoint</span><span class="keyword" onclick="highlightKeyword('modelle')">modelle</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js"></script>
+    <script>
+        var nodes = new vis.DataSet([{"id": "Detection and characterisation of binary", "label": "Detection and characterisation", "type": "source", "collector": "arxiv"}, {"id": "binary", "label": "binary", "type": "keyword"}, {"id": "solar", "label": "solar", "type": "keyword"}, {"id": "system", "label": "system", "type": "keyword"}, {"id": "Split Tallies: A Discrete Certificate Ca", "label": "Split Tallies: A Discrete Cert", "type": "source", "collector": "arxiv"}, {"id": "honest", "label": "honest", "type": "keyword"}, {"id": "checkpoint", "label": "checkpoint", "type": "keyword"}, {"id": "M\u00d6VE: A Holistic LLM Benchmark for the G", "label": "M\u00d6VE: A Holistic LLM Benchmark", "type": "source", "collector": "arxiv"}, {"id": "modelle", "label": "modelle", "type": "keyword"}, {"id": "verwaltung", "label": "verwaltung", "type": "keyword"}, {"id": "evaluieren", "label": "evaluieren", "type": "keyword"}, {"id": "Generating Training Targets for Real-Wor", "label": "Generating Training Targets fo", "type": "source", "collector": "arxiv"}, {"id": "training", "label": "training", "type": "keyword"}, {"id": "while", "label": "while", "type": "keyword"}, {"id": "close", "label": "close", "type": "keyword"}, {"id": "Observation of the decays $B^{+} \\to \u03a3_{", "label": "Observation of the decays $B^{", "type": "source", "collector": "arxiv"}, {"id": "this", "label": "this", "type": "keyword"}, {"id": "belle", "label": "belle", "type": "keyword"}, {"id": "Feedback in Extragalactic Star Clusters ", "label": "Feedback in Extragalactic Star", "type": "source", "collector": "arxiv"}, {"id": "with", "label": "with", "type": "keyword"}, {"id": "hubble", "label": "hubble", "type": "keyword"}, {"id": "space", "label": "space", "type": "keyword"}, {"id": "Can I Buy Your KV Cache?", "label": "Can I Buy Your KV Cache?", "type": "source", "collector": "arxiv"}, {"id": "right", "label": "right", "type": "keyword"}, {"id": "every", "label": "every", "type": "keyword"}, {"id": "then", "label": "then", "type": "keyword"}, {"id": "India news: Cockroaches overtake Modi's ", "label": "India news: Cockroaches overta", "type": "source", "collector": "news"}, {"id": "india", "label": "india", "type": "keyword"}, {"id": "cockroaches", "label": "cockroaches", "type": "keyword"}, {"id": "modi", "label": "modi", "type": "keyword"}, {"id": "Cockroach Janta Party\u2019s rise reflects pe", "label": "Cockroach Janta Party\u2019s rise r", "type": "source", "collector": "news"}, {"id": "cockroach", "label": "cockroach", "type": "keyword"}, {"id": "janta", "label": "janta", "type": "keyword"}, {"id": "party", "label": "party", "type": "keyword"}, {"id": "Rajnath Singh - Britannica", "label": "Rajnath Singh - Britannica", "type": "source", "collector": "news"}, {"id": "rajnath", "label": "rajnath", "type": "keyword"}, {"id": "singh", "label": "singh", "type": "keyword"}, {"id": "britannica", "label": "britannica", "type": "keyword"}, {"id": "Modi's party takes control of India's We", "label": "Modi's party takes control of ", "type": "source", "collector": "news"}, {"id": "west", "label": "west", "type": "keyword"}, {"id": "Can the Cockroach party contest Indian e", "label": "Can the Cockroach party contes", "type": "source", "collector": "news"}, {"id": "indian", "label": "indian", "type": "keyword"}, {"id": "founder", "label": "founder", "type": "keyword"}, {"id": "Cockroach Janta Party >>> Bharatiya Jana", "label": "Cockroach Janta Party >>> Bhar", "type": "source", "collector": "news"}, {"id": "\u2018Hegemonic power\u2019: How Modi\u2019s BJP won In", "label": "\u2018Hegemonic power\u2019: How Modi\u2019s ", "type": "source", "collector": "news"}, {"id": "hegemonic", "label": "hegemonic", "type": "keyword"}, {"id": "Ex-CMs Amarinder, Bahuguna, Reddy\u2014how ma", "label": "Ex-CMs Amarinder, Bahuguna, Re", "type": "source", "collector": "news"}, {"id": "amarinder", "label": "amarinder", "type": "keyword"}, {"id": "bahuguna", "label": "bahuguna", "type": "keyword"}, {"id": "reddy", "label": "reddy", "type": "keyword"}, {"id": "West Bengal: Modi's BJP conquers one of ", "label": "West Bengal: Modi's BJP conque", "type": "source", "collector": "news"}, {"id": "bengal", "label": "bengal", "type": "keyword"}, {"id": "First Measurement of Sub-GeV $\u03bd_\u03bc$ Charg", "label": "First Measurement of Sub-GeV $", "type": "source", "collector": "arxiv"}, {"id": "booster", "label": "booster", "type": "keyword"}, {"id": "neutrino", "label": "neutrino", "type": "keyword"}, {"id": "beam", "label": "beam", "type": "keyword"}, {"id": "Adaptive Turn-Taking for Real-time Multi", "label": "Adaptive Turn-Taking for Real-", "type": "source", "collector": "arxiv"}, {"id": "turn", "label": "turn", "type": "keyword"}, {"id": "experiments", "label": "experiments", "type": "keyword"}, {"id": "Observation of Non-Gaussian Magnon Dynam", "label": "Observation of Non-Gaussian Ma", "type": "source", "collector": "arxiv"}, {"id": "gaussian", "label": "gaussian", "type": "keyword"}, {"id": "here", "label": "here", "type": "keyword"}, {"id": "Shivraj Singh Chouhan", "label": "Shivraj Singh Chouhan", "type": "source", "collector": "wikipedia"}, {"id": "shivraj", "label": "shivraj", "type": "keyword"}, {"id": "chouhan", "label": "chouhan", "type": "keyword"}, {"id": "1997 Brihanmumbai Municipal Corporation ", "label": "1997 Brihanmumbai Municipal Co", "type": "source", "collector": "wikipedia"}, {"id": "congress", "label": "congress", "type": "keyword"}, {"id": "bhartiya", "label": "bhartiya", "type": "keyword"}, {"id": "Bhartiya Janta Party", "label": "Bhartiya Janta Party", "type": "source", "collector": "reddit"}, {"id": "Shit BJP or its Ministers say in public ", "label": "Shit BJP or its Ministers say ", "type": "source", "collector": "reddit"}, {"id": "shit", "label": "shit", "type": "keyword"}, {"id": "BJP: Bharatiya Janata Party", "label": "BJP: Bharatiya Janata Party", "type": "source", "collector": "reddit"}, {"id": "bharatiya", "label": "bharatiya", "type": "keyword"}, {"id": "janata", "label": "janata", "type": "keyword"}, {"id": "\ud83d\udc4bWelcome to r/BhartiyaJantaPartyBJP - In", "label": "\ud83d\udc4bWelcome to r/BhartiyaJantaPar", "type": "source", "collector": "reddit"}, {"id": "fair", "label": "fair", "type": "keyword"}, {"id": "Advantages and Disadvantages of Social M", "label": "Advantages and Disadvantages o", "type": "source", "collector": "reddit"}, {"id": "advantages", "label": "advantages", "type": "keyword"}, {"id": "disadvantages", "label": "disadvantages", "type": "keyword"}, {"id": "social", "label": "social", "type": "keyword"}, {"id": "Reality of cockroach janta party!", "label": "Reality of cockroach janta par", "type": "source", "collector": "reddit"}, {"id": "reality", "label": "reality", "type": "keyword"}, {"id": "curious", "label": "curious", "type": "keyword"}, {"id": "Living In The Monopoly Of Violence - Now", "label": "Living In The Monopoly Of Viol", "type": "source", "collector": "reddit"}, {"id": "they", "label": "they", "type": "keyword"}, {"id": "chhattisgarh", "label": "chhattisgarh", "type": "keyword"}]);
+        var edges = new vis.DataSet([{"from": "Detection and characterisation of binary", "to": "binary"}, {"from": "Detection and characterisation of binary", "to": "solar"}, {"from": "Detection and characterisation of binary", "to": "system"}, {"from": "Split Tallies: A Discrete Certificate Ca", "to": "honest"}, {"from": "Split Tallies: A Discrete Certificate Ca", "to": "checkpoint"}, {"from": "M\u00d6VE: A Holistic LLM Benchmark for the G", "to": "modelle"}, {"from": "M\u00d6VE: A Holistic LLM Benchmark for the G", "to": "verwaltung"}, {"from": "M\u00d6VE: A Holistic LLM Benchmark for the G", "to": "evaluieren"}, {"from": "Generating Training Targets for Real-Wor", "to": "training"}, {"from": "Generating Training Targets for Real-Wor", "to": "while"}, {"from": "Generating Training Targets for Real-Wor", "to": "close"}, {"from": "Observation of the decays $B^{+} \\to \u03a3_{", "to": "this"}, {"from": "Observation of the decays $B^{+} \\to \u03a3_{", "to": "belle"}, {"from": "Observation of the decays $B^{+} \\to \u03a3_{", "to": "belle"}, {"from": "Feedback in Extragalactic Star Clusters ", "to": "with"}, {"from": "Feedback in Extragalactic Star Clusters ", "to": "hubble"}, {"from": "Feedback in Extragalactic Star Clusters ", "to": "space"}, {"from": "Can I Buy Your KV Cache?", "to": "right"}, {"from": "Can I Buy Your KV Cache?", "to": "every"}, {"from": "Can I Buy Your KV Cache?", "to": "then"}, {"from": "India news: Cockroaches overtake Modi's ", "to": "india"}, {"from": "India news: Cockroaches overtake Modi's ", "to": "cockroaches"}, {"from": "India news: Cockroaches overtake Modi's ", "to": "modi"}, {"from": "Cockroach Janta Party\u2019s rise reflects pe", "to": "cockroach"}, {"from": "Cockroach Janta Party\u2019s rise reflects pe", "to": "janta"}, {"from": "Cockroach Janta Party\u2019s rise reflects pe", "to": "party"}, {"from": "Rajnath Singh - Britannica", "to": "rajnath"}, {"from": "Rajnath Singh - Britannica", "to": "singh"}, {"from": "Rajnath Singh - Britannica", "to": "britannica"}, {"from": "Modi's party takes control of India's We", "to": "modi"}, {"from": "Modi's party takes control of India's We", "to": "india"}, {"from": "Modi's party takes control of India's We", "to": "west"}, {"from": "Can the Cockroach party contest Indian e", "to": "cockroach"}, {"from": "Can the Cockroach party contest Indian e", "to": "indian"}, {"from": "Can the Cockroach party contest Indian e", "to": "founder"}, {"from": "Cockroach Janta Party >>> Bharatiya Jana", "to": "cockroach"}, {"from": "Cockroach Janta Party >>> Bharatiya Jana", "to": "janta"}, {"from": "Cockroach Janta Party >>> Bharatiya Jana", "to": "party"}, {"from": "\u2018Hegemonic power\u2019: How Modi\u2019s BJP won In", "to": "hegemonic"}, {"from": "\u2018Hegemonic power\u2019: How Modi\u2019s BJP won In", "to": "modi"}, {"from": "\u2018Hegemonic power\u2019: How Modi\u2019s BJP won In", "to": "india"}, {"from": "Ex-CMs Amarinder, Bahuguna, Reddy\u2014how ma", "to": "amarinder"}, {"from": "Ex-CMs Amarinder, Bahuguna, Reddy\u2014how ma", "to": "bahuguna"}, {"from": "Ex-CMs Amarinder, Bahuguna, Reddy\u2014how ma", "to": "reddy"}, {"from": "West Bengal: Modi's BJP conquers one of ", "to": "west"}, {"from": "West Bengal: Modi's BJP conquers one of ", "to": "bengal"}, {"from": "West Bengal: Modi's BJP conquers one of ", "to": "modi"}, {"from": "First Measurement of Sub-GeV $\u03bd_\u03bc$ Charg", "to": "booster"}, {"from": "First Measurement of Sub-GeV $\u03bd_\u03bc$ Charg", "to": "neutrino"}, {"from": "First Measurement of Sub-GeV $\u03bd_\u03bc$ Charg", "to": "beam"}, {"from": "Adaptive Turn-Taking for Real-time Multi", "to": "turn"}, {"from": "Adaptive Turn-Taking for Real-time Multi", "to": "experiments"}, {"from": "Observation of Non-Gaussian Magnon Dynam", "to": "gaussian"}, {"from": "Observation of Non-Gaussian Magnon Dynam", "to": "gaussian"}, {"from": "Observation of Non-Gaussian Magnon Dynam", "to": "here"}, {"from": "Shivraj Singh Chouhan", "to": "shivraj"}, {"from": "Shivraj Singh Chouhan", "to": "singh"}, {"from": "Shivraj Singh Chouhan", "to": "chouhan"}, {"from": "1997 Brihanmumbai Municipal Corporation ", "to": "congress"}, {"from": "1997 Brihanmumbai Municipal Corporation ", "to": "bhartiya"}, {"from": "1997 Brihanmumbai Municipal Corporation ", "to": "janta"}, {"from": "Bhartiya Janta Party", "to": "bhartiya"}, {"from": "Bhartiya Janta Party", "to": "janta"}, {"from": "Bhartiya Janta Party", "to": "party"}, {"from": "Shit BJP or its Ministers say in public ", "to": "shit"}, {"from": "BJP: Bharatiya Janata Party", "to": "bharatiya"}, {"from": "BJP: Bharatiya Janata Party", "to": "janata"}, {"from": "BJP: Bharatiya Janata Party", "to": "party"}, {"from": "\ud83d\udc4bWelcome to r/BhartiyaJantaPartyBJP - In", "to": "fair"}, {"from": "\ud83d\udc4bWelcome to r/BhartiyaJantaPartyBJP - In", "to": "fair"}, {"from": "\ud83d\udc4bWelcome to r/BhartiyaJantaPartyBJP - In", "to": "this"}, {"from": "Advantages and Disadvantages of Social M", "to": "advantages"}, {"from": "Advantages and Disadvantages of Social M", "to": "disadvantages"}, {"from": "Advantages and Disadvantages of Social M", "to": "social"}, {"from": "Reality of cockroach janta party!", "to": "reality"}, {"from": "Reality of cockroach janta party!", "to": "reality"}, {"from": "Reality of cockroach janta party!", "to": "curious"}, {"from": "Living In The Monopoly Of Violence - Now", "to": "they"}, {"from": "Living In The Monopoly Of Violence - Now", "to": "they"}, {"from": "Living In The Monopoly Of Violence - Now", "to": "chhattisgarh"}]);
+        
+        var container = document.getElementById('graph');
+        var data = { nodes: nodes, edges: edges };
+        
+        // Color nodes by type
+        nodes.forEach(node => {
+            if (node.type === 'source') {
+                node.color = { background: '#667eea', border: '#4c51bf' };
+                node.shape = 'box';
+                node.size = 30;
+            } else {
+                node.color = { background: '#48bb78', border: '#2f855a' };
+                node.shape = 'dot';
+                node.size = 20;
+            }
+        });
+        
+        var options = {
+            nodes: {
+                font: { size: 12, face: 'Arial' },
+                borderWidth: 2,
+                shadow: true
+            },
+            edges: {
+                width: 1,
+                color: { color: '#999', opacity: 0.5 },
+                smooth: { type: 'continuous' }
+            },
+            physics: {
+                stabilization: { iterations: 100 },
+                barnesHut: {
+                    gravitationalConstant: -50000,
+                    centralGravity: 0.3,
+                    springLength: 95,
+                    springConstant: 0.04,
+                    damping: 0.09
+                }
+            },
+            interaction: {
+                hover: true,
+                tooltipDelay: 100,
+                zoomView: true,
+                dragView: true,
+                navigationButtons: true
+            }
+        };
+        
+        var network = new vis.Network(container, data, options);
+        
+        // Layout presets
+        var layouts = ['barnesHut', 'forceAtlas2Based', 'repulsion'];
+        var currentLayout = 0;
+        
+        function toggleLayout() {
+            currentLayout = (currentLayout + 1) % layouts.length;
+            var layout = layouts[currentLayout];
+            var physicsOptions = {
+                stabilization: { iterations: 50 },
+                solver: layout
+            };
+            if (layout === 'forceAtlas2Based') {
+                physicsOptions.forceAtlas2Based = {
+                    gravitationalConstant: -50,
+                    centralGravity: 0.01,
+                    springLength: 100,
+                    springConstant: 0.08,
+                    damping: 0.4
+                };
+            } else if (layout === 'repulsion') {
+                physicsOptions.repulsion = {
+                    centralGravity: 0.2,
+                    springLength: 200,
+                    springConstant: 0.05,
+                    nodeDistance: 150,
+                    damping: 0.09
+                };
+            }
+            network.setOptions({ physics: physicsOptions });
+        }
+        
+        function resetView() {
+            network.fit({
+                animation: {
+                    duration: 1000,
+                    easingFunction: 'easeInOutQuad'
+                }
+            });
+        }
+        
+        function highlightKeyword(keyword) {
+            // Find node
+            var nodeIds = nodes.getIds().filter(id => id.toLowerCase().includes(keyword.toLowerCase()));
+            if (nodeIds.length > 0) {
+                network.selectNodes(nodeIds);
+                network.fit({
+                    nodes: nodeIds,
+                    animation: { duration: 500 }
+                });
+            }
+        }
+        
+        // Click handler
+        network.on("click", function(params) {
+            if (params.nodes.length > 0) {
+                var nodeId = params.nodes[0];
+                var node = nodes.get(nodeId);
+                if (node.url) {
+                    window.open(node.url, '_blank');
+                } else {
+                    console.log('Node:', node);
+                }
+            }
+        });
+        
+        // Auto-fit after stabilization
+        network.once("stabilizationIterationsDone", function() {
+            network.fit();
+        });
+        
+        console.log('Graph loaded with 86 nodes and 80 edges');
+    </script>
+</body>
+</html>
+    

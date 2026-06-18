@@ -1,0 +1,7 @@
+wikipedia-api
+feedparser
+praw
+arxiv
+requests
+beautifulsoup4
+trafilatura

@@ -1,0 +1,831 @@
+================================================================================
+RESEARCH REPORT: ZSH
+================================================================================
+Generated:       2026-06-13T12:15:58+05:30
+Total Items:     100
+Total Keywords:  9
+Sources:         wikipedia, web, reddit, news, arxiv
+================================================================================
+
+## EXECUTIVE SUMMARY
+----------------------------------------
+It contains research findings, summaries, and relevant data. It contains research findings, summaries, and relevant data. It contains research findings, summaries, and relevant data. It contains research findings, summaries, and relevant data. It contains research findings, summaries, and relevant data. It contains research findings, summaries, and relevant data.
+
+
+## DETAILED FINDINGS BY SOURCE
+----------------------------------------
+
+### WIKIPEDIA (20 items)
+----------------------------------------
+
+[1] Zsh — wikipedia result 1
+  Source:    wikipedia
+  URL:       https://wikipedia.example.com/zsh-1
+  Published: 2026-06-12T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from wikipedia. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[2] Zsh — wikipedia result 2
+  Source:    wikipedia
+  URL:       https://wikipedia.example.com/zsh-2
+  Published: 2026-06-11T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from wikipedia. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[3] Zsh — wikipedia result 3
+  Source:    wikipedia
+  URL:       https://wikipedia.example.com/zsh-3
+  Published: 2026-06-10T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from wikipedia. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[4] Zsh — wikipedia result 4
+  Source:    wikipedia
+  URL:       https://wikipedia.example.com/zsh-4
+  Published: 2026-06-09T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from wikipedia. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[5] Zsh — wikipedia result 5
+  Source:    wikipedia
+  URL:       https://wikipedia.example.com/zsh-5
+  Published: 2026-06-08T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from wikipedia. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[6] Zsh — wikipedia result 6
+  Source:    wikipedia
+  URL:       https://wikipedia.example.com/zsh-6
+  Published: 2026-06-07T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from wikipedia. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[7] Zsh — wikipedia result 7
+  Source:    wikipedia
+  URL:       https://wikipedia.example.com/zsh-7
+  Published: 2026-06-06T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from wikipedia. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[8] Zsh — wikipedia result 8
+  Source:    wikipedia
+  URL:       https://wikipedia.example.com/zsh-8
+  Published: 2026-06-05T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from wikipedia. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[9] Zsh — wikipedia result 9
+  Source:    wikipedia
+  URL:       https://wikipedia.example.com/zsh-9
+  Published: 2026-06-04T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from wikipedia. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[10] Zsh — wikipedia result 10
+  Source:    wikipedia
+  URL:       https://wikipedia.example.com/zsh-10
+  Published: 2026-06-03T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from wikipedia. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[11] Zsh — wikipedia result 11
+  Source:    wikipedia
+  URL:       https://wikipedia.example.com/zsh-11
+  Published: 2026-06-02T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from wikipedia. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[12] Zsh — wikipedia result 12
+  Source:    wikipedia
+  URL:       https://wikipedia.example.com/zsh-12
+  Published: 2026-06-01T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from wikipedia. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[13] Zsh — wikipedia result 13
+  Source:    wikipedia
+  URL:       https://wikipedia.example.com/zsh-13
+  Published: 2026-05-31T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from wikipedia. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[14] Zsh — wikipedia result 14
+  Source:    wikipedia
+  URL:       https://wikipedia.example.com/zsh-14
+  Published: 2026-05-30T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from wikipedia. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[15] Zsh — wikipedia result 15
+  Source:    wikipedia
+  URL:       https://wikipedia.example.com/zsh-15
+  Published: 2026-05-29T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from wikipedia. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[16] Zsh — wikipedia result 16
+  Source:    wikipedia
+  URL:       https://wikipedia.example.com/zsh-16
+  Published: 2026-05-28T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from wikipedia. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[17] Zsh — wikipedia result 17
+  Source:    wikipedia
+  URL:       https://wikipedia.example.com/zsh-17
+  Published: 2026-05-27T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from wikipedia. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[18] Zsh — wikipedia result 18
+  Source:    wikipedia
+  URL:       https://wikipedia.example.com/zsh-18
+  Published: 2026-05-26T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from wikipedia. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[19] Zsh — wikipedia result 19
+  Source:    wikipedia
+  URL:       https://wikipedia.example.com/zsh-19
+  Published: 2026-05-25T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from wikipedia. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[20] Zsh — wikipedia result 20
+  Source:    wikipedia
+  URL:       https://wikipedia.example.com/zsh-20
+  Published: 2026-05-24T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from wikipedia. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+### WEB (20 items)
+----------------------------------------
+
+[1] Zsh — web result 1
+  Source:    web
+  URL:       https://web.example.com/zsh-1
+  Published: 2026-06-12T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from web. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[2] Zsh — web result 2
+  Source:    web
+  URL:       https://web.example.com/zsh-2
+  Published: 2026-06-11T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from web. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[3] Zsh — web result 3
+  Source:    web
+  URL:       https://web.example.com/zsh-3
+  Published: 2026-06-10T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from web. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[4] Zsh — web result 4
+  Source:    web
+  URL:       https://web.example.com/zsh-4
+  Published: 2026-06-09T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from web. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[5] Zsh — web result 5
+  Source:    web
+  URL:       https://web.example.com/zsh-5
+  Published: 2026-06-08T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from web. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[6] Zsh — web result 6
+  Source:    web
+  URL:       https://web.example.com/zsh-6
+  Published: 2026-06-07T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from web. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[7] Zsh — web result 7
+  Source:    web
+  URL:       https://web.example.com/zsh-7
+  Published: 2026-06-06T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from web. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[8] Zsh — web result 8
+  Source:    web
+  URL:       https://web.example.com/zsh-8
+  Published: 2026-06-05T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from web. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[9] Zsh — web result 9
+  Source:    web
+  URL:       https://web.example.com/zsh-9
+  Published: 2026-06-04T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from web. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[10] Zsh — web result 10
+  Source:    web
+  URL:       https://web.example.com/zsh-10
+  Published: 2026-06-03T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from web. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[11] Zsh — web result 11
+  Source:    web
+  URL:       https://web.example.com/zsh-11
+  Published: 2026-06-02T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from web. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[12] Zsh — web result 12
+  Source:    web
+  URL:       https://web.example.com/zsh-12
+  Published: 2026-06-01T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from web. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[13] Zsh — web result 13
+  Source:    web
+  URL:       https://web.example.com/zsh-13
+  Published: 2026-05-31T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from web. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[14] Zsh — web result 14
+  Source:    web
+  URL:       https://web.example.com/zsh-14
+  Published: 2026-05-30T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from web. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[15] Zsh — web result 15
+  Source:    web
+  URL:       https://web.example.com/zsh-15
+  Published: 2026-05-29T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from web. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[16] Zsh — web result 16
+  Source:    web
+  URL:       https://web.example.com/zsh-16
+  Published: 2026-05-28T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from web. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[17] Zsh — web result 17
+  Source:    web
+  URL:       https://web.example.com/zsh-17
+  Published: 2026-05-27T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from web. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[18] Zsh — web result 18
+  Source:    web
+  URL:       https://web.example.com/zsh-18
+  Published: 2026-05-26T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from web. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[19] Zsh — web result 19
+  Source:    web
+  URL:       https://web.example.com/zsh-19
+  Published: 2026-05-25T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from web. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[20] Zsh — web result 20
+  Source:    web
+  URL:       https://web.example.com/zsh-20
+  Published: 2026-05-24T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from web. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+### REDDIT (20 items)
+----------------------------------------
+
+[1] Zsh — reddit result 1
+  Source:    reddit
+  URL:       https://reddit.example.com/zsh-1
+  Published: 2026-06-12T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from reddit. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[2] Zsh — reddit result 2
+  Source:    reddit
+  URL:       https://reddit.example.com/zsh-2
+  Published: 2026-06-11T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from reddit. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[3] Zsh — reddit result 3
+  Source:    reddit
+  URL:       https://reddit.example.com/zsh-3
+  Published: 2026-06-10T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from reddit. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[4] Zsh — reddit result 4
+  Source:    reddit
+  URL:       https://reddit.example.com/zsh-4
+  Published: 2026-06-09T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from reddit. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[5] Zsh — reddit result 5
+  Source:    reddit
+  URL:       https://reddit.example.com/zsh-5
+  Published: 2026-06-08T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from reddit. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[6] Zsh — reddit result 6
+  Source:    reddit
+  URL:       https://reddit.example.com/zsh-6
+  Published: 2026-06-07T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from reddit. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[7] Zsh — reddit result 7
+  Source:    reddit
+  URL:       https://reddit.example.com/zsh-7
+  Published: 2026-06-06T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from reddit. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[8] Zsh — reddit result 8
+  Source:    reddit
+  URL:       https://reddit.example.com/zsh-8
+  Published: 2026-06-05T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from reddit. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[9] Zsh — reddit result 9
+  Source:    reddit
+  URL:       https://reddit.example.com/zsh-9
+  Published: 2026-06-04T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from reddit. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[10] Zsh — reddit result 10
+  Source:    reddit
+  URL:       https://reddit.example.com/zsh-10
+  Published: 2026-06-03T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from reddit. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[11] Zsh — reddit result 11
+  Source:    reddit
+  URL:       https://reddit.example.com/zsh-11
+  Published: 2026-06-02T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from reddit. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[12] Zsh — reddit result 12
+  Source:    reddit
+  URL:       https://reddit.example.com/zsh-12
+  Published: 2026-06-01T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from reddit. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[13] Zsh — reddit result 13
+  Source:    reddit
+  URL:       https://reddit.example.com/zsh-13
+  Published: 2026-05-31T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from reddit. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[14] Zsh — reddit result 14
+  Source:    reddit
+  URL:       https://reddit.example.com/zsh-14
+  Published: 2026-05-30T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from reddit. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[15] Zsh — reddit result 15
+  Source:    reddit
+  URL:       https://reddit.example.com/zsh-15
+  Published: 2026-05-29T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from reddit. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[16] Zsh — reddit result 16
+  Source:    reddit
+  URL:       https://reddit.example.com/zsh-16
+  Published: 2026-05-28T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from reddit. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[17] Zsh — reddit result 17
+  Source:    reddit
+  URL:       https://reddit.example.com/zsh-17
+  Published: 2026-05-27T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from reddit. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[18] Zsh — reddit result 18
+  Source:    reddit
+  URL:       https://reddit.example.com/zsh-18
+  Published: 2026-05-26T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from reddit. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[19] Zsh — reddit result 19
+  Source:    reddit
+  URL:       https://reddit.example.com/zsh-19
+  Published: 2026-05-25T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from reddit. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[20] Zsh — reddit result 20
+  Source:    reddit
+  URL:       https://reddit.example.com/zsh-20
+  Published: 2026-05-24T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from reddit. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+### NEWS (20 items)
+----------------------------------------
+
+[1] Zsh — news result 1
+  Source:    news
+  URL:       https://news.example.com/zsh-1
+  Published: 2026-06-12T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from news. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[2] Zsh — news result 2
+  Source:    news
+  URL:       https://news.example.com/zsh-2
+  Published: 2026-06-11T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from news. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[3] Zsh — news result 3
+  Source:    news
+  URL:       https://news.example.com/zsh-3
+  Published: 2026-06-10T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from news. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[4] Zsh — news result 4
+  Source:    news
+  URL:       https://news.example.com/zsh-4
+  Published: 2026-06-09T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from news. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[5] Zsh — news result 5
+  Source:    news
+  URL:       https://news.example.com/zsh-5
+  Published: 2026-06-08T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from news. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[6] Zsh — news result 6
+  Source:    news
+  URL:       https://news.example.com/zsh-6
+  Published: 2026-06-07T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from news. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[7] Zsh — news result 7
+  Source:    news
+  URL:       https://news.example.com/zsh-7
+  Published: 2026-06-06T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from news. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[8] Zsh — news result 8
+  Source:    news
+  URL:       https://news.example.com/zsh-8
+  Published: 2026-06-05T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from news. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[9] Zsh — news result 9
+  Source:    news
+  URL:       https://news.example.com/zsh-9
+  Published: 2026-06-04T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from news. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[10] Zsh — news result 10
+  Source:    news
+  URL:       https://news.example.com/zsh-10
+  Published: 2026-06-03T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from news. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[11] Zsh — news result 11
+  Source:    news
+  URL:       https://news.example.com/zsh-11
+  Published: 2026-06-02T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from news. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[12] Zsh — news result 12
+  Source:    news
+  URL:       https://news.example.com/zsh-12
+  Published: 2026-06-01T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from news. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[13] Zsh — news result 13
+  Source:    news
+  URL:       https://news.example.com/zsh-13
+  Published: 2026-05-31T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from news. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[14] Zsh — news result 14
+  Source:    news
+  URL:       https://news.example.com/zsh-14
+  Published: 2026-05-30T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from news. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[15] Zsh — news result 15
+  Source:    news
+  URL:       https://news.example.com/zsh-15
+  Published: 2026-05-29T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from news. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[16] Zsh — news result 16
+  Source:    news
+  URL:       https://news.example.com/zsh-16
+  Published: 2026-05-28T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from news. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[17] Zsh — news result 17
+  Source:    news
+  URL:       https://news.example.com/zsh-17
+  Published: 2026-05-27T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from news. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[18] Zsh — news result 18
+  Source:    news
+  URL:       https://news.example.com/zsh-18
+  Published: 2026-05-26T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from news. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[19] Zsh — news result 19
+  Source:    news
+  URL:       https://news.example.com/zsh-19
+  Published: 2026-05-25T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from news. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[20] Zsh — news result 20
+  Source:    news
+  URL:       https://news.example.com/zsh-20
+  Published: 2026-05-24T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from news. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+### ARXIV (20 items)
+----------------------------------------
+
+[1] Zsh — arxiv result 1
+  Source:    arxiv
+  URL:       https://arxiv.example.com/zsh-1
+  Published: 2026-06-12T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from arxiv. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[2] Zsh — arxiv result 2
+  Source:    arxiv
+  URL:       https://arxiv.example.com/zsh-2
+  Published: 2026-06-11T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from arxiv. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[3] Zsh — arxiv result 3
+  Source:    arxiv
+  URL:       https://arxiv.example.com/zsh-3
+  Published: 2026-06-10T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from arxiv. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[4] Zsh — arxiv result 4
+  Source:    arxiv
+  URL:       https://arxiv.example.com/zsh-4
+  Published: 2026-06-09T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from arxiv. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[5] Zsh — arxiv result 5
+  Source:    arxiv
+  URL:       https://arxiv.example.com/zsh-5
+  Published: 2026-06-08T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from arxiv. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[6] Zsh — arxiv result 6
+  Source:    arxiv
+  URL:       https://arxiv.example.com/zsh-6
+  Published: 2026-06-07T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from arxiv. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[7] Zsh — arxiv result 7
+  Source:    arxiv
+  URL:       https://arxiv.example.com/zsh-7
+  Published: 2026-06-06T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from arxiv. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[8] Zsh — arxiv result 8
+  Source:    arxiv
+  URL:       https://arxiv.example.com/zsh-8
+  Published: 2026-06-05T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from arxiv. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[9] Zsh — arxiv result 9
+  Source:    arxiv
+  URL:       https://arxiv.example.com/zsh-9
+  Published: 2026-06-04T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from arxiv. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[10] Zsh — arxiv result 10
+  Source:    arxiv
+  URL:       https://arxiv.example.com/zsh-10
+  Published: 2026-06-03T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from arxiv. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[11] Zsh — arxiv result 11
+  Source:    arxiv
+  URL:       https://arxiv.example.com/zsh-11
+  Published: 2026-06-02T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from arxiv. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[12] Zsh — arxiv result 12
+  Source:    arxiv
+  URL:       https://arxiv.example.com/zsh-12
+  Published: 2026-06-01T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from arxiv. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[13] Zsh — arxiv result 13
+  Source:    arxiv
+  URL:       https://arxiv.example.com/zsh-13
+  Published: 2026-05-31T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from arxiv. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[14] Zsh — arxiv result 14
+  Source:    arxiv
+  URL:       https://arxiv.example.com/zsh-14
+  Published: 2026-05-30T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from arxiv. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[15] Zsh — arxiv result 15
+  Source:    arxiv
+  URL:       https://arxiv.example.com/zsh-15
+  Published: 2026-05-29T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from arxiv. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[16] Zsh — arxiv result 16
+  Source:    arxiv
+  URL:       https://arxiv.example.com/zsh-16
+  Published: 2026-05-28T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from arxiv. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[17] Zsh — arxiv result 17
+  Source:    arxiv
+  URL:       https://arxiv.example.com/zsh-17
+  Published: 2026-05-27T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from arxiv. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[18] Zsh — arxiv result 18
+  Source:    arxiv
+  URL:       https://arxiv.example.com/zsh-18
+  Published: 2026-05-26T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from arxiv. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[19] Zsh — arxiv result 19
+  Source:    arxiv
+  URL:       https://arxiv.example.com/zsh-19
+  Published: 2026-05-25T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from arxiv. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------
+
+[20] Zsh — arxiv result 20
+  Source:    arxiv
+  URL:       https://arxiv.example.com/zsh-20
+  Published: 2026-05-24T12:15:56Z
+  Preview:
+  This is a sample content snippet for 'zsh' from arxiv. It contains research findings, summaries, and relevant data. Expand with real API integration for production use.
+  --------------------------------------

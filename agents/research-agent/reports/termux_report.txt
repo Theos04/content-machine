@@ -1,0 +1,219 @@
+Research Report: termux
+Generated: 2026-06-13T11:23:09.946699
+Total Items: 22
+============================================================
+
+
+## WIKIPEDIA (10 items)
+----------------------------------------
+
+[1] Termux
+Source: Wikipedia
+URL: https://en.wikipedia.org/wiki/Termux
+
+Content Preview:
+Termux is a free and open-source terminal emulator for Android which allows for running a Linux environment on an Android device. Termux installs a minimal base system automatically; additional packages are available using its package manager, based on Debian's.
+Most commands available in Linux are accessible in Termux, as well as built-in Bash commands. There are several other shells available, such as Zsh and tcsh.
+----------------------------------------
+
+[2] List of personal finance software
+Source: Wikipedia
+URL: https://en.wikipedia.org/wiki/List_of_personal_finance_software
+
+Content Preview:
+Personal finance software can be used to track spending, create budgets, and plan for future expenses. Some software differs by feature support, software code and development transparency, mobile app features, import methods, Monetization model, privacy and data storage practices.
+
+
+----------------------------------------
+
+[3] R (programming language)
+Source: Wikipedia
+URL: https://en.wikipedia.org/wiki/R_(programming_language)
+
+Content Preview:
+R is a programming language for statistical computing and data visualization. It has been widely adopted in the fields of data mining, bioinformatics, data analysis, and data science.
+The core R language is extended by a large number of software packages, which contain reusable code, documentation, and sample data. Some of the most popular R packages are in the tidyverse collection, which enhances functionality for visualizing, transforming, and modelling data, as well as improves the ease of pr
+----------------------------------------
+
+[4] TeX Live
+Source: Wikipedia
+URL: https://en.wikipedia.org/wiki/TeX_Live
+
+Content Preview:
+TeX Live is a cross-platform, free software distribution for the TeX typesetting system that includes major TeX-related programs, macro packages, and fonts.  It is the replacement of its no-longer supported counterpart teTeX.
+It is now the default TeX distribution for several Linux distributions such as
+openSUSE,
+Fedora,
+Debian, Slackware, Ubuntu, 
+Termux and Gentoo.
+Other Unix operating systems like OpenBSD, FreeBSD and NetBSD have also converted from teTeX to TeX Live.
+The project was original
+----------------------------------------
+
+[5] Google Colab
+Source: Wikipedia
+URL: https://en.wikipedia.org/wiki/Google_Colab
+
+Content Preview:
+Google Colaboratory, or Google Colab for short, is a free, cloud-based Jupyter Notebook environment provided by Google. It allows users to write and execute Python code through the browser, especially suited for machine learning, data analysis, and education.  Google Colab provides an online integrated development environment (IDE) for Python that requires no setup and runs entirely in the cloud. It offers free access to computing resources, including GPUs and TPUs, making it popular among resea
+----------------------------------------
+
+[6] Comparison of OS emulation or virtualization apps on Android
+Source: Wikipedia
+URL: https://en.wikipedia.org/wiki/Comparison_of_OS_emulation_or_virtualization_apps_on_Android
+
+Content Preview:
+There are many Android apps that can run other operating systems, for example with virtualization, terminal emulation, or sometimes installing Linux packages directly in the app. Some remote terminal access apps also have the ability to access Android's internally implemented Toybox, via device loopback support.  Some VM/emulator apps have a fixed set of OS's or applications that are supported.
+Since Android 8 (Oreo), some of these apps have been reporting issues as Google has been making big pl
+----------------------------------------
+
+[7] Bash (Unix shell)
+Source: Wikipedia
+URL: https://en.wikipedia.org/wiki/Bash_(Unix_shell)
+
+Content Preview:
+Bash (short for "Bourne Again SHell") is an interactive command interpreter and command language developed for Unix-like operating systems. Created in 1989 by Brian Fox for the GNU Project, it is designed as a completely free software alternative for the Bourne shell, sh, and other proprietary Unix shells, supported by the Free Software Foundation. Having gained widespread adoption, Bash is commonly used as the default login shell for numerous Linux distributions. It also supports the execution 
+----------------------------------------
+
+[8] OS virtualization and emulation on Android
+Source: Wikipedia
+URL: https://en.wikipedia.org/wiki/OS_virtualization_and_emulation_on_Android
+
+Content Preview:
+Android devices have the ability to run virtual machines or emulate other operating systems.  It does this either via desktop virtualization, platform virtualization, or emulation via compatibility layer.
+----------------------------------------
+
+[9] PulseAudio
+Source: Wikipedia
+URL: https://en.wikipedia.org/wiki/PulseAudio
+
+Content Preview:
+PulseAudio is a network-capable sound server program distributed via the freedesktop.org project. It runs mainly on Linux, including Windows Subsystem for Linux on Microsoft Windows and Termux on Android; various BSD distributions such as FreeBSD,  OpenBSD, and macOS; as well as Illumos distributions and the Solaris operating system. It serves as a middleware in between applications and hardware and handles raw PCM audio streams.
+PulseAudio is free and open-source software, and is licensed under
+----------------------------------------
+
+[10] Profanity (instant messaging client)
+Source: Wikipedia
+URL: https://en.wikipedia.org/wiki/Profanity_(instant_messaging_client)
+
+Content Preview:
+Profanity is an instant messaging TUI (terminal user interface) client that supports the XMPP protocol. It supports Linux, macOS, Windows (via Cygwin or WSL), FreeBSD, and Android (via Termux).
+Packages are available in the Debian, Ubuntu and Arch Linux distributions.
+Features include multi-user chat, desktop notifications, Off The Record and OMEMO message encryption.
+----------------------------------------
+
+## WEB (1 items)
+----------------------------------------
+
+[1] Termux
+Source: Web
+URL: https://en.wikipedia.org/wiki/Termux
+
+Content Preview:
+Termux is a free and open-source terminal emulator for Android which allows for running a Linux environment on an Android device. Termux installs a minimal base system automatically; additional packages are available using its package manager, based on Debian's. Most commands available in Linux are accessible in Termux, as well as built-in Bash commands. There are several other shells available, such as Zsh and tcsh.More atWikipedia
+----------------------------------------
+
+## NEWS (10 items)
+----------------------------------------
+
+[1] From a Shattered Screen to the Cloud: Building an AI Future with Termux in Nigeria - SitePoint
+Source: SitePoint
+URL: https://news.google.com/rss/articles/CBMirAFBVV95cUxOclRpWEpvLWlVSmM1d1JzamRJQ1dOOTdvTTkwNC1zTUYyYm84T0JWM1E4dzBTcGJLazlKUWIxLWM5a2VjQkdkUTRMV3JCaXNEdTFYMjI0OS1PMk5KV2FaQ19wMXAxMzdwOFQxYVBiblBELUZvZWdfYWJ5cTg2RXVRcFFVY2RrbWExdmxZZmFKM3lRX094aWdUOF92NkhlbnRrc2cwU21ZVlRTaEQ1?oc=5
+Published: 2026-05-23T07:00:00+00:00
+
+Content Preview:
+<a href="https://news.google.com/rss/articles/CBMirAFBVV95cUxOclRpWEpvLWlVSmM1d1JzamRJQ1dOOTdvTTkwNC1zTUYyYm84T0JWM1E4dzBTcGJLazlKUWIxLWM5a2VjQkdkUTRMV3JCaXNEdTFYMjI0OS1PMk5KV2FaQ19wMXAxMzdwOFQxYVBiblBELUZvZWdfYWJ5cTg2RXVRcFFVY2RrbWExdmxZZmFKM3lRX094aWdUOF92NkhlbnRrc2cwU21ZVlRTaEQ1?oc=5" target="_blank">From a Shattered Screen to the Cloud: Building an AI Future with Termux in Nigeria</a>&nbsp;&nbsp;<font color="#6f6f6f">SitePoint</font>
+----------------------------------------
+
+[2] Linux On Android Provides Inexpensive, Powerful Computing - Hackaday
+Source: Hackaday
+URL: https://news.google.com/rss/articles/CBMikwFBVV95cUxNYndKN3F3YU4xcGY0MmlRczlSdGxIVkUxTGVaX3ZUanBteHREdFo3YnFNNWoyRzhRVnlSblVNcjFmVlA1ZjNzT3J2QUZvX1ZpVVdUSGpGZHEtMkZJdVdfZDRUb1lXc205UVNic2VwTDJOOWRqV24xNE9CSlVpal9VV0FiUWhudHZ4bG02aWRKSnM5bW8?oc=5
+Published: 2026-05-26T07:00:00+00:00
+
+Content Preview:
+<a href="https://news.google.com/rss/articles/CBMikwFBVV95cUxNYndKN3F3YU4xcGY0MmlRczlSdGxIVkUxTGVaX3ZUanBteHREdFo3YnFNNWoyRzhRVnlSblVNcjFmVlA1ZjNzT3J2QUZvX1ZpVVdUSGpGZHEtMkZJdVdfZDRUb1lXc205UVNic2VwTDJOOWRqV24xNE9CSlVpal9VV0FiUWhudHZ4bG02aWRKSnM5bW8?oc=5" target="_blank">Linux On Android Provides Inexpensive, Powerful Computing</a>&nbsp;&nbsp;<font color="#6f6f6f">Hackaday</font>
+----------------------------------------
+
+[3] I turned my modded Fire Tablet into a working terminal — here's how and what I did with it - How-To Geek
+Source: How-To Geek
+URL: https://news.google.com/rss/articles/CBMitAFBVV95cUxOQk9Id2lHRDh2WG16TkhQQmUzU1dDVHdSZXZZTGRTa1FBNU81LUs3YUljc09hNEJWTWZvUVE2X0hNaThXSzdaeTQwbWpzZ2l0MlBlRHpsZHZEY3JjdXVqbDlkSE5EcjRFLThhT05LN0lrZ1U5Qi04Rnhva2dmZUthOTlDeFhXeTJtbEgzbmVZMmxhbXFzejBKSGRlc1RNRXNSV3VsdGpiTXd4VjliLUN3ZXI4Smk?oc=5
+Published: 2026-05-31T07:00:00+00:00
+
+Content Preview:
+<a href="https://news.google.com/rss/articles/CBMitAFBVV95cUxOQk9Id2lHRDh2WG16TkhQQmUzU1dDVHdSZXZZTGRTa1FBNU81LUs3YUljc09hNEJWTWZvUVE2X0hNaThXSzdaeTQwbWpzZ2l0MlBlRHpsZHZEY3JjdXVqbDlkSE5EcjRFLThhT05LN0lrZ1U5Qi04Rnhva2dmZUthOTlDeFhXeTJtbEgzbmVZMmxhbXFzejBKSGRlc1RNRXNSV3VsdGpiTXd4VjliLUN3ZXI4Smk?oc=5" target="_blank">I turned my modded Fire Tablet into a working terminal — here's how and what I did with it</a>&nbsp;&nbsp;<font color="#6f6f6f">How-To Geek</font>
+----------------------------------------
+
+[4] How to Optimize Termux for Faster Package Downloads - HackerNoon
+Source: HackerNoon
+URL: https://news.google.com/rss/articles/CBMif0FVX3lxTE1MQy1oVk01R2dKZXhCdWhmVDRLamhPeDJJQ0hxWHlyOWZtYXkwNHFfWkRQSG5QaGpxQS1GUHkteGhzODk2Q0Y1NnhldG9OaG90NFFEYXNXb1VBcmJxZmNERERmd09PMG55SUJjZk9VTkxOOWdxSlgzbHJzUHRxQlk?oc=5
+Published: 2026-03-23T07:00:00+00:00
+
+Content Preview:
+<a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE1MQy1oVk01R2dKZXhCdWhmVDRLamhPeDJJQ0hxWHlyOWZtYXkwNHFfWkRQSG5QaGpxQS1GUHkteGhzODk2Q0Y1NnhldG9OaG90NFFEYXNXb1VBcmJxZmNERERmd09PMG55SUJjZk9VTkxOOWdxSlgzbHJzUHRxQlk?oc=5" target="_blank">How to Optimize Termux for Faster Package Downloads</a>&nbsp;&nbsp;<font color="#6f6f6f">HackerNoon</font>
+----------------------------------------
+
+[5] Hardened Mobile Dev: A Termux + Docker Guide for GrapheneOS - SitePoint
+Source: SitePoint
+URL: https://news.google.com/rss/articles/CBMiiwFBVV95cUxNdkZsSjlSaUU0TU5QTl9JTTJKRjNFRzFiREtOVGJZTVNYd0kwaHRiMkdQeU9fS3YxQm11Y0hHS3kxdGFpZGFJaUtjZzh0RXE3SEt6UEI4SUdPaUV2ZVFhbVZwcVktbFVzM0ZTR25TNnVZY1h1TVc1dTBsdDNrVDBXaUxrNEt0ZEN6elpB?oc=5
+Published: 2026-02-19T08:00:00+00:00
+
+Content Preview:
+<a href="https://news.google.com/rss/articles/CBMiiwFBVV95cUxNdkZsSjlSaUU0TU5QTl9JTTJKRjNFRzFiREtOVGJZTVNYd0kwaHRiMkdQeU9fS3YxQm11Y0hHS3kxdGFpZGFJaUtjZzh0RXE3SEt6UEI4SUdPaUV2ZVFhbVZwcVktbFVzM0ZTR25TNnVZY1h1TVc1dTBsdDNrVDBXaUxrNEt0ZEN6elpB?oc=5" target="_blank">Hardened Mobile Dev: A Termux + Docker Guide for GrapheneOS</a>&nbsp;&nbsp;<font color="#6f6f6f">SitePoint</font>
+----------------------------------------
+
+[6] 4 things I never thought I could do on Android until I discovered Termux - Yahoo Tech
+Source: Yahoo Tech
+URL: https://news.google.com/rss/articles/CBMijgFBVV95cUxNaHh4cS1ST0tjd0I5bXVySTd6MzdJb3ZvaG85SHpTVU1WRkpMTkkyTjZLU2IzSUU4UGI0RFpLaEFaX1l2ZjFaZ00xakU3bHFuV2tJRk5kTVRlaTFqU0ZIWFVlU3l5TFI2ZGI1ZW1uendHVlJDZEprdVl0WkdYcEJ3ZmI1TDB4dzlHZkF4a2hB?oc=5
+Published: 2026-05-13T07:00:00+00:00
+
+Content Preview:
+<a href="https://news.google.com/rss/articles/CBMijgFBVV95cUxNaHh4cS1ST0tjd0I5bXVySTd6MzdJb3ZvaG85SHpTVU1WRkpMTkkyTjZLU2IzSUU4UGI0RFpLaEFaX1l2ZjFaZ00xakU3bHFuV2tJRk5kTVRlaTFqU0ZIWFVlU3l5TFI2ZGI1ZW1uendHVlJDZEprdVl0WkdYcEJ3ZmI1TDB4dzlHZkF4a2hB?oc=5" target="_blank">4 things I never thought I could do on Android until I discovered Termux</a>&nbsp;&nbsp;<font color="#6f6f6f">Yahoo Tech</font>
+----------------------------------------
+
+[7] You don’t need a PC for ADB anymore—here’s how to do it in Termux - How-To Geek
+Source: How-To Geek
+URL: https://news.google.com/rss/articles/CBMikwFBVV95cUxQY3EzQ3pWR1ZnRDJOZEhvREd0UU1rdHRlS2xFaGVZa1VsWVBvODBkdFk3VnpMSDctYTJtUmxjLXB4TFh2X0xMUFJicDRyQVdjRHUyQVlCeGswd0RVakpSWEpSZnp2WmFjWDVGX1d2WTlDZDQwSkxJODYtTlNKWUlIcXdFTGdVSWo3TE56VjNMSXVxWk0?oc=5
+Published: 2026-04-15T07:00:00+00:00
+
+Content Preview:
+<a href="https://news.google.com/rss/articles/CBMikwFBVV95cUxQY3EzQ3pWR1ZnRDJOZEhvREd0UU1rdHRlS2xFaGVZa1VsWVBvODBkdFk3VnpMSDctYTJtUmxjLXB4TFh2X0xMUFJicDRyQVdjRHUyQVlCeGswd0RVakpSWEpSZnp2WmFjWDVGX1d2WTlDZDQwSkxJODYtTlNKWUlIcXdFTGdVSWo3TE56VjNMSXVxWk0?oc=5" target="_blank">You don’t need a PC for ADB anymore—here’s how to do it in Termux</a>&nbsp;&nbsp;<font color="#6f6f6f">How-To Geek</font>
+----------------------------------------
+
+[8] Your old Android phone can host a better music server than you'd expect - MakeUseOf
+Source: MakeUseOf
+URL: https://news.google.com/rss/articles/CBMigAFBVV95cUxQSWdSOEtIVW5nalVIOVRObU5IcjV0dTdHVWFRZEFjVkVMUENJLUpiNDJyaG05Tk5XRHFCMHdEZUZRMkJTdVVVRF9JcXAtM09Fd3plQUF1N20xRlU4NWFpeFQ4a1ZwQW42cjBUb09TTl81Q3BTa0xXZHFkdGtibFNRTQ?oc=5
+Published: 2026-03-31T07:00:00+00:00
+
+Content Preview:
+<a href="https://news.google.com/rss/articles/CBMigAFBVV95cUxQSWdSOEtIVW5nalVIOVRObU5IcjV0dTdHVWFRZEFjVkVMUENJLUpiNDJyaG05Tk5XRHFCMHdEZUZRMkJTdVVVRF9JcXAtM09Fd3plQUF1N20xRlU4NWFpeFQ4a1ZwQW42cjBUb09TTl81Q3BTa0xXZHFkdGtibFNRTQ?oc=5" target="_blank">Your old Android phone can host a better music server than you'd expect</a>&nbsp;&nbsp;<font color="#6f6f6f">MakeUseOf</font>
+----------------------------------------
+
+[9] Best Termux Ethical Hacking Tools for Learning Cybersecurity - vocal.media
+Source: vocal.media
+URL: https://news.google.com/rss/articles/CBMilAFBVV95cUxPUi1adXZkdjdZaDA0azljaFFYbFNCUUE1ZndHMjZYLVR4MHZBZkdoREMyc2xQSndRU3UxNjVQd1RKTGZPUnB4WFdVd2dDM1VPcFg4MUcxNV94dE9MSXRZQjdKTHd2Qkhnd2NUMXBsak42VFNnbE5GaS1TNTU1VVRvVmlkSF9lV3Jhcld6dHlxSUZMZm5r?oc=5
+Published: 2026-03-04T08:23:25+00:00
+
+Content Preview:
+<a href="https://news.google.com/rss/articles/CBMilAFBVV95cUxPUi1adXZkdjdZaDA0azljaFFYbFNCUUE1ZndHMjZYLVR4MHZBZkdoREMyc2xQSndRU3UxNjVQd1RKTGZPUnB4WFdVd2dDM1VPcFg4MUcxNV94dE9MSXRZQjdKTHd2Qkhnd2NUMXBsak42VFNnbE5GaS1TNTU1VVRvVmlkSF9lV3Jhcld6dHlxSUZMZm5r?oc=5" target="_blank">Best Termux Ethical Hacking Tools for Learning Cybersecurity</a>&nbsp;&nbsp;<font color="#6f6f6f">vocal.media</font>
+----------------------------------------
+
+[10] This one tool will help you master the Android terminal emulator Termux - How-To Geek
+Source: How-To Geek
+URL: https://news.google.com/rss/articles/CBMinwFBVV95cUxNV1ctZXB4X3F0WC1uRDNBTTNlMVV6YTVCeEo0M2dtUlZrLW9BLVdiTEdpeUVuaFRLSVJMWklZZnoxbDJrczZWZ3RIN29iZ0xValp6TWhsRWItX0hveXdSbXFpVTRZdWV0NVgtWmRJR1VXT3NWaV9JVzN3NV9EVHdjU3ZjRFdYUmVmZUxBVUVOWm5iUE42bFhOcjNQWDlVdEE?oc=5
+Published: 2026-02-22T08:00:00+00:00
+
+Content Preview:
+<a href="https://news.google.com/rss/articles/CBMinwFBVV95cUxNV1ctZXB4X3F0WC1uRDNBTTNlMVV6YTVCeEo0M2dtUlZrLW9BLVdiTEdpeUVuaFRLSVJMWklZZnoxbDJrczZWZ3RIN29iZ0xValp6TWhsRWItX0hveXdSbXFpVTRZdWV0NVgtWmRJR1VXT3NWaV9JVzN3NV9EVHdjU3ZjRFdYUmVmZUxBVUVOWm5iUE42bFhOcjNQWDlVdEE?oc=5" target="_blank">This one tool will help you master the Android terminal emulator Termux</a>&nbsp;&nbsp;<font color="#6f6f6f">How-To Geek</font>
+----------------------------------------
+
+## ARXIV (1 items)
+----------------------------------------
+
+[1] Optimizing LLMs Using Quantization for Mobile Execution
+Source: arXiv
+URL: http://arxiv.org/abs/2512.06490v1
+Published: 2025-12-06T16:31:56+00:00
+
+Content Preview:
+Large Language Models (LLMs) offer powerful capabilities, but their significant size and computational requirements hinder deployment on resource-constrained mobile devices. This paper investigates Post-Training Quantization (PTQ) for compressing LLMs for mobile execution. We apply 4-bit PTQ using the BitsAndBytes library with the Hugging Face Transformers framework to Meta's Llama 3.2 3B model. The quantized model is converted to GGUF format using llama.cpp tools for optimized mobile inference.
+----------------------------------------

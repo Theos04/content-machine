@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Knowledge Graph - BJP - bhartiya janta party</title>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f5f5f5;
+        }
+        #header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        #header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        #header p {
+            margin: 5px 0 0;
+            opacity: 0.9;
+            font-size: 14px;
+        }
+        #controls {
+            padding: 10px 20px;
+            background: white;
+            border-bottom: 1px solid #ddd;
+        }
+        button {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            margin: 0 5px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        button:hover {
+            background: #5a67d8;
+        }
+        #container {
+            display: flex;
+            height: calc(100vh - 130px);
+        }
+        #graph {
+            flex: 3;
+            background: white;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        #sidebar {
+            flex: 1;
+            background: white;
+            margin: 10px 10px 10px 0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            overflow-y: auto;
+        }
+        .stat-box {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        .stat-box h3 {
+            margin: 0 0 10px 0;
+            color: #333;
+            font-size: 16px;
+        }
+        .stat-value {
+            font-size: 28px;
+            font-weight: bold;
+            color: #667eea;
+        }
+        .keyword-cloud {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 10px;
+        }
+        .keyword {
+            background: #e9ecef;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .keyword:hover {
+            background: #667eea;
+            color: white;
+            transform: scale(1.05);
+        }
+        .legend {
+            display: flex;
+            gap: 20px;
+            margin-top: 10px;
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .legend-color {
+            width: 20px;
+            height: 20px;
+            border-radius: 4px;
+        }
+        .instructions {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 10px;
+            margin-top: 15px;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1>📊 Knowledge Graph Explorer</h1>
+        <p>Query: "BJP - bhartiya janta party" | 40 Sources | 133 Nodes | 143 Edges</p>
+    </div>
+    <div id="controls">
+        <button onclick="togglePhysics()">⚡ Toggle Physics</button>
+        <button onclick="resetView()">🔄 Reset View</button>
+        <button onclick="exportPNG()">📸 Export as PNG</button>
+        <span style="margin-left: 20px; font-size: 12px; color: #666;">
+            💡 Click on nodes to open URLs | Drag to pan | Scroll to zoom
+        </span>
+    </div>
+    <div id="container">
+        <div id="graph"></div>
+        <div id="sidebar">
+            <div class="stat-box">
+                <h3>📈 Graph Statistics</h3>
+                <div class="stat-value">40</div>
+                <div>Sources (Articles/Posts)</div>
+                <div class="stat-value">133</div>
+                <div>Total Nodes</div>
+                <div class="stat-value">143</div>
+                <div>Connections (Edges)</div>
+            </div>
+            
+            <div class="stat-box">
+                <h3>📚 Sources by Type</h3>
+                <div>• arxiv: 10</div><div>• news: 10</div><div>• wikipedia: 10</div><div>• reddit: 10</div>
+            </div>
+            
+            <div class="stat-box">
+                <h3>🏷️ Legend</h3>
+                <div class="legend">
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: #667eea;"></div>
+                        <span>Sources</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: #48bb78;"></div>
+                        <span>Keywords</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="stat-box">
+                <h3>🔑 Top Keywords</h3>
+                <div class="keyword-cloud">
+                    <span class="keyword" onclick="highlightKeyword('party')">party</span><span class="keyword" onclick="highlightKeyword('bharatiya')">bharatiya</span><span class="keyword" onclick="highlightKeyword('india')">india</span><span class="keyword" onclick="highlightKeyword('janta')">janta</span><span class="keyword" onclick="highlightKeyword('indian')">indian</span><span class="keyword" onclick="highlightKeyword('janata')">janata</span><span class="keyword" onclick="highlightKeyword('cockroach')">cockroach</span><span class="keyword" onclick="highlightKeyword('singh')">singh</span><span class="keyword" onclick="highlightKeyword('bengal')">bengal</span><span class="keyword" onclick="highlightKeyword('while')">while</span><span class="keyword" onclick="highlightKeyword('congress')">congress</span><span class="keyword" onclick="highlightKeyword('bhartiya')">bhartiya</span><span class="keyword" onclick="highlightKeyword('manipur')">manipur</span><span class="keyword" onclick="highlightKeyword('ladakhi')">ladakhi</span><span class="keyword" onclick="highlightKeyword('chhattisgarh')">chhattisgarh</span><span class="keyword" onclick="highlightKeyword('ladakh')">ladakh</span><span class="keyword" onclick="highlightKeyword('kashmir')">kashmir</span><span class="keyword" onclick="highlightKeyword('people')">people</span><span class="keyword" onclick="highlightKeyword('legislative')">legislative</span><span class="keyword" onclick="highlightKeyword('between')">between</span>
+                </div>
+            </div>
+            
+            <div class="instructions">
+                <strong>💡 Instructions:</strong><br>
+                • <strong>Click</strong> on blue nodes to open the source article<br>
+                • <strong>Drag</strong> nodes to rearrange the graph<br>
+                • <strong>Scroll</strong> to zoom in/out<br>
+                • <strong>Click keywords</strong> to highlight related nodes<br>
+                • Use the <strong>Export PNG</strong> button to save the graph
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js"></script>
+    <script>
+        // Graph data
+        var nodesData = [{"id": "Detection and characterisation of binary", "label": "Detection and characterisation", "type": "source", "collector": "arxiv", "url": "http://arxiv.org/abs/2606.13353v1", "size": 25}, {"id": "between", "label": "between", "type": "keyword", "size": 17}, {"id": "solar", "label": "solar", "type": "keyword", "size": 17}, {"id": "system", "label": "system", "type": "keyword", "size": 17}, {"id": "however", "label": "however", "type": "keyword", "size": 17}, {"id": "binary", "label": "binary", "type": "keyword", "size": 17}, {"id": "Split Tallies: A Discrete Certificate Ca", "label": "Split Tallies: A Discrete Cert", "type": "source", "collector": "arxiv", "url": "http://arxiv.org/abs/2606.13272v1", "size": 19}, {"id": "checkpoint", "label": "checkpoint", "type": "keyword", "size": 17}, {"id": "honest", "label": "honest", "type": "keyword", "size": 17}, {"id": "M\u00d6VE: A Holistic LLM Benchmark for the G", "label": "M\u00d6VE: A Holistic LLM Benchmark", "type": "source", "collector": "arxiv", "url": "http://arxiv.org/abs/2606.13111v1", "size": 25}, {"id": "modelle", "label": "modelle", "type": "keyword", "size": 17}, {"id": "verwaltung", "label": "verwaltung", "type": "keyword", "size": 17}, {"id": "evaluieren", "label": "evaluieren", "type": "keyword", "size": 17}, {"id": "while", "label": "while", "type": "keyword", "size": 19}, {"id": "german", "label": "german", "type": "keyword", "size": 17}, {"id": "Generating Training Targets for Real-Wor", "label": "Generating Training Targets fo", "type": "source", "collector": "arxiv", "url": "http://arxiv.org/abs/2606.13109v1", "size": 25}, {"id": "training", "label": "training", "type": "keyword", "size": 17}, {"id": "close", "label": "close", "type": "keyword", "size": 17}, {"id": "projection", "label": "projection", "type": "keyword", "size": 17}, {"id": "distant", "label": "distant", "type": "keyword", "size": 17}, {"id": "Observation of the decays $B^{+} \\to \u03a3_{", "label": "Observation of the decays $B^{", "type": "source", "collector": "arxiv", "url": "http://arxiv.org/abs/2606.12905v1", "size": 17}, {"id": "belle", "label": "belle", "type": "keyword", "size": 17}, {"id": "Feedback in Extragalactic Star Clusters ", "label": "Feedback in Extragalactic Star", "type": "source", "collector": "arxiv", "url": "http://arxiv.org/abs/2606.13391v1", "size": 23}, {"id": "hubble", "label": "hubble", "type": "keyword", "size": 17}, {"id": "space", "label": "space", "type": "keyword", "size": 17}, {"id": "telescope", "label": "telescope", "type": "keyword", "size": 17}, {"id": "james", "label": "james", "type": "keyword", "size": 17}, {"id": "Can I Buy Your KV Cache?", "label": "Can I Buy Your KV Cache?", "type": "source", "collector": "arxiv", "url": "http://arxiv.org/abs/2606.13361v1", "size": 23}, {"id": "right", "label": "right", "type": "keyword", "size": 17}, {"id": "every", "label": "every", "type": "keyword", "size": 17}, {"id": "shipping", "label": "shipping", "type": "keyword", "size": 17}, {"id": "hosting", "label": "hosting", "type": "keyword", "size": 17}, {"id": "India news: Cockroaches overtake Modi's ", "label": "India news: Cockroaches overta", "type": "source", "collector": "news", "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxORDFhdmNNRmxFVHY2T3BZY2FDeEpRT2RoT2FUVGJGQ2thNnBuNVFnVnFTOVA1dWFhbEVoNEYxRmVYb2pUX2tfVFVpUVRZZUJEUXJIVXl1MlVrY3podXdYMWp0S09UamdzMkx0VGs5anBGUG9kVnBISk0xQk9pTl9abTdSSEZYdTVfT3FkRjBnVF84VU1l?oc=5", "size": 21}, {"id": "instagram", "label": "instagram", "type": "keyword", "size": 17}, {"id": "india", "label": "india", "type": "keyword", "size": 25}, {"id": "cockroaches", "label": "cockroaches", "type": "keyword", "size": 17}, {"id": "Cockroach Janta Party\u2019s rise reflects pe", "label": "Cockroach Janta Party\u2019s rise r", "type": "source", "collector": "news", "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPMjhFdlU1TFJxcHdwZUg5ZFpyTndDNkNlOUhKYnp5TldDRUdJc0pkN1dXVlZHS3RBYjlGWnhnTjA2alBtdlZPRWR6cFRJc2FEdFFPd1Zwakl3ZzR5ZTVueXJKVXBNMXlEVEJ5Zndma2cwTzVuU0NxNXByZDBTNHhubWEyUS0tckhVZWstOFR4VkJTUkNBb0UxaktpZ3ZJVlhZanQ5N2x0cWZMallrdGZmYVJaU3J6RmZBRjFrdGpMemkza1V4bi0tZXEyLUxsYmfSAdYBQVVfeXFMT3hYcVdoLU1CT2ZaTXVEeFBxaFhqcW5FWVRoekpMcDB3azlCWGpJZHFQLW9ORnBCTU9zU2xyckw1VUoyNUhYY25QZnFjNlhpdllwVHA1WlVIdEhweEJTT0dqcXBLZHJndVFLVGJ6RUZ2YldBZU1rcFRGc1JVdHBrSDdrVXRxNEpJNGdaYzI3VU1OY20xTnRNSk40b3hyQVNsV0pSRzRxejBUTDJ2UGpLbklUbnNYMVFRT1hDSmZVYW5iVFhESWRKZWdFaXBoTFdkdE9hdkJLdw?oc=5", "size": 25}, {"id": "hindu", "label": "hindu", "type": "keyword", "size": 17}, {"id": "janta", "label": "janta", "type": "keyword", "size": 25}, {"id": "party", "label": "party", "type": "keyword", "size": 35}, {"id": "cockroach", "label": "cockroach", "type": "keyword", "size": 23}, {"id": "hooda", "label": "hooda", "type": "keyword", "size": 17}, {"id": "Rajnath Singh - Britannica", "label": "Rajnath Singh - Britannica", "type": "source", "collector": "news", "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9OUmdTR2xfdVZCTFkyZjhBRVJyUmE2VUJJWFZTT0JBNERoeDh3dkwwUkUzOUg5OGl5WWRLSDRVd0RqOHhTQUx2ckdMeDBJZEtQLXlxXy14bzdyTmtReUVz?oc=5", "size": 21}, {"id": "rajnath", "label": "rajnath", "type": "keyword", "size": 17}, {"id": "britannica", "label": "britannica", "type": "keyword", "size": 17}, {"id": "singh", "label": "singh", "type": "keyword", "size": 21}, {"id": "Modi's party takes control of India's We", "label": "Modi's party takes control of ", "type": "source", "collector": "news", "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMUFNanZHR1hYN1BpNmx5MnlxVlF5cnFpYmloNG9iSWlaaHZycFJ6eVZEOWhXVzBBWkZmaHdoN0R1NkswZjRFU2RWZm5acjdfaDliblgtQ3BrbU9NbHhPTmJDMDhKVG95WG04V0NrbnhxeVBlQjlfVENydHJJcmNmc1V2MXIyN280Q0pZZngtVmE0cno2dm5xdGk5NmNPSHE4ZnRTLUo2UHAyZUpSOWFDRXF3?oc=5", "size": 19}, {"id": "bengal", "label": "bengal", "type": "keyword", "size": 21}, {"id": "Can the Cockroach party contest Indian e", "label": "Can the Cockroach party contes", "type": "source", "collector": "news", "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxON3VSeFl3S09xNDc1bU5maHdRQUc1eUdkMVJjcnFXbThWcGpFazBsY1g0blJaelNETFVFOGttWmx6M1VDb04zLWNucEh4cjZ4cGJ6QUFhRkZTOTBaNm9WN2E3OWdqMjQyWE1UdGJHRl9oX0E0MVFmZm0wUTRCWFctaWxaQVZHZDBNTkN0OFFJalp4QkYtcVlqbEpYcjE0WC1wQTJ4a3BHLTB6a0pKRE9odU9fMWpYZUR1Z2phb3J6YmZBZV9ZeGQ4QVlrZHBod9IB0wFBVV95cUxPamd2RlJlX0JzczB3X2ZDNEhNS3VZTDJvemRUYk4tZDFhQ25XbGNLcUxZYVpWQ0xnRWxhODg0SG9kbHFNNERuMjR0X3pwcElSUHlsVEphVEtWdFFIU0NNdC0yYmJuZGNoTzFXalI0SmRUSEEwbTdGYUNCOG44c1lBTEozc1h6R0VrZ2dZZU5welNpVThrd3phV2JDeXBOTDY4dWlJNmwwNDZZSzlEcHBmQm1mZTc1bGhUVzVuZ3lnYlR3eEFhUXhVdTJLSXU3cnNMYVk0?oc=5", "size": 25}, {"id": "english", "label": "english", "type": "keyword", "size": 17}, {"id": "founder", "label": "founder", "type": "keyword", "size": 17}, {"id": "bhaskar", "label": "bhaskar", "type": "keyword", "size": 17}, {"id": "indian", "label": "indian", "type": "keyword", "size": 25}, {"id": "Cockroach Janta Party >>> Bharatiya Jana", "label": "Cockroach Janta Party >>> Bhar", "type": "source", "collector": "news", "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOZFNHVmt4aGVURzRzVzR1SmVXY3Jlbmh0NjBPVE5CYlBnSEV6YXduUWxuVmNYd1NOZWVHUm1YZnMtTzRhdHV3REQzR3hCSUc0cFBrZlpOek44TWFKSkZ0Y2U1WTc2Q2tVU0RlMEF2S3g3XzViZnlGRGFWaVJVQUtTSlZuQ3VOVFNHd29taDczak43b0daX2RfaThaZF9JVXZLZzMzZTgyQ0lIS1AzWHprZjc2NEloVnZ1aU9LNXVlN1pCYUpvUC1yREhPT3ZFc2U3MlVqdmRmQm0?oc=5", "size": 25}, {"id": "bharatiya", "label": "bharatiya", "type": "keyword", "size": 27}, {"id": "janata", "label": "janata", "type": "keyword", "size": 25}, {"id": "\u2018Hegemonic power\u2019: How Modi\u2019s BJP won In", "label": "\u2018Hegemonic power\u2019: How Modi\u2019s ", "type": "source", "collector": "news", "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRVRkTFY3b2dUSldkaDltZDJyS013MjlkUnVzZWhhd29CTUhEVmR2cERXMkR5VXBvSmd2Z1dINGJKZXZEM2FVTGo5a05IUkdaQ1VTRE1KdFVOVTFRT01rLUprelhiTmV1R210ZjdRREhDOGNfOW1wVVZrZDQxRGF1eG9UVFVBaHMxczRxUWMzV2xfV2FIQmY1d0lOSk9DNW5DX2h2N2oxQ3UxeG4taW1J0gG0AUFVX3lxTE1hTzFxYzQycWROdkp5ZVprbGJHMEVtU29hRWpLUzQ2ZVFrek5UR1B3ZUFVSURRUmpQTjlrU3RWa1d0TFN2Ul9mS215YU1WTkVlMlE1cmhCNHl0OFZPNnVPb1c2TnlOUW9UMXRlbGVJZmNqVWJ6aGxhb0lBUTlMUGJSOERfMms0NUhfZkZCeTVzU3ZoQmVnNWFTYXREb1pVN3o3Q2R0bkx0UGk0SW5UelBQSGRCbA?oc=5", "size": 23}, {"id": "hegemonic", "label": "hegemonic", "type": "keyword", "size": 17}, {"id": "jazeera", "label": "jazeera", "type": "keyword", "size": 17}, {"id": "Ex-CMs Amarinder, Bahuguna, Reddy\u2014how ma", "label": "Ex-CMs Amarinder, Bahuguna, Re", "type": "source", "collector": "news", "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPVjVNdXd6NWtQeFdoQ0p6Mi1XT042U2FtWGtReUpSc21QNlRRZk95UHpTRzFoRGRTWXVqOVhza1ZiMks4U005SjBrRXoxY3lHWmRqMzdVejY4ckVtcDFoeGxZcFBtSzZLS3gzZmlWbXpqVEg0ZWhSRW5KZ01DbExiZFUzSWtXempjQ3Jia1hTTzlvS245QUJiZDhHaWllUTcyYTdUZ014cV9uTy1DaGNaVGc1Zy1lZV94SmVtS04yaU1wWHUxV2hRaHdOcVk4YkRX0gHWAUFVX3lxTFBCQm9WWEppZVZuUzFZNmJhSC11b3dfN2IzRkRzMUpiekVkcmNqajhWZmg2ejBkbWZGUzU4Wm9LenRyY0JRZmtLdFZVeExGcUNDN1NPNTQxSVBqdnBlZDRwMjh2a2k3eE5QODZMWi1FM2Z2X1hfSDRxdzE1cndCS0plc05NTERvTzdBY2FMenRGY2JJS1FJMTdzdnpXck1PbEtzNUZCbFU4N2d2Rm5md3AyaWpyLTlFbUxPQi1TWlk2N2NoWXM5aWZRU0p3WDZfaEU3Q1NQZnc?oc=5", "size": 23}, {"id": "amarinder", "label": "amarinder", "type": "keyword", "size": 17}, {"id": "bahuguna", "label": "bahuguna", "type": "keyword", "size": 17}, {"id": "congress", "label": "congress", "type": "keyword", "size": 19}, {"id": "reddy", "label": "reddy", "type": "keyword", "size": 17}, {"id": "West Bengal: Modi's BJP conquers one of ", "label": "West Bengal: Modi's BJP conque", "type": "source", "collector": "news", "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBFM1hCRUpNeFJYcUxkeTAzaDBiM09SRGhxMWN1cWxKUkgtSDM2V1pFRXBFOGcwVW5ISlVqUldTY3M5cjZnUXdvY09zWjlxNGlvektOTEdwWWJyZw?oc=5", "size": 19}, {"id": "First Measurement of Sub-GeV $\u03bd_\u03bc$ Charg", "label": "First Measurement of Sub-GeV $", "type": "source", "collector": "arxiv", "url": "http://arxiv.org/abs/2606.13613v1", "size": 21}, {"id": "booster", "label": "booster", "type": "keyword", "size": 17}, {"id": "neutrino", "label": "neutrino", "type": "keyword", "size": 17}, {"id": "fermilab", "label": "fermilab", "type": "keyword", "size": 17}, {"id": "Adaptive Turn-Taking for Real-time Multi", "label": "Adaptive Turn-Taking for Real-", "type": "source", "collector": "arxiv", "url": "http://arxiv.org/abs/2606.13544v1", "size": 17}, {"id": "experiments", "label": "experiments", "type": "keyword", "size": 17}, {"id": "Observation of Non-Gaussian Magnon Dynam", "label": "Observation of Non-Gaussian Ma", "type": "source", "collector": "arxiv", "url": "http://arxiv.org/abs/2606.13499v1", "size": 19}, {"id": "gaussian", "label": "gaussian", "type": "keyword", "size": 17}, {"id": "hamiltonian", "label": "hamiltonian", "type": "keyword", "size": 17}, {"id": "Shivraj Singh Chouhan", "label": "Shivraj Singh Chouhan", "type": "source", "collector": "wikipedia", "url": "https://en.wikipedia.org/wiki/Shivraj_Singh_Chouhan", "size": 25}, {"id": "chouhan", "label": "chouhan", "type": "keyword", "size": 17}, {"id": "chauhan", "label": "chauhan", "type": "keyword", "size": 17}, {"id": "hindi", "label": "hindi", "type": "keyword", "size": 17}, {"id": "shivraj", "label": "shivraj", "type": "keyword", "size": 17}, {"id": "1997 Brihanmumbai Municipal Corporation ", "label": "1997 Brihanmumbai Municipal Co", "type": "source", "collector": "wikipedia", "url": "https://en.wikipedia.org/wiki/1997_Brihanmumbai_Municipal_Corporation_election", "size": 25}, {"id": "bhartiya", "label": "bhartiya", "type": "keyword", "size": 19}, {"id": "koppikar", "label": "koppikar", "type": "keyword", "size": 17}, {"id": "Bhartiya Janta Party", "label": "Bhartiya Janta Party", "type": "source", "collector": "reddit", "url": "https://www.reddit.com/r/BJP2019/", "size": 21}, {"id": "Shit BJP or its Ministers say in public ", "label": "Shit BJP or its Ministers say ", "type": "source", "collector": "reddit", "url": "https://www.reddit.com/r/shitbjpsays/", "size": 15}, {"id": "BJP: Bharatiya Janata Party", "label": "BJP: Bharatiya Janata Party", "type": "source", "collector": "reddit", "url": "https://www.reddit.com/r/BharatiyaJanataParty/", "size": 21}, {"id": "\ud83d\udc4bWelcome to r/BhartiyaJantaPartyBJP - In", "label": "\ud83d\udc4bWelcome to r/BhartiyaJantaPar", "type": "source", "collector": "reddit", "url": "https://www.reddit.com/r/INC/comments/1tkg0lc/welcome_to_rbhartiyajantapartybjp_introduce/", "size": 23}, {"id": "interested", "label": "interested", "type": "keyword", "size": 17}, {"id": "introduce", "label": "introduce", "type": "keyword", "size": 17}, {"id": "community", "label": "community", "type": "keyword", "size": 17}, {"id": "started", "label": "started", "type": "keyword", "size": 17}, {"id": "Advantages and Disadvantages of Social M", "label": "Advantages and Disadvantages o", "type": "source", "collector": "reddit", "url": "https://www.reddit.com/r/TheSEOGuy/comments/1q3px2k/advantages_and_disadvantages_of_social_media/", "size": 23}, {"id": "social", "label": "social", "type": "keyword", "size": 17}, {"id": "advantages", "label": "advantages", "type": "keyword", "size": 17}, {"id": "media", "label": "media", "type": "keyword", "size": 17}, {"id": "disadvantages", "label": "disadvantages", "type": "keyword", "size": 17}, {"id": "Reality of cockroach janta party!", "label": "Reality of cockroach janta par", "type": "source", "collector": "reddit", "url": "https://www.reddit.com/r/indiadiscussion/comments/1tlk0xf/reality_of_cockroach_janta_party/", "size": 19}, {"id": "curious", "label": "curious", "type": "keyword", "size": 17}, {"id": "reality", "label": "reality", "type": "keyword", "size": 17}, {"id": "Living In The Monopoly Of Violence - Now", "label": "Living In The Monopoly Of Viol", "type": "source", "collector": "reddit", "url": "https://www.reddit.com/r/IndianLeft/comments/1nrqg42/living_in_the_monopoly_of_violence_now_is_no_time/", "size": 35}, {"id": "manipur", "label": "manipur", "type": "keyword", "size": 19}, {"id": "ladakhi", "label": "ladakhi", "type": "keyword", "size": 19}, {"id": "chhattisgarh", "label": "chhattisgarh", "type": "keyword", "size": 19}, {"id": "ladakh", "label": "ladakh", "type": "keyword", "size": 19}, {"id": "kashmir", "label": "kashmir", "type": "keyword", "size": 19}, {"id": "Cockroach Janta Party (CJP): How Abhijee", "label": "Cockroach Janta Party (CJP): H", "type": "source", "collector": "news", "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9Lc0Q0bU44S1NCUEdodXF2enMwVDlsLUlrV08tTFJ1TUppNGFWNlhFV1VtQlpMRndaNEo4TXdJRUsza0lGYjRLcmJhZkswbTlxRjBUbW9MZy0tZw?oc=5", "size": 25}, {"id": "dipke", "label": "dipke", "type": "keyword", "size": 17}, {"id": "abhijeet", "label": "abhijeet", "type": "keyword", "size": 17}, {"id": "Bharatiya Janata Party", "label": "Bharatiya Janata Party", "type": "source", "collector": "wikipedia", "url": "https://en.wikipedia.org/wiki/Bharatiya_Janata_Party", "size": 25}, {"id": "people", "label": "people", "type": "keyword", "size": 19}, {"id": "2017 Uttar Pradesh Legislative Assembly ", "label": "2017 Uttar Pradesh Legislative", "type": "source", "collector": "wikipedia", "url": "https://en.wikipedia.org/wiki/2017_Uttar_Pradesh_Legislative_Assembly_election", "size": 25}, {"id": "assembly", "label": "assembly", "type": "keyword", "size": 17}, {"id": "legislative", "label": "legislative", "type": "keyword", "size": 19}, {"id": "uttar", "label": "uttar", "type": "keyword", "size": 17}, {"id": "february", "label": "february", "type": "keyword", "size": 17}, {"id": "pradesh", "label": "pradesh", "type": "keyword", "size": 17}, {"id": "Aazad Samaj Party (Kanshi Ram)", "label": "Aazad Samaj Party (Kanshi Ram)", "type": "source", "collector": "wikipedia", "url": "https://en.wikipedia.org/wiki/Aazad_Samaj_Party_(Kanshi_Ram)", "size": 23}, {"id": "kanshi", "label": "kanshi", "type": "keyword", "size": 17}, {"id": "aazad", "label": "aazad", "type": "keyword", "size": 17}, {"id": "samaj", "label": "samaj", "type": "keyword", "size": 17}, {"id": "Bharatiya Janata Yuva Morcha", "label": "Bharatiya Janata Yuva Morcha", "type": "source", "collector": "wikipedia", "url": "https://en.wikipedia.org/wiki/Bharatiya_Janata_Yuva_Morcha", "size": 25}, {"id": "morcha", "label": "morcha", "type": "keyword", "size": 17}, {"id": "Bharatiya Janata Party \u2013 Gujarat", "label": "Bharatiya Janata Party \u2013 Gujar", "type": "source", "collector": "wikipedia", "url": "https://en.wikipedia.org/wiki/Bharatiya_Janata_Party_\u2013_Gujarat", "size": 23}, {"id": "gujarat", "label": "gujarat", "type": "keyword", "size": 17}, {"id": "Vijay Jolly", "label": "Vijay Jolly", "type": "source", "collector": "wikipedia", "url": "https://en.wikipedia.org/wiki/Vijay_Jolly", "size": 25}, {"id": "delhi", "label": "delhi", "type": "keyword", "size": 17}, {"id": "vijay", "label": "vijay", "type": "keyword", "size": 17}, {"id": "jolly", "label": "jolly", "type": "keyword", "size": 17}, {"id": "Apna Dal (Soneylal)", "label": "Apna Dal (Soneylal)", "type": "source", "collector": "wikipedia", "url": "https://en.wikipedia.org/wiki/Apna_Dal_(Soneylal)", "size": 23}, {"id": "president", "label": "president", "type": "keyword", "size": 17}, {"id": "soneylal", "label": "soneylal", "type": "keyword", "size": 17}, {"id": "Sushil Singh", "label": "Sushil Singh", "type": "source", "collector": "wikipedia", "url": "https://en.wikipedia.org/wiki/Sushil_Singh", "size": 25}, {"id": "december", "label": "december", "type": "keyword", "size": 17}, {"id": "sushil", "label": "sushil", "type": "keyword", "size": 17}];
+        var edgesData = [{"from": "Detection and characterisation of binary", "to": "between", "id": "Detection and characterisation of binary_between"}, {"from": "Detection and characterisation of binary", "to": "solar", "id": "Detection and characterisation of binary_solar"}, {"from": "Detection and characterisation of binary", "to": "system", "id": "Detection and characterisation of binary_system"}, {"from": "Detection and characterisation of binary", "to": "however", "id": "Detection and characterisation of binary_however"}, {"from": "Detection and characterisation of binary", "to": "binary", "id": "Detection and characterisation of binary_binary"}, {"from": "Split Tallies: A Discrete Certificate Ca", "to": "checkpoint", "id": "Split Tallies: A Discrete Certificate Ca_checkpoint"}, {"from": "Split Tallies: A Discrete Certificate Ca", "to": "honest", "id": "Split Tallies: A Discrete Certificate Ca_honest"}, {"from": "M\u00d6VE: A Holistic LLM Benchmark for the G", "to": "modelle", "id": "M\u00d6VE: A Holistic LLM Benchmark for the G_modelle"}, {"from": "M\u00d6VE: A Holistic LLM Benchmark for the G", "to": "verwaltung", "id": "M\u00d6VE: A Holistic LLM Benchmark for the G_verwaltung"}, {"from": "M\u00d6VE: A Holistic LLM Benchmark for the G", "to": "evaluieren", "id": "M\u00d6VE: A Holistic LLM Benchmark for the G_evaluieren"}, {"from": "M\u00d6VE: A Holistic LLM Benchmark for the G", "to": "while", "id": "M\u00d6VE: A Holistic LLM Benchmark for the G_while"}, {"from": "M\u00d6VE: A Holistic LLM Benchmark for the G", "to": "german", "id": "M\u00d6VE: A Holistic LLM Benchmark for the G_german"}, {"from": "Generating Training Targets for Real-Wor", "to": "training", "id": "Generating Training Targets for Real-Wor_training"}, {"from": "Generating Training Targets for Real-Wor", "to": "close", "id": "Generating Training Targets for Real-Wor_close"}, {"from": "Generating Training Targets for Real-Wor", "to": "projection", "id": "Generating Training Targets for Real-Wor_projection"}, {"from": "Generating Training Targets for Real-Wor", "to": "while", "id": "Generating Training Targets for Real-Wor_while"}, {"from": "Generating Training Targets for Real-Wor", "to": "distant", "id": "Generating Training Targets for Real-Wor_distant"}, {"from": "Observation of the decays $B^{+} \\to \u03a3_{", "to": "belle", "id": "Observation of the decays $B^{+} \\to \u03a3_{_belle"}, {"from": "Feedback in Extragalactic Star Clusters ", "to": "hubble", "id": "Feedback in Extragalactic Star Clusters _hubble"}, {"from": "Feedback in Extragalactic Star Clusters ", "to": "space", "id": "Feedback in Extragalactic Star Clusters _space"}, {"from": "Feedback in Extragalactic Star Clusters ", "to": "telescope", "id": "Feedback in Extragalactic Star Clusters _telescope"}, {"from": "Feedback in Extragalactic Star Clusters ", "to": "james", "id": "Feedback in Extragalactic Star Clusters _james"}, {"from": "Can I Buy Your KV Cache?", "to": "right", "id": "Can I Buy Your KV Cache?_right"}, {"from": "Can I Buy Your KV Cache?", "to": "every", "id": "Can I Buy Your KV Cache?_every"}, {"from": "Can I Buy Your KV Cache?", "to": "shipping", "id": "Can I Buy Your KV Cache?_shipping"}, {"from": "Can I Buy Your KV Cache?", "to": "hosting", "id": "Can I Buy Your KV Cache?_hosting"}, {"from": "India news: Cockroaches overtake Modi's ", "to": "instagram", "id": "India news: Cockroaches overtake Modi's _instagram"}, {"from": "India news: Cockroaches overtake Modi's ", "to": "india", "id": "India news: Cockroaches overtake Modi's _india"}, {"from": "India news: Cockroaches overtake Modi's ", "to": "cockroaches", "id": "India news: Cockroaches overtake Modi's _cockroaches"}, {"from": "Cockroach Janta Party\u2019s rise reflects pe", "to": "hindu", "id": "Cockroach Janta Party\u2019s rise reflects pe_hindu"}, {"from": "Cockroach Janta Party\u2019s rise reflects pe", "to": "janta", "id": "Cockroach Janta Party\u2019s rise reflects pe_janta"}, {"from": "Cockroach Janta Party\u2019s rise reflects pe", "to": "party", "id": "Cockroach Janta Party\u2019s rise reflects pe_party"}, {"from": "Cockroach Janta Party\u2019s rise reflects pe", "to": "cockroach", "id": "Cockroach Janta Party\u2019s rise reflects pe_cockroach"}, {"from": "Cockroach Janta Party\u2019s rise reflects pe", "to": "hooda", "id": "Cockroach Janta Party\u2019s rise reflects pe_hooda"}, {"from": "Rajnath Singh - Britannica", "to": "rajnath", "id": "Rajnath Singh - Britannica_rajnath"}, {"from": "Rajnath Singh - Britannica", "to": "britannica", "id": "Rajnath Singh - Britannica_britannica"}, {"from": "Rajnath Singh - Britannica", "to": "singh", "id": "Rajnath Singh - Britannica_singh"}, {"from": "Modi's party takes control of India's We", "to": "bengal", "id": "Modi's party takes control of India's We_bengal"}, {"from": "Modi's party takes control of India's We", "to": "india", "id": "Modi's party takes control of India's We_india"}, {"from": "Can the Cockroach party contest Indian e", "to": "english", "id": "Can the Cockroach party contest Indian e_english"}, {"from": "Can the Cockroach party contest Indian e", "to": "founder", "id": "Can the Cockroach party contest Indian e_founder"}, {"from": "Can the Cockroach party contest Indian e", "to": "bhaskar", "id": "Can the Cockroach party contest Indian e_bhaskar"}, {"from": "Can the Cockroach party contest Indian e", "to": "indian", "id": "Can the Cockroach party contest Indian e_indian"}, {"from": "Can the Cockroach party contest Indian e", "to": "cockroach", "id": "Can the Cockroach party contest Indian e_cockroach"}, {"from": "Cockroach Janta Party >>> Bharatiya Jana", "to": "bharatiya", "id": "Cockroach Janta Party >>> Bharatiya Jana_bharatiya"}, {"from": "Cockroach Janta Party >>> Bharatiya Jana", "to": "janta", "id": "Cockroach Janta Party >>> Bharatiya Jana_janta"}, {"from": "Cockroach Janta Party >>> Bharatiya Jana", "to": "janata", "id": "Cockroach Janta Party >>> Bharatiya Jana_janata"}, {"from": "Cockroach Janta Party >>> Bharatiya Jana", "to": "party", "id": "Cockroach Janta Party >>> Bharatiya Jana_party"}, {"from": "Cockroach Janta Party >>> Bharatiya Jana", "to": "cockroach", "id": "Cockroach Janta Party >>> Bharatiya Jana_cockroach"}, {"from": "\u2018Hegemonic power\u2019: How Modi\u2019s BJP won In", "to": "hegemonic", "id": "\u2018Hegemonic power\u2019: How Modi\u2019s BJP won In_hegemonic"}, {"from": "\u2018Hegemonic power\u2019: How Modi\u2019s BJP won In", "to": "india", "id": "\u2018Hegemonic power\u2019: How Modi\u2019s BJP won In_india"}, {"from": "\u2018Hegemonic power\u2019: How Modi\u2019s BJP won In", "to": "jazeera", "id": "\u2018Hegemonic power\u2019: How Modi\u2019s BJP won In_jazeera"}, {"from": "\u2018Hegemonic power\u2019: How Modi\u2019s BJP won In", "to": "bengal", "id": "\u2018Hegemonic power\u2019: How Modi\u2019s BJP won In_bengal"}, {"from": "Ex-CMs Amarinder, Bahuguna, Reddy\u2014how ma", "to": "amarinder", "id": "Ex-CMs Amarinder, Bahuguna, Reddy\u2014how ma_amarinder"}, {"from": "Ex-CMs Amarinder, Bahuguna, Reddy\u2014how ma", "to": "bahuguna", "id": "Ex-CMs Amarinder, Bahuguna, Reddy\u2014how ma_bahuguna"}, {"from": "Ex-CMs Amarinder, Bahuguna, Reddy\u2014how ma", "to": "congress", "id": "Ex-CMs Amarinder, Bahuguna, Reddy\u2014how ma_congress"}, {"from": "Ex-CMs Amarinder, Bahuguna, Reddy\u2014how ma", "to": "reddy", "id": "Ex-CMs Amarinder, Bahuguna, Reddy\u2014how ma_reddy"}, {"from": "West Bengal: Modi's BJP conquers one of ", "to": "bengal", "id": "West Bengal: Modi's BJP conquers one of _bengal"}, {"from": "West Bengal: Modi's BJP conquers one of ", "to": "india", "id": "West Bengal: Modi's BJP conquers one of _india"}, {"from": "First Measurement of Sub-GeV $\u03bd_\u03bc$ Charg", "to": "booster", "id": "First Measurement of Sub-GeV $\u03bd_\u03bc$ Charg_booster"}, {"from": "First Measurement of Sub-GeV $\u03bd_\u03bc$ Charg", "to": "neutrino", "id": "First Measurement of Sub-GeV $\u03bd_\u03bc$ Charg_neutrino"}, {"from": "First Measurement of Sub-GeV $\u03bd_\u03bc$ Charg", "to": "fermilab", "id": "First Measurement of Sub-GeV $\u03bd_\u03bc$ Charg_fermilab"}, {"from": "Adaptive Turn-Taking for Real-time Multi", "to": "experiments", "id": "Adaptive Turn-Taking for Real-time Multi_experiments"}, {"from": "Observation of Non-Gaussian Magnon Dynam", "to": "gaussian", "id": "Observation of Non-Gaussian Magnon Dynam_gaussian"}, {"from": "Observation of Non-Gaussian Magnon Dynam", "to": "hamiltonian", "id": "Observation of Non-Gaussian Magnon Dynam_hamiltonian"}, {"from": "Shivraj Singh Chouhan", "to": "chouhan", "id": "Shivraj Singh Chouhan_chouhan"}, {"from": "Shivraj Singh Chouhan", "to": "singh", "id": "Shivraj Singh Chouhan_singh"}, {"from": "Shivraj Singh Chouhan", "to": "chauhan", "id": "Shivraj Singh Chouhan_chauhan"}, {"from": "Shivraj Singh Chouhan", "to": "hindi", "id": "Shivraj Singh Chouhan_hindi"}, {"from": "Shivraj Singh Chouhan", "to": "shivraj", "id": "Shivraj Singh Chouhan_shivraj"}, {"from": "1997 Brihanmumbai Municipal Corporation ", "to": "bhartiya", "id": "1997 Brihanmumbai Municipal Corporation _bhartiya"}, {"from": "1997 Brihanmumbai Municipal Corporation ", "to": "congress", "id": "1997 Brihanmumbai Municipal Corporation _congress"}, {"from": "1997 Brihanmumbai Municipal Corporation ", "to": "janta", "id": "1997 Brihanmumbai Municipal Corporation _janta"}, {"from": "1997 Brihanmumbai Municipal Corporation ", "to": "party", "id": "1997 Brihanmumbai Municipal Corporation _party"}, {"from": "1997 Brihanmumbai Municipal Corporation ", "to": "koppikar", "id": "1997 Brihanmumbai Municipal Corporation _koppikar"}, {"from": "Bhartiya Janta Party", "to": "party", "id": "Bhartiya Janta Party_party"}, {"from": "Bhartiya Janta Party", "to": "bhartiya", "id": "Bhartiya Janta Party_bhartiya"}, {"from": "Bhartiya Janta Party", "to": "janta", "id": "Bhartiya Janta Party_janta"}, {"from": "BJP: Bharatiya Janata Party", "to": "party", "id": "BJP: Bharatiya Janata Party_party"}, {"from": "BJP: Bharatiya Janata Party", "to": "janata", "id": "BJP: Bharatiya Janata Party_janata"}, {"from": "BJP: Bharatiya Janata Party", "to": "bharatiya", "id": "BJP: Bharatiya Janata Party_bharatiya"}, {"from": "\ud83d\udc4bWelcome to r/BhartiyaJantaPartyBJP - In", "to": "interested", "id": "\ud83d\udc4bWelcome to r/BhartiyaJantaPartyBJP - In_interested"}, {"from": "\ud83d\udc4bWelcome to r/BhartiyaJantaPartyBJP - In", "to": "introduce", "id": "\ud83d\udc4bWelcome to r/BhartiyaJantaPartyBJP - In_introduce"}, {"from": "\ud83d\udc4bWelcome to r/BhartiyaJantaPartyBJP - In", "to": "community", "id": "\ud83d\udc4bWelcome to r/BhartiyaJantaPartyBJP - In_community"}, {"from": "\ud83d\udc4bWelcome to r/BhartiyaJantaPartyBJP - In", "to": "started", "id": "\ud83d\udc4bWelcome to r/BhartiyaJantaPartyBJP - In_started"}, {"from": "Advantages and Disadvantages of Social M", "to": "social", "id": "Advantages and Disadvantages of Social M_social"}, {"from": "Advantages and Disadvantages of Social M", "to": "advantages", "id": "Advantages and Disadvantages of Social M_advantages"}, {"from": "Advantages and Disadvantages of Social M", "to": "media", "id": "Advantages and Disadvantages of Social M_media"}, {"from": "Advantages and Disadvantages of Social M", "to": "disadvantages", "id": "Advantages and Disadvantages of Social M_disadvantages"}, {"from": "Reality of cockroach janta party!", "to": "curious", "id": "Reality of cockroach janta party!_curious"}, {"from": "Reality of cockroach janta party!", "to": "reality", "id": "Reality of cockroach janta party!_reality"}, {"from": "Living In The Monopoly Of Violence - Now", "to": "manipur", "id": "Living In The Monopoly Of Violence - Now_manipur"}, {"from": "Living In The Monopoly Of Violence - Now", "to": "ladakhi", "id": "Living In The Monopoly Of Violence - Now_ladakhi"}, {"from": "Living In The Monopoly Of Violence - Now", "to": "chhattisgarh", "id": "Living In The Monopoly Of Violence - Now_chhattisgarh"}, {"from": "Living In The Monopoly Of Violence - Now", "to": "ladakh", "id": "Living In The Monopoly Of Violence - Now_ladakh"}, {"from": "Living In The Monopoly Of Violence - Now", "to": "kashmir", "id": "Living In The Monopoly Of Violence - Now_kashmir"}, {"from": "Living In The Monopoly Of Violence - Now", "to": "manipur", "id": "Living In The Monopoly Of Violence - Now_manipur"}, {"from": "Living In The Monopoly Of Violence - Now", "to": "ladakhi", "id": "Living In The Monopoly Of Violence - Now_ladakhi"}, {"from": "Living In The Monopoly Of Violence - Now", "to": "chhattisgarh", "id": "Living In The Monopoly Of Violence - Now_chhattisgarh"}, {"from": "Living In The Monopoly Of Violence - Now", "to": "ladakh", "id": "Living In The Monopoly Of Violence - Now_ladakh"}, {"from": "Living In The Monopoly Of Violence - Now", "to": "kashmir", "id": "Living In The Monopoly Of Violence - Now_kashmir"}, {"from": "Cockroach Janta Party (CJP): How Abhijee", "to": "dipke", "id": "Cockroach Janta Party (CJP): How Abhijee_dipke"}, {"from": "Cockroach Janta Party (CJP): How Abhijee", "to": "abhijeet", "id": "Cockroach Janta Party (CJP): How Abhijee_abhijeet"}, {"from": "Cockroach Janta Party (CJP): How Abhijee", "to": "janta", "id": "Cockroach Janta Party (CJP): How Abhijee_janta"}, {"from": "Cockroach Janta Party (CJP): How Abhijee", "to": "party", "id": "Cockroach Janta Party (CJP): How Abhijee_party"}, {"from": "Cockroach Janta Party (CJP): How Abhijee", "to": "cockroach", "id": "Cockroach Janta Party (CJP): How Abhijee_cockroach"}, {"from": "Bharatiya Janata Party", "to": "bharatiya", "id": "Bharatiya Janata Party_bharatiya"}, {"from": "Bharatiya Janata Party", "to": "indian", "id": "Bharatiya Janata Party_indian"}, {"from": "Bharatiya Janata Party", "to": "janata", "id": "Bharatiya Janata Party_janata"}, {"from": "Bharatiya Janata Party", "to": "people", "id": "Bharatiya Janata Party_people"}, {"from": "Bharatiya Janata Party", "to": "party", "id": "Bharatiya Janata Party_party"}, {"from": "2017 Uttar Pradesh Legislative Assembly ", "to": "assembly", "id": "2017 Uttar Pradesh Legislative Assembly _assembly"}, {"from": "2017 Uttar Pradesh Legislative Assembly ", "to": "legislative", "id": "2017 Uttar Pradesh Legislative Assembly _legislative"}, {"from": "2017 Uttar Pradesh Legislative Assembly ", "to": "uttar", "id": "2017 Uttar Pradesh Legislative Assembly _uttar"}, {"from": "2017 Uttar Pradesh Legislative Assembly ", "to": "february", "id": "2017 Uttar Pradesh Legislative Assembly _february"}, {"from": "2017 Uttar Pradesh Legislative Assembly ", "to": "pradesh", "id": "2017 Uttar Pradesh Legislative Assembly _pradesh"}, {"from": "Aazad Samaj Party (Kanshi Ram)", "to": "party", "id": "Aazad Samaj Party (Kanshi Ram)_party"}, {"from": "Aazad Samaj Party (Kanshi Ram)", "to": "kanshi", "id": "Aazad Samaj Party (Kanshi Ram)_kanshi"}, {"from": "Aazad Samaj Party (Kanshi Ram)", "to": "aazad", "id": "Aazad Samaj Party (Kanshi Ram)_aazad"}, {"from": "Aazad Samaj Party (Kanshi Ram)", "to": "samaj", "id": "Aazad Samaj Party (Kanshi Ram)_samaj"}, {"from": "Bharatiya Janata Yuva Morcha", "to": "morcha", "id": "Bharatiya Janata Yuva Morcha_morcha"}, {"from": "Bharatiya Janata Yuva Morcha", "to": "bharatiya", "id": "Bharatiya Janata Yuva Morcha_bharatiya"}, {"from": "Bharatiya Janata Yuva Morcha", "to": "indian", "id": "Bharatiya Janata Yuva Morcha_indian"}, {"from": "Bharatiya Janata Yuva Morcha", "to": "janata", "id": "Bharatiya Janata Yuva Morcha_janata"}, {"from": "Bharatiya Janata Yuva Morcha", "to": "people", "id": "Bharatiya Janata Yuva Morcha_people"}, {"from": "Bharatiya Janata Party \u2013 Gujarat", "to": "party", "id": "Bharatiya Janata Party \u2013 Gujarat_party"}, {"from": "Bharatiya Janata Party \u2013 Gujarat", "to": "janata", "id": "Bharatiya Janata Party \u2013 Gujarat_janata"}, {"from": "Bharatiya Janata Party \u2013 Gujarat", "to": "gujarat", "id": "Bharatiya Janata Party \u2013 Gujarat_gujarat"}, {"from": "Bharatiya Janata Party \u2013 Gujarat", "to": "bharatiya", "id": "Bharatiya Janata Party \u2013 Gujarat_bharatiya"}, {"from": "Vijay Jolly", "to": "delhi", "id": "Vijay Jolly_delhi"}, {"from": "Vijay Jolly", "to": "bharatiya", "id": "Vijay Jolly_bharatiya"}, {"from": "Vijay Jolly", "to": "vijay", "id": "Vijay Jolly_vijay"}, {"from": "Vijay Jolly", "to": "india", "id": "Vijay Jolly_india"}, {"from": "Vijay Jolly", "to": "jolly", "id": "Vijay Jolly_jolly"}, {"from": "Apna Dal (Soneylal)", "to": "party", "id": "Apna Dal (Soneylal)_party"}, {"from": "Apna Dal (Soneylal)", "to": "indian", "id": "Apna Dal (Soneylal)_indian"}, {"from": "Apna Dal (Soneylal)", "to": "president", "id": "Apna Dal (Soneylal)_president"}, {"from": "Apna Dal (Soneylal)", "to": "soneylal", "id": "Apna Dal (Soneylal)_soneylal"}, {"from": "Sushil Singh", "to": "december", "id": "Sushil Singh_december"}, {"from": "Sushil Singh", "to": "singh", "id": "Sushil Singh_singh"}, {"from": "Sushil Singh", "to": "legislative", "id": "Sushil Singh_legislative"}, {"from": "Sushil Singh", "to": "indian", "id": "Sushil Singh_indian"}, {"from": "Sushil Singh", "to": "sushil", "id": "Sushil Singh_sushil"}];
+        
+        // Configure nodes with colors and sizes
+        nodesData.forEach(function(node) {
+            if (node.type === 'source') {
+                node.color = { background: '#667eea', border: '#4c51bf', highlight: { background: '#5a67d8', border: '#434190' } };
+                node.shape = 'box';
+                node.font = { color: 'white', size: 12, background: 'none' };
+            } else {
+                node.color = { background: '#48bb78', border: '#2f855a', highlight: { background: '#38a169', border: '#276749' } };
+                node.shape = 'dot';
+                node.font = { color: '#333', size: 11 };
+            }
+            node.size = node.size || 20;
+            node.borderWidth = 2;
+            node.shadow = { enabled: true, size: 5 };
+        });
+        
+        // Create datasets
+        var nodes = new vis.DataSet(nodesData);
+        var edges = new vis.DataSet(edgesData);
+        
+        var container = document.getElementById('graph');
+        var data = { nodes: nodes, edges: edges };
+        
+        var options = {
+            nodes: {
+                font: { size: 12, face: 'Arial' },
+                borderWidth: 2,
+                shadow: true
+            },
+            edges: {
+                width: 1.5,
+                color: { color: '#999', opacity: 0.4 },
+                smooth: { type: 'continuous', roundness: 0.5 },
+                arrows: { to: false }
+            },
+            physics: {
+                enabled: true,
+                stabilization: { iterations: 100 },
+                barnesHut: {
+                    gravitationalConstant: -40000,
+                    centralGravity: 0.3,
+                    springLength: 100,
+                    springConstant: 0.04,
+                    damping: 0.09
+                }
+            },
+            interaction: {
+                hover: true,
+                tooltipDelay: 100,
+                zoomView: true,
+                dragView: true,
+                navigationButtons: true,
+                keyboard: true
+            }
+        };
+        
+        var network = new vis.Network(container, data, options);
+        var physicsEnabled = true;
+        
+        // Toggle physics
+        function togglePhysics() {
+            physicsEnabled = !physicsEnabled;
+            network.setOptions({ physics: { enabled: physicsEnabled } });
+            document.querySelector('button:first-child').style.opacity = physicsEnabled ? '1' : '0.6';
+        }
+        
+        // Reset view
+        function resetView() {
+            network.fit({
+                animation: {
+                    duration: 500,
+                    easingFunction: 'easeInOutQuad'
+                }
+            });
+        }
+        
+        // Export as PNG
+        function exportPNG() {
+            var canvas = document.querySelector('canvas');
+            if (canvas) {
+                var link = document.createElement('a');
+                link.download = 'knowledge_graph.png';
+                link.href = canvas.toDataURL();
+                link.click();
+            }
+        }
+        
+        // Highlight keyword
+        function highlightKeyword(keyword) {
+            var nodeIds = nodes.getIds().filter(function(id) {
+                return id.toLowerCase().includes(keyword.toLowerCase());
+            });
+            if (nodeIds.length > 0) {
+                network.selectNodes(nodeIds);
+                network.fit({
+                    nodes: nodeIds,
+                    animation: { duration: 500 }
+                });
+            }
+        }
+        
+        // Click handler for opening URLs
+        network.on("click", function(params) {
+            if (params.nodes.length > 0) {
+                var nodeId = params.nodes[0];
+                var node = nodes.get(nodeId);
+                if (node && node.url) {
+                    window.open(node.url, '_blank');
+                }
+            }
+        });
+        
+        // Auto-fit after stabilization
+        network.once("stabilizationIterationsDone", function() {
+            network.fit();
+            console.log('Graph stabilized and fitted');
+        });
+        
+        console.log('Graph loaded with ' + nodesData.length + ' nodes and ' + edgesData.length + ' edges');
+    </script>
+</body>
+</html>

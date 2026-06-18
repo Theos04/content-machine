@@ -1,0 +1,320 @@
+[
+  {
+    "id": "1603.07695v1",
+    "title": "Part-of-Speech Relevance Weights for Learning Word Embeddings",
+    "abstract": "This paper proposes a model to learn word embeddings with weighted contexts based on part-of-speech (POS) relevance weights. POS is a fundamental element in natural language. However, state-of-the-art word embedding models fail to consider it. This paper proposes to use position-dependent POS relevance weighting matrices to model the inherent syntactic relationship among words within a context window. We utilize the POS relevance weights to model each word-context pairs during the word embedding training process. The model proposed in this paper paper jointly optimizes word vectors and the POS relevance matrices. Experiments conducted on popular word analogy and word similarity tasks all demonstrated the effectiveness of the proposed method.",
+    "authors": [
+      {
+        "name": "Quan Liu",
+        "orcid": null
+      },
+      {
+        "name": "Zhen-Hua Ling",
+        "orcid": null
+      },
+      {
+        "name": "Hui Jiang",
+        "orcid": null
+      },
+      {
+        "name": "Yu Hu",
+        "orcid": null
+      }
+    ],
+    "categories": [
+      "cs.CL"
+    ],
+    "primary_category": "cs.CL",
+    "published": "2016-03-24T18:22:39+00:00",
+    "updated": "2016-03-24T18:22:39+00:00",
+    "doi": null,
+    "journal_ref": null,
+    "comments": "Word embeddings",
+    "pdf_url": "https://arxiv.org/pdf/1603.07695v1",
+    "entry_id": "http://arxiv.org/abs/1603.07695v1",
+    "source": "arXiv",
+    "collector": "arxiv",
+    "query": "embeddings"
+  },
+  {
+    "id": "0009104v3",
+    "title": "Completion of standard-like embeddings",
+    "abstract": "  Inequivalent standard-like observable sector embeddings in $Z_3$ orbifolds with two discrete Wilson lines, as determined by Casas, Mondragon and Mu\u00f1oz, are completed by examining all possible ways of embedding the hidden sector. The hidden sector embeddings are relevant to twisted matter in nontrivial representations of the Standard Model and to scenarios where supersymmetry breaking is generated in a hidden sector. We find a set of 175 models which have a hidden sector gauge group which is viable for dynamical supersymmetry breaking. Only four different hidden sector gauge groups are possible in these models.",
+    "authors": [
+      {
+        "name": "Joel Giedt",
+        "orcid": null
+      }
+    ],
+    "categories": [
+      "hep-th",
+      "hep-ph",
+      "math-ph"
+    ],
+    "primary_category": "hep-th",
+    "published": "2000-09-14T01:26:34+00:00",
+    "updated": "2001-01-03T22:08:08+00:00",
+    "doi": "10.1006/aphy.2001.6139",
+    "journal_ref": "Ann.Phys.289:251,2001",
+    "comments": "21 pages; 10 tables; further reduction to set of 175 embeddings; equivalence of some observable sector embeddings demonstrated",
+    "pdf_url": "https://arxiv.org/pdf/hep-th/0009104v3",
+    "entry_id": "http://arxiv.org/abs/hep-th/0009104v3",
+    "source": "arXiv",
+    "collector": "arxiv",
+    "query": "embeddings"
+  },
+  {
+    "id": "1710.11519v2",
+    "title": "Accessible points of planar embeddings of tent inverse limit spaces",
+    "abstract": "In this paper we study a class of embeddings of tent inverse limit spaces. We introduce techniques relying on the Milnor-Thurston kneading theory and use them to study sets of accessible points and prime ends of given embeddings. We completely characterize accessible points and prime ends of standard embeddings arising from the Barge-Martin construction of global attractors. In other (non-extendable) embeddings we find phenomena which do not occur in the standard embeddings.",
+    "authors": [
+      {
+        "name": "Ana Anusic",
+        "orcid": null
+      },
+      {
+        "name": "Jernej Cinc",
+        "orcid": null
+      }
+    ],
+    "categories": [
+      "math.DS",
+      "math.GN"
+    ],
+    "primary_category": "math.DS",
+    "published": "2017-10-31T14:48:06+00:00",
+    "updated": "2019-02-01T16:09:49+00:00",
+    "doi": null,
+    "journal_ref": null,
+    "comments": "extended preliminaries on construction of planar embeddings; 58 pages, 23 figures",
+    "pdf_url": "https://arxiv.org/pdf/1710.11519v2",
+    "entry_id": "http://arxiv.org/abs/1710.11519v2",
+    "source": "arXiv",
+    "collector": "arxiv",
+    "query": "embeddings"
+  },
+  {
+    "id": "2505.01173v2",
+    "title": "Dual canonical bases and embeddings of symmetric spaces",
+    "abstract": "For a connected reductive group $G_k$ over an algebraically closed field $k$ of char $\\neq 2$ and a fixed point subgroup $K_k$ under an algebraic group involution, we construct a quantization and an integral model of any affine embeddings of the symmetric space $G_k/K_k$. We show that the coordinate ring of any affine embedding of $G_k/K_k$ admits a dual canonical basis.\n  We further construct an integral model for the canonical embedding (that is, an embedding which is complete, simple, and toroidal) of $G_k/K_k$. When $G_k$ is of adjoint type, we obtain an integral model for the wonderful compactification of the symmetric space.",
+    "authors": [
+      {
+        "name": "Huanchen Bao",
+        "orcid": null
+      },
+      {
+        "name": "Jinfeng Song",
+        "orcid": null
+      }
+    ],
+    "categories": [
+      "math.RT",
+      "math.AG",
+      "math.QA"
+    ],
+    "primary_category": "math.RT",
+    "published": "2025-05-02T10:31:01+00:00",
+    "updated": "2025-07-28T06:04:45+00:00",
+    "doi": null,
+    "journal_ref": null,
+    "comments": "v2, 24 pages. We add abelianizations of affine embeddings",
+    "pdf_url": "https://arxiv.org/pdf/2505.01173v2",
+    "entry_id": "http://arxiv.org/abs/2505.01173v2",
+    "source": "arXiv",
+    "collector": "arxiv",
+    "query": "embeddings"
+  },
+  {
+    "id": "2002.11299v2",
+    "title": "Embeddings of $4$--manifolds in $\\CP^3$",
+    "abstract": "In this article we show that every closed orientable smooth $4$--manifold admits a smooth embedding in the complex projective $3$--space.",
+    "authors": [
+      {
+        "name": "Abhijeet Ghanwat",
+        "orcid": null
+      },
+      {
+        "name": "Dishant M. Pancholi",
+        "orcid": null
+      }
+    ],
+    "categories": [
+      "math.GT"
+    ],
+    "primary_category": "math.GT",
+    "published": "2020-02-26T04:32:03+00:00",
+    "updated": "2020-06-26T09:20:33+00:00",
+    "doi": null,
+    "journal_ref": null,
+    "comments": "21 pages. Improved the exposition. Proof of embeddings in R^7 is added",
+    "pdf_url": "https://arxiv.org/pdf/2002.11299v2",
+    "entry_id": "http://arxiv.org/abs/2002.11299v2",
+    "source": "arXiv",
+    "collector": "arxiv",
+    "query": "embeddings"
+  },
+  {
+    "id": "1902.04114v2",
+    "title": "Using Embeddings to Correct for Unobserved Confounding in Networks",
+    "abstract": "We consider causal inference in the presence of unobserved confounding. We study the case where a proxy is available for the unobserved confounding in the form of a network connecting the units. For example, the link structure of a social network carries information about its members. We show how to effectively use the proxy to do causal inference. The main idea is to reduce the causal estimation problem to a semi-supervised prediction of both the treatments and outcomes. Networks admit high-quality embedding models that can be used for this semi-supervised prediction. We show that the method yields valid inferences under suitable (weak) conditions on the quality of the predictive model. We validate the method with experiments on a semi-synthetic social network dataset. Code is available at github.com/vveitch/causal-network-embeddings.",
+    "authors": [
+      {
+        "name": "Victor Veitch",
+        "orcid": null
+      },
+      {
+        "name": "Yixin Wang",
+        "orcid": null
+      },
+      {
+        "name": "David M. Blei",
+        "orcid": null
+      }
+    ],
+    "categories": [
+      "stat.ML",
+      "cs.LG"
+    ],
+    "primary_category": "stat.ML",
+    "published": "2019-02-11T19:47:17+00:00",
+    "updated": "2019-05-31T17:33:12+00:00",
+    "doi": null,
+    "journal_ref": null,
+    "comments": "An earlier version also addressed the use of text embeddings. That material has been expanded and moved to arxiv:1905.12741, \"Using Text Embeddings for Causal Inference\"",
+    "pdf_url": "https://arxiv.org/pdf/1902.04114v2",
+    "entry_id": "http://arxiv.org/abs/1902.04114v2",
+    "source": "arXiv",
+    "collector": "arxiv",
+    "query": "embeddings"
+  },
+  {
+    "id": "0106090v2",
+    "title": "Embeddings in Non-Vacuum Spacetimes",
+    "abstract": "  A scheme is discussed for embedding n-dimensional, Riemannian manifolds in an (n+1)-dimensional Einstein space. Criteria for embedding a given manifold in a spacetime that represents a solution to Einstein's equations sourced by a massless scalar field are also discussed. The embedding procedures are illustrated with a number of examples.",
+    "authors": [
+      {
+        "name": "Edward Anderson",
+        "orcid": null
+      },
+      {
+        "name": "James E. Lidsey",
+        "orcid": null
+      }
+    ],
+    "categories": [
+      "gr-qc"
+    ],
+    "primary_category": "gr-qc",
+    "published": "2001-06-28T11:35:05+00:00",
+    "updated": "2001-10-05T11:17:46+00:00",
+    "doi": "10.1088/0264-9381/18/22/309",
+    "journal_ref": "Class.Quant.Grav. 18 (2001) 4831-4844",
+    "comments": "17 pages, Plain Latex. Extended discussion on embeddings with scalar fields and further examples included. In press, Classical and Quantum Gravity",
+    "pdf_url": "https://arxiv.org/pdf/gr-qc/0106090v2",
+    "entry_id": "http://arxiv.org/abs/gr-qc/0106090v2",
+    "source": "arXiv",
+    "collector": "arxiv",
+    "query": "embeddings"
+  },
+  {
+    "id": "2109.04997v1",
+    "title": "Box Embeddings: An open-source library for representation learning using geometric structures",
+    "abstract": "A major factor contributing to the success of modern representation learning is the ease of performing various vector operations. Recently, objects with geometric structures (eg. distributions, complex or hyperbolic vectors, or regions such as cones, disks, or boxes) have been explored for their alternative inductive biases and additional representational capacities. In this work, we introduce Box Embeddings, a Python library that enables researchers to easily apply and extend probabilistic box embeddings.",
+    "authors": [
+      {
+        "name": "Tejas Chheda",
+        "orcid": null
+      },
+      {
+        "name": "Purujit Goyal",
+        "orcid": null
+      },
+      {
+        "name": "Trang Tran",
+        "orcid": null
+      },
+      {
+        "name": "Dhruvesh Patel",
+        "orcid": null
+      },
+      {
+        "name": "Michael Boratko",
+        "orcid": null
+      },
+      {
+        "name": "Shib Sankar Dasgupta",
+        "orcid": null
+      },
+      {
+        "name": "Andrew McCallum",
+        "orcid": null
+      }
+    ],
+    "categories": [
+      "cs.CL",
+      "cs.LG"
+    ],
+    "primary_category": "cs.CL",
+    "published": "2021-09-10T17:08:17+00:00",
+    "updated": "2021-09-10T17:08:17+00:00",
+    "doi": null,
+    "journal_ref": null,
+    "comments": "The source code and the usage and API documentation for the library is available at https://github.com/iesl/box-embeddings and https://www.iesl.cs.umass.edu/box-embeddings/main/index.html",
+    "pdf_url": "https://arxiv.org/pdf/2109.04997v1",
+    "entry_id": "http://arxiv.org/abs/2109.04997v1",
+    "source": "arXiv",
+    "collector": "arxiv",
+    "query": "embeddings"
+  },
+  {
+    "id": "0701486v1",
+    "title": "Partial order embeddings with convex range",
+    "abstract": "  A careful study is made of embeddings of posets which have a convex range. We observe that such embeddings share nice properties with the homomorphisms of more restrictive categories; for example, we show that every order embedding between two lattices with convex range is a continuous lattice homomorphism. A number of posets are considered; for example, we prove that every product order embedding sigma between the irrationals (i.e. the family of functions from N into N) with convex range is of the form sigma(x)(n) = ((x o g) + y)(n) if n in K, and sigma(x)(n) = y(n) otherwise, for all irrationals x, where K is a subset of N, g:K -> N is a bijection and y is an irrational. The most complex poset examined here is the quotient of the lattice of Baire measurable functions, with codomain of the form N^I for some index set I, modulo equality on a comeager subset of the domain, with its `natural' ordering.",
+    "authors": [
+      {
+        "name": "James Hirschorn",
+        "orcid": null
+      }
+    ],
+    "categories": [
+      "math.RA",
+      "math.LO"
+    ],
+    "primary_category": "math.RA",
+    "published": "2007-01-17T18:15:05+00:00",
+    "updated": "2007-01-17T18:15:05+00:00",
+    "doi": null,
+    "journal_ref": null,
+    "comments": "57 pages. Official homepage of this article (preferred preprint there): http://homepage.univie.ac.at/James.Hirschorn/research/embeddings/embeddings.html",
+    "pdf_url": "https://arxiv.org/pdf/math/0701486v1",
+    "entry_id": "http://arxiv.org/abs/math/0701486v1",
+    "source": "arXiv",
+    "collector": "arxiv",
+    "query": "embeddings"
+  },
+  {
+    "id": "1502.06417v2",
+    "title": "Sobolev embeddings for Herz-type Triebel-Lizorkin spaces",
+    "abstract": "In this paper we prove the Sobolev embeddings for Herz-type Triebel-Lizorkin spaces, \\begin{equation*} \\dot{K}_{q}^{\u03b1_{2},r}F_{\u03b8}^{s_{2}}\\hookrightarrow \\dot{K}%_{s}^{\u03b1_{1},p}F_{\u03b2}^{s_{1}} \\end{equation*} where the parameters $\u03b1_{1},\u03b1_{2},s_{1},s_{2},s,q,r,p,\u03b2$ and $\u03b8$ satisfy some suitable conditions. An application we obtain new embeddings between Herz and Triebel-Lizorkin spaces. Moreover, we present the Sobolev embeddings for Triebel-Lizorkin spaces equipped with power weights. All these results cover the results on classical Triebel-Lizorkin spaces.",
+    "authors": [
+      {
+        "name": "Douadi Drihem",
+        "orcid": null
+      }
+    ],
+    "categories": [
+      "math.FA"
+    ],
+    "primary_category": "math.FA",
+    "published": "2015-02-23T13:28:45+00:00",
+    "updated": "2016-06-16T12:15:34+00:00",
+    "doi": null,
+    "journal_ref": null,
+    "comments": "We reprove Theorem 2 and we add some embeddings between Herz and Triebel-Lizorkin spaces",
+    "pdf_url": "https://arxiv.org/pdf/1502.06417v2",
+    "entry_id": "http://arxiv.org/abs/1502.06417v2",
+    "source": "arXiv",
+    "collector": "arxiv",
+    "query": "embeddings"
+  }
+]

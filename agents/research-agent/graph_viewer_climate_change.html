@@ -1,0 +1,224 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Knowledge Graph - climate change</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f0f2f5;
+        }
+        #header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        #container {
+            display: flex;
+            height: calc(100vh - 120px);
+        }
+        #graph {
+            flex: 3;
+            border: 1px solid #ddd;
+            background: white;
+        }
+        #sidebar {
+            flex: 1;
+            background: white;
+            padding: 20px;
+            overflow-y: auto;
+            border-left: 1px solid #ddd;
+        }
+        .stat {
+            padding: 10px;
+            margin: 10px 0;
+            background: #f5f5f5;
+            border-radius: 5px;
+        }
+        .keyword {
+            display: inline-block;
+            background: #e0e0e0;
+            padding: 5px 10px;
+            margin: 5px;
+            border-radius: 15px;
+            font-size: 12px;
+            cursor: pointer;
+        }
+        .keyword:hover {
+            background: #667eea;
+            color: white;
+        }
+        button {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 5px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #5a67d8;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1>📊 Knowledge Graph Explorer</h1>
+        <p>Query: climate change | 18 Sources | 54 Nodes | 46 Edges</p>
+        <button onclick="toggleLayout()">Change Layout</button>
+        <button onclick="resetView()">Reset View</button>
+    </div>
+    <div id="container">
+        <div id="graph"></div>
+        <div id="sidebar">
+            <div class="stat">
+                <h3>📈 Statistics</h3>
+                <div>Sources: <b>18</b></div>
+                <div>Nodes: <b>54</b></div>
+                <div>Edges: <b>46</b></div>
+                <div>Density: <b>0.032</b></div>
+            </div>
+            <div class="stat">
+                <h3>📚 Source Types</h3>
+                <div>youtube: 3</div><div>arxiv: 3</div><div>news: 3</div><div>wikipedia: 3</div><div>reddit: 3</div><div>google: 2</div><div>web: 1</div>
+            </div>
+            <div class="stat">
+                <h3>🔑 Top Keywords</h3>
+                <div id="keywords">
+                    <span class="keyword" onclick="highlightKeyword('climate')">climate</span><span class="keyword" onclick="highlightKeyword('present')">present</span><span class="keyword" onclick="highlightKeyword('trump')">trump</span><span class="keyword" onclick="highlightKeyword('this')">this</span><span class="keyword" onclick="highlightKeyword('where')">where</span><span class="keyword" onclick="highlightKeyword('greenland')">greenland</span><span class="keyword" onclick="highlightKeyword('scientists')">scientists</span><span class="keyword" onclick="highlightKeyword('what')">what</span><span class="keyword" onclick="highlightKeyword('learn')">learn</span><span class="keyword" onclick="highlightKeyword('subscribe')">subscribe</span><span class="keyword" onclick="highlightKeyword('electron')">electron</span><span class="keyword" onclick="highlightKeyword('cyclotron')">cyclotron</span><span class="keyword" onclick="highlightKeyword('heating')">heating</span><span class="keyword" onclick="highlightKeyword('administration')">administration</span><span class="keyword" onclick="highlightKeyword('ordered')">ordered</span><span class="keyword" onclick="highlightKeyword('raymond')">raymond</span><span class="keyword" onclick="highlightKeyword('exxon')">exxon</span><span class="keyword" onclick="highlightKeyword('doubted')">doubted</span><span class="keyword" onclick="highlightKeyword('judge')">judge</span><span class="keyword" onclick="highlightKeyword('news')">news</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js"></script>
+    <script>
+        var nodes = new vis.DataSet([{"id": "Greenland's Ice Loss Accelerates As Clim", "label": "Greenland's Ice Loss Accelerat", "type": "source", "collector": "youtube"}, {"id": "climate", "label": "climate", "type": "keyword"}, {"id": "greenland", "label": "greenland", "type": "keyword"}, {"id": "scientists", "label": "scientists", "type": "keyword"}, {"id": "Causes and Effects of Climate Change | N", "label": "Causes and Effects of Climate ", "type": "source", "collector": "youtube"}, {"id": "what", "label": "what", "type": "keyword"}, {"id": "learn", "label": "learn", "type": "keyword"}, {"id": "subscribe", "label": "subscribe", "type": "keyword"}, {"id": "Robust Control of ECH Deposition Profile", "label": "Robust Control of ECH Depositi", "type": "source", "collector": "arxiv"}, {"id": "electron", "label": "electron", "type": "keyword"}, {"id": "cyclotron", "label": "cyclotron", "type": "keyword"}, {"id": "heating", "label": "heating", "type": "keyword"}, {"id": "Trump Administration Ordered To Restore ", "label": "Trump Administration Ordered T", "type": "source", "collector": "news"}, {"id": "trump", "label": "trump", "type": "keyword"}, {"id": "administration", "label": "administration", "type": "keyword"}, {"id": "ordered", "label": "ordered", "type": "keyword"}, {"id": "Lee Raymond, Exxon CEO Who Doubted Clima", "label": "Lee Raymond, Exxon CEO Who Dou", "type": "source", "collector": "news"}, {"id": "raymond", "label": "raymond", "type": "keyword"}, {"id": "exxon", "label": "exxon", "type": "keyword"}, {"id": "doubted", "label": "doubted", "type": "keyword"}, {"id": "Judge orders Trump officials to re-insta", "label": "Judge orders Trump officials t", "type": "source", "collector": "news"}, {"id": "judge", "label": "judge", "type": "keyword"}, {"id": "news", "label": "news", "type": "keyword"}, {"id": "Climate change", "label": "Climate change", "type": "source", "collector": "wikipedia"}, {"id": "present", "label": "present", "type": "keyword"}, {"id": "earth", "label": "earth", "type": "keyword"}, {"id": "Climate change denial", "label": "Climate change denial", "type": "source", "collector": "wikipedia"}, {"id": "those", "label": "those", "type": "keyword"}, {"id": "Climate change mitigation", "label": "Climate change mitigation", "type": "source", "collector": "wikipedia"}, {"id": "secondary", "label": "secondary", "type": "keyword"}, {"id": "Climate Change - Wikipedia", "label": "Climate Change - Wikipedia", "type": "source", "collector": "google"}, {"id": "overview", "label": "overview", "type": "keyword"}, {"id": "Recent Papers on Climate Change", "label": "Recent Papers on Climate Chang", "type": "source", "collector": "google"}, {"id": "academic", "label": "academic", "type": "keyword"}, {"id": "Effects of climate change - Wikipedia", "label": "Effects of climate change - Wi", "type": "source", "collector": "web"}, {"id": "climatechangecauses", "label": "climatechangecauses", "type": "keyword"}, {"id": "time", "label": "time", "type": "keyword"}, {"id": "mauna", "label": "mauna", "type": "keyword"}, {"id": "The easiest climate change win ever", "label": "The easiest climate change win", "type": "source", "collector": "youtube"}, {"id": "earlier", "label": "earlier", "type": "keyword"}, {"id": "methane", "label": "methane", "type": "keyword"}, {"id": "action", "label": "action", "type": "keyword"}, {"id": "A place for a rational discussion on a d", "label": "A place for a rational discuss", "type": "source", "collector": "reddit"}, {"id": "this", "label": "this", "type": "keyword"}, {"id": "Is climate change as bad as they say?", "label": "Is climate change as bad as th", "type": "source", "collector": "reddit"}, {"id": "Where did all the climate change go?", "label": "Where did all the climate chan", "type": "source", "collector": "reddit"}, {"id": "where", "label": "where", "type": "keyword"}, {"id": "EvoArena: Tracking Memory Evolution for ", "label": "EvoArena: Tracking Memory Evol", "type": "source", "collector": "arxiv"}, {"id": "large", "label": "large", "type": "keyword"}, {"id": "experiments", "label": "experiments", "type": "keyword"}, {"id": "beyond", "label": "beyond", "type": "keyword"}, {"id": "HyperTool: Beyond Step-Wise Tool Calls f", "label": "HyperTool: Beyond Step-Wise To", "type": "source", "collector": "arxiv"}, {"id": "tool", "label": "tool", "type": "keyword"}, {"id": "universe", "label": "universe", "type": "keyword"}]);
+        var edges = new vis.DataSet([{"from": "Greenland's Ice Loss Accelerates As Clim", "to": "climate"}, {"from": "Greenland's Ice Loss Accelerates As Clim", "to": "greenland"}, {"from": "Greenland's Ice Loss Accelerates As Clim", "to": "scientists"}, {"from": "Causes and Effects of Climate Change | N", "to": "what"}, {"from": "Causes and Effects of Climate Change | N", "to": "learn"}, {"from": "Causes and Effects of Climate Change | N", "to": "subscribe"}, {"from": "Robust Control of ECH Deposition Profile", "to": "electron"}, {"from": "Robust Control of ECH Deposition Profile", "to": "cyclotron"}, {"from": "Robust Control of ECH Deposition Profile", "to": "heating"}, {"from": "Trump Administration Ordered To Restore ", "to": "trump"}, {"from": "Trump Administration Ordered To Restore ", "to": "administration"}, {"from": "Trump Administration Ordered To Restore ", "to": "ordered"}, {"from": "Lee Raymond, Exxon CEO Who Doubted Clima", "to": "raymond"}, {"from": "Lee Raymond, Exxon CEO Who Doubted Clima", "to": "exxon"}, {"from": "Lee Raymond, Exxon CEO Who Doubted Clima", "to": "doubted"}, {"from": "Judge orders Trump officials to re-insta", "to": "judge"}, {"from": "Judge orders Trump officials to re-insta", "to": "trump"}, {"from": "Judge orders Trump officials to re-insta", "to": "news"}, {"from": "Climate change", "to": "present"}, {"from": "Climate change", "to": "earth"}, {"from": "Climate change", "to": "climate"}, {"from": "Climate change denial", "to": "climate"}, {"from": "Climate change denial", "to": "those"}, {"from": "Climate change denial", "to": "climate"}, {"from": "Climate change mitigation", "to": "climate"}, {"from": "Climate change mitigation", "to": "climate"}, {"from": "Climate change mitigation", "to": "secondary"}, {"from": "Climate Change - Wikipedia", "to": "overview"}, {"from": "Recent Papers on Climate Change", "to": "academic"}, {"from": "Effects of climate change - Wikipedia", "to": "climatechangecauses"}, {"from": "Effects of climate change - Wikipedia", "to": "time"}, {"from": "Effects of climate change - Wikipedia", "to": "mauna"}, {"from": "The easiest climate change win ever", "to": "earlier"}, {"from": "The easiest climate change win ever", "to": "methane"}, {"from": "The easiest climate change win ever", "to": "action"}, {"from": "A place for a rational discussion on a d", "to": "this"}, {"from": "Is climate change as bad as they say?", "to": "present"}, {"from": "Is climate change as bad as they say?", "to": "present"}, {"from": "Where did all the climate change go?", "to": "where"}, {"from": "Where did all the climate change go?", "to": "where"}, {"from": "EvoArena: Tracking Memory Evolution for ", "to": "large"}, {"from": "EvoArena: Tracking Memory Evolution for ", "to": "experiments"}, {"from": "EvoArena: Tracking Memory Evolution for ", "to": "beyond"}, {"from": "HyperTool: Beyond Step-Wise Tool Calls f", "to": "tool"}, {"from": "HyperTool: Beyond Step-Wise Tool Calls f", "to": "this"}, {"from": "HyperTool: Beyond Step-Wise Tool Calls f", "to": "universe"}]);
+        
+        var container = document.getElementById('graph');
+        var data = { nodes: nodes, edges: edges };
+        
+        // Color nodes by type
+        nodes.forEach(node => {
+            if (node.type === 'source') {
+                node.color = { background: '#667eea', border: '#4c51bf' };
+                node.shape = 'box';
+                node.size = 30;
+            } else {
+                node.color = { background: '#48bb78', border: '#2f855a' };
+                node.shape = 'dot';
+                node.size = 20;
+            }
+        });
+        
+        var options = {
+            nodes: {
+                font: { size: 12, face: 'Arial' },
+                borderWidth: 2,
+                shadow: true
+            },
+            edges: {
+                width: 1,
+                color: { color: '#999', opacity: 0.5 },
+                smooth: { type: 'continuous' }
+            },
+            physics: {
+                stabilization: { iterations: 100 },
+                barnesHut: {
+                    gravitationalConstant: -50000,
+                    centralGravity: 0.3,
+                    springLength: 95,
+                    springConstant: 0.04,
+                    damping: 0.09
+                }
+            },
+            interaction: {
+                hover: true,
+                tooltipDelay: 100,
+                zoomView: true,
+                dragView: true,
+                navigationButtons: true
+            }
+        };
+        
+        var network = new vis.Network(container, data, options);
+        
+        // Layout presets
+        var layouts = ['barnesHut', 'forceAtlas2Based', 'repulsion'];
+        var currentLayout = 0;
+        
+        function toggleLayout() {
+            currentLayout = (currentLayout + 1) % layouts.length;
+            var layout = layouts[currentLayout];
+            var physicsOptions = {
+                stabilization: { iterations: 50 },
+                solver: layout
+            };
+            if (layout === 'forceAtlas2Based') {
+                physicsOptions.forceAtlas2Based = {
+                    gravitationalConstant: -50,
+                    centralGravity: 0.01,
+                    springLength: 100,
+                    springConstant: 0.08,
+                    damping: 0.4
+                };
+            } else if (layout === 'repulsion') {
+                physicsOptions.repulsion = {
+                    centralGravity: 0.2,
+                    springLength: 200,
+                    springConstant: 0.05,
+                    nodeDistance: 150,
+                    damping: 0.09
+                };
+            }
+            network.setOptions({ physics: physicsOptions });
+        }
+        
+        function resetView() {
+            network.fit({
+                animation: {
+                    duration: 1000,
+                    easingFunction: 'easeInOutQuad'
+                }
+            });
+        }
+        
+        function highlightKeyword(keyword) {
+            // Find node
+            var nodeIds = nodes.getIds().filter(id => id.toLowerCase().includes(keyword.toLowerCase()));
+            if (nodeIds.length > 0) {
+                network.selectNodes(nodeIds);
+                network.fit({
+                    nodes: nodeIds,
+                    animation: { duration: 500 }
+                });
+            }
+        }
+        
+        // Click handler
+        network.on("click", function(params) {
+            if (params.nodes.length > 0) {
+                var nodeId = params.nodes[0];
+                var node = nodes.get(nodeId);
+                if (node.url) {
+                    window.open(node.url, '_blank');
+                } else {
+                    console.log('Node:', node);
+                }
+            }
+        });
+        
+        // Auto-fit after stabilization
+        network.once("stabilizationIterationsDone", function() {
+            network.fit();
+        });
+        
+        console.log('Graph loaded with 54 nodes and 46 edges');
+    </script>
+</body>
+</html>
+    

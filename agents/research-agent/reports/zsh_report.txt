@@ -1,0 +1,442 @@
+Research Report: zsh
+Generated: 2026-06-13T12:30:40.177465
+Total Items: 49
+============================================================
+
+
+## WIKIPEDIA (10 items)
+----------------------------------------
+
+[1] Z shell
+Source: Wikipedia
+URL: https://en.wikipedia.org/wiki/Z_shell
+
+Content Preview:
+The Z shell (Zsh) is a shell and a command-line interpreter for shell scripts. Zsh mostly maintains the Bourne shell's syntax and behavior, but in its default configuration deviates in some significant ways from the POSIX standard specification of the sh language (such as eliminating implicit IFS-splitting and globbing upon unquoted parameter expansions) and adds substantially more features. 
+Zsh was created by Paul Falstad in 1990 while he was a student at Princeton University. It combines feat
+----------------------------------------
+
+[2] Terminal (macOS)
+Source: Wikipedia
+URL: https://en.wikipedia.org/wiki/Terminal_(macOS)
+
+Content Preview:
+Terminal is the terminal emulator included in the macOS operating system by Apple. Terminal originated in NeXTSTEP and OPENSTEP, the predecessor operating systems of macOS.
+As a terminal emulator, the application provides text-based access to the operating system, in contrast to the mostly graphical nature of the user experience of macOS, by providing a command-line interface to the operating system when used in conjunction with a Unix shell, such as zsh (the default interactive shell since macO
+----------------------------------------
+
+[3] Shell script
+Source: Wikipedia
+URL: https://en.wikipedia.org/wiki/Shell_script
+
+Content Preview:
+A shell script is a computer program designed to be run by a Unix shell, a command-line interpreter. The various dialects of shell scripts are considered to be command languages. Typical operations performed by shell scripts include file manipulation, program execution, and printing text. A script which sets up the environment, runs the program, and does any necessary cleanup or logging, is called a wrapper.
+The term is also used more generally to mean the automated mode of running an operating 
+----------------------------------------
+
+[4] NOP (code)
+Source: Wikipedia
+URL: https://en.wikipedia.org/wiki/NOP_(code)
+
+Content Preview:
+In computer science, a NOP, no-op, or NOOP (pronounced "no op"; short for no operation) is a machine language instruction and its assembly language mnemonic, programming language statement, or computer protocol command that does nothing.
+----------------------------------------
+
+[5] Linux
+Source: Wikipedia
+URL: https://en.wikipedia.org/wiki/Linux
+
+Content Preview:
+Linux ( LIN-uuks) is a family of free and open-source Unix-like operating systems based on the Linux kernel, which was first released on 17 September 1991 by Linus Torvalds. Some members of the family are typically packaged as a distribution (a.k.a. distro), which includes the kernel alongside supporting system software and libraries developed by third parties—such as GNU, Red Hat, and X.Org—to create a complete operating system; however, not all Linux-based operating systems are considered dist
+----------------------------------------
+
+[6] Process substitution
+Source: Wikipedia
+URL: https://en.wikipedia.org/wiki/Process_substitution
+
+Content Preview:
+In computing, process substitution is a form of inter-process communication that allows the input or output of a command to be made available as a file path. The command is substituted in-line, where a file name would normally occur, by the command shell. This allows programs that normally only accept file paths to directly read from or write to another program.
+----------------------------------------
+
+[7] Comparison of command shells
+Source: Wikipedia
+URL: https://en.wikipedia.org/wiki/Comparison_of_command_shells
+
+Content Preview:
+This article catalogs comparable aspects of notable operating system shells.
+----------------------------------------
+
+[8] Bash (Unix shell)
+Source: Wikipedia
+URL: https://en.wikipedia.org/wiki/Bash_(Unix_shell)
+
+Content Preview:
+Bash (short for "Bourne Again SHell") is an interactive command interpreter and command language developed for Unix-like operating systems. Created in 1989 by Brian Fox for the GNU Project, it is designed as a completely free software alternative for the Bourne shell, sh, and other proprietary Unix shells, supported by the Free Software Foundation. Having gained widespread adoption, Bash is commonly used as the default login shell for numerous Linux distributions. It also supports the execution 
+----------------------------------------
+
+[9] ASCII
+Source: Wikipedia
+URL: https://en.wikipedia.org/wiki/ASCII
+
+Content Preview:
+ASCII (  ASS-kee), an acronym for American Standard Code for Information Interchange, is a character encoding standard for representing a particular set of 95 (English-language–focused) printable and 33 control characters –  a total of 128 code points. The set of available punctuation had significant impact on the syntax of computer languages and text markup. ASCII hugely influenced the design of character sets used by modern computers; for example, the first 128 code points of Unicode are the s
+----------------------------------------
+
+[10] Arch Linux
+Source: Wikipedia
+URL: https://en.wikipedia.org/wiki/Arch_Linux
+
+Content Preview:
+others Influenced by CRUX, BSD Default user interface Command-line interface (Zsh as the default shell in Live CD or Live USB and Bash as the default shell
+----------------------------------------
+
+## WEB (10 items)
+----------------------------------------
+
+[1] Zsh
+Source: Mojeek
+URL: https://www.zsh.org/
+
+Content Preview:
+This site provides an index toZshinformation ...Zshis a shell designed for interactive use, although it is also a powerful scripting language.
+----------------------------------------
+
+[2] GitHub - ohmyzsh/ohmyzsh: 🙃 A delightful community-driven
+Source: Mojeek
+URL: https://github.com/ohmyzsh/ohmyzsh
+
+Content Preview:
+If you want to skip default Oh MyZshaliases (those defined in lib/* files) or plugin aliases, you can use the settings below in your ~/.zshrc file ...
+----------------------------------------
+
+[3] GitHub - zsh-users/zsh-syntax-highlighting: Fish shell like
+Source: Mojeek
+URL: https://github.com/zsh-users/zsh-syntax-highlighting
+
+Content Preview:
+Inzshnewer than 5.8 (not including 5.8 itself),zsh-syntax-highlighting uses the add-zle-hook-widget facility to install a zle-line-pre-redraw hook.
+----------------------------------------
+
+[4] Z shell - Wikipedia
+Source: Mojeek
+URL: https://en.wikipedia.org/wiki/Z_shell
+
+Content Preview:
+In 2019, macOS Catalina adoptedZshas the default login shell, replacing the GPLv2 licensed version of Bash , 11 and when Bash is run interactively ...
+----------------------------------------
+
+[5] zsh.sourceforge.io
+Source: Mojeek
+URL: https://zsh.sourceforge.io/
+
+Content Preview:
+
+----------------------------------------
+
+[6] Zsh - ArchWiki
+Source: Mojeek
+URL: https://wiki.archlinux.org/title/Zsh
+
+Content Preview:
+Zshoffers the options of using a prompt theme or, for users who are dissatisfied with the themes (or want to expand their usefulness), the ...
+----------------------------------------
+
+[7] zsh download | SourceForge.net
+Source: Mojeek
+URL: https://sourceforge.net/projects/zsh/
+
+Content Preview:
+... a quite long time, but have transitioned toZsh. ... I m a very happy user ofzshfor more than 10 year (on various Unices and windows via cygwin).
+----------------------------------------
+
+[8] zsh(1): Z shell - Linux man page
+Source: Mojeek
+URL: https://linux.die.net/man/1/zsh
+
+Content Preview:
+Zshtries to emulate sh or ksh when it is invoked as sh or ksh respectively; more precisely, it looks at the first letter of the name by which it was ...
+----------------------------------------
+
+[9] My Extravagant Zsh Prompt / Steve Losh
+Source: Mojeek
+URL: https://stevelosh.com/blog/2010/02/my-extravagant-zsh-prompt/
+
+Content Preview:
+An oh-my-zshtheme file is just aZshscript which sets a few variables that the oh-my-zshscripts use to render your prompt.
+----------------------------------------
+
+[10] Moving to zsh – Scripting OS X
+Source: Mojeek
+URL: https://scriptingosx.com/2019/06/moving-to-zsh/
+
+Content Preview:
+Sincezshignores the bash configuration files ( .bash_profile or .bashrc ) you cannot simply copy customized bash settings over tozsh.
+----------------------------------------
+
+## REDDIT (10 items)
+----------------------------------------
+
+[1] Zsh: a powerful programmer's shell
+Source: r/zsh
+URL: https://www.reddit.com/r/zsh/
+
+Content Preview:
+<div> Zsh is a shell designed for interactive use and it is also a powerful scripting language. </div> <div> <a href="https://www.reddit.com/r/zsh/">[link]</a> </div>
+----------------------------------------
+
+[2] Command Line Interfaces
+Source: r/commandline
+URL: https://www.reddit.com/r/commandline/
+
+Content Preview:
+<div> Command line tools (CLIs) uses only typed commands and show text output in an tool called a terminal. TUIs are complete apps that ditch the mouse entirely for fast keybard interaction. They're often faster than using a mouse in traditional apps (GUIs). CLI - Command Line Interface apps &amp; tools. TUI - Terminal User Interface apps &amp; tools. GUI - Graphical User Interface (traditional apps). </div> <div> <a href="https://www.reddit.com/r/commandline/">[link]</a> </div>
+----------------------------------------
+
+[3] r/unixporn - the home for *NIX customization!
+Source: r/unixporn
+URL: https://www.reddit.com/r/unixporn/
+
+Content Preview:
+<div> Submit screenshots of all your *NIX desktops, themes, and nifty configurations, or submit anything else that will make ricers happy. Maybe a server running on an Amiga, or a Thinkpad signed by Bjarne Stroustrup? Show the world how pretty your computer can be! </div> <div> <a href="https://www.reddit.com/r/unixporn/">[link]</a> </div>
+----------------------------------------
+
+[4] You probably don't need Oh My Zsh
+Source: r/programming
+URL: https://www.reddit.com/r/programming/comments/1q88buy/you_probably_dont_need_oh_my_zsh/
+Published: 2026-01-09T13:32:25+00:00
+
+Content Preview:
+&#32; submitted by &#32; <a href="https://www.reddit.com/user/f311a"> /u/f311a </a> &#32; to &#32; <a href="https://www.reddit.com/r/programming/"> r/programming </a> <br /> <span><a href="https://rushter.com/blog/zsh-shell/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/programming/comments/1q88buy/you_probably_dont_need_oh_my_zsh/">[comments]</a></span>
+----------------------------------------
+
+[5] Why use zsh or fish instead of bash that comes default?
+Source: r/linuxquestions
+URL: https://www.reddit.com/r/linuxquestions/comments/1ttsoo4/why_use_zsh_or_fish_instead_of_bash_that_comes/
+Published: 2026-06-01T13:44:17+00:00
+
+Content Preview:
+<!-- SC_OFF --><div class="md"><p>If zsh does the same thing as bash does uses the same scripting prompts then why even switch to zsh. I don't want to be like &quot;he did so i will too&quot; i want to know genuine reasons to switch to zsh or fish. My usage in terminal is i use Lazyvim and use i3wm use terminal here and there program or tweak configs a bit. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/FAMPpro"> /u/FAMPpro </a> &#32; to &#32; <a href="ht
+----------------------------------------
+
+[6] Zsh vs bash
+Source: r/archlinux
+URL: https://www.reddit.com/r/archlinux/comments/1rdhnsf/zsh_vs_bash/
+Published: 2026-02-24T14:27:08+00:00
+
+Content Preview:
+<!-- SC_OFF --><div class="md"><p>I've been researching ricing my system and I've heard multiple people mention switching their shell over to zsh and im wondering what the main benefits are. I see mention of more tools on zsh but im so new i don't really know what that means for me. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/Regular-Historian-51"> /u/Regular-Historian-51 </a> &#32; to &#32; <a href="https://www.reddit.com/r/archlinux/"> r/archlinux </
+----------------------------------------
+
+[7] What zsh plugins & shell tools do you actually use every day?
+Source: r/zsh
+URL: https://www.reddit.com/r/zsh/comments/1rallbi/what_zsh_plugins_shell_tools_do_you_actually_use/
+Published: 2026-02-21T08:07:22+00:00
+
+Content Preview:
+<!-- SC_OFF --><div class="md"><p>Hey folks,</p> <p>I’ve been tinkering with my Zsh setup again (as one does) and I’m working on a small bootstrap script called Z-SHIFT that sets up a clean, modern Zsh environment from scratch.</p> <p>Right now I’m using stuff like fast-syntax-highlighting, autosuggestions, eza, ripgrep, fd, etc.</p> <p>Not “this looks cool”, but:</p> <ul> <li>what genuinely improved your workflow?</li> <li>what did you remove because it wasn’t worth it?</li> <li>any underrated 
+----------------------------------------
+
+[8] [i3] Beautiful Terminal Prompts Without Starship, Powerlevel10k, or Oh-My-zsh/bash
+Source: r/unixporn
+URL: https://www.reddit.com/r/unixporn/comments/1q0c6dn/i3_beautiful_terminal_prompts_without_starship/
+Published: 2025-12-31T12:44:27+00:00
+
+Content Preview:
+<table> <tr><td> <a href="https://www.reddit.com/r/unixporn/comments/1q0c6dn/i3_beautiful_terminal_prompts_without_starship/"> <img alt="[i3] Beautiful Terminal Prompts Without Starship, Powerlevel10k, or Oh-My-zsh/bash" src="https://b.thumbs.redditmedia.com/u1RtS3N7DhrVRkMm04xj11VIx-btw0c9tLLwRuL2THQ.jpg" title="[i3] Beautiful Terminal Prompts Without Starship, Powerlevel10k, or Oh-My-zsh/bash" /> </a> </td><td> <!-- SC_OFF --><div class="md"><p>I designed a beautiful PS1 prompt without any thi
+----------------------------------------
+
+[9] What is the point of Zsh when Bash can do the same?
+Source: r/zsh
+URL: https://www.reddit.com/r/zsh/comments/1tz1ar4/what_is_the_point_of_zsh_when_bash_can_do_the_same/
+Published: 2026-06-07T03:39:23+00:00
+
+Content Preview:
+<table> <tr><td> <a href="https://www.reddit.com/r/zsh/comments/1tz1ar4/what_is_the_point_of_zsh_when_bash_can_do_the_same/"> <img alt="What is the point of Zsh when Bash can do the same?" src="https://preview.redd.it/ls6ri0lp5s5h1.png?width=140&amp;height=19&amp;auto=webp&amp;s=b48cbc3b85e6981f19b5bbf4034c16a0b18643f5" title="What is the point of Zsh when Bash can do the same?" /> </a> </td><td> <!-- SC_OFF --><div class="md"><p>1.Looks: zsh look like this</p> <p><a href="https://preview.redd.i
+----------------------------------------
+
+[10] Zsh or fish?
+Source: r/arch
+URL: https://www.reddit.com/r/arch/comments/1pwimjs/zsh_or_fish/
+Published: 2025-12-26T23:41:26+00:00
+
+Content Preview:
+<!-- SC_OFF --><div class="md"><p>Zsh or fish and why? </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/Smart_Fennel_703"> /u/Smart_Fennel_703 </a> &#32; to &#32; <a href="https://www.reddit.com/r/arch/"> r/arch </a> <br /> <span><a href="https://www.reddit.com/r/arch/comments/1pwimjs/zsh_or_fish/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/arch/comments/1pwimjs/zsh_or_fish/">[comments]</a></span>
+----------------------------------------
+
+## NEWS (10 items)
+----------------------------------------
+
+[1] I switched my Linux terminal to Zsh and it’s the biggest productivity boost I’ve had in years - MakeUseOf
+Source: MakeUseOf
+URL: https://news.google.com/rss/articles/CBMingFBVV95cUxNekd2aTh2SG13akYtTHkzc0ZYYTBSR29FSEpQUEhGTnBNc1JwV2Ziemk2VGwxcHNDU3Z4OWRWRHBRVUZEOF9UM1pzTVgyUkg0STktNndLMmxlY2tNOXlEWUV0RzZueG1mOUZVRFQ1RzR1aW0ydWxKWktEN05OWG1CRWVRMEZQTGZnTFdmYkNTT0JNSUJrcG1GT1pSdE10QQ?oc=5
+Published: 2026-04-05T07:00:00+00:00
+
+Content Preview:
+<a href="https://news.google.com/rss/articles/CBMingFBVV95cUxNekd2aTh2SG13akYtTHkzc0ZYYTBSR29FSEpQUEhGTnBNc1JwV2Ziemk2VGwxcHNDU3Z4OWRWRHBRVUZEOF9UM1pzTVgyUkg0STktNndLMmxlY2tNOXlEWUV0RzZueG1mOUZVRFQ1RzR1aW0ydWxKWktEN05OWG1CRWVRMEZQTGZnTFdmYkNTT0JNSUJrcG1GT1pSdE10QQ?oc=5" target="_blank">I switched my Linux terminal to Zsh and it’s the biggest productivity boost I’ve had in years</a>&nbsp;&nbsp;<font color="#6f6f6f">MakeUseOf</font>
+----------------------------------------
+
+[2] Zsh vs Bash 2026: 12x Plugin Gap, 50ms Startup [Tested] - tech-insider.org
+Source: tech-insider.org
+URL: https://news.google.com/rss/articles/CBMiV0FVX3lxTE9LVEZubGJ1ZmxPRGpVaXFzYXRmZUNwUC1wTTNUZ0RkbFpGTUhvN3RJUWxLZkIxTk1pcDlCcEFPMmVieVJRcmF5Uk5pMkxJeDJBdmtHWFJxTQ?oc=5
+Published: 2026-05-17T07:00:00+00:00
+
+Content Preview:
+<a href="https://news.google.com/rss/articles/CBMiV0FVX3lxTE9LVEZubGJ1ZmxPRGpVaXFzYXRmZUNwUC1wTTNUZ0RkbFpGTUhvN3RJUWxLZkIxTk1pcDlCcEFPMmVieVJRcmF5Uk5pMkxJeDJBdmtHWFJxTQ?oc=5" target="_blank">Zsh vs Bash 2026: 12x Plugin Gap, 50ms Startup [Tested]</a>&nbsp;&nbsp;<font color="#6f6f6f">tech-insider.org</font>
+----------------------------------------
+
+[3] 3 good reasons to replace Bash with Zsh - How-To Geek
+Source: How-To Geek
+URL: https://news.google.com/rss/articles/CBMie0FVX3lxTFAtMXZDaEdtN05TanVLdnlPZ0x1MFZiSGRWRTRycW1jQ0MxdUxxVFlfQXdBb0FLSkFSWUZNLTlxTG9EQVk3SVEtM3IzNDFqMHdBd2Y0X2NFbHhEX0Z3dzJNREFfdWhNSkpiQldzVk1WREQxaFZoZzREY0MtQQ?oc=5
+Published: 2025-11-01T07:00:00+00:00
+
+Content Preview:
+<a href="https://news.google.com/rss/articles/CBMie0FVX3lxTFAtMXZDaEdtN05TanVLdnlPZ0x1MFZiSGRWRTRycW1jQ0MxdUxxVFlfQXdBb0FLSkFSWUZNLTlxTG9EQVk3SVEtM3IzNDFqMHdBd2Y0X2NFbHhEX0Z3dzJNREFfdWhNSkpiQldzVk1WREQxaFZoZzREY0MtQQ?oc=5" target="_blank">3 good reasons to replace Bash with Zsh</a>&nbsp;&nbsp;<font color="#6f6f6f">How-To Geek</font>
+----------------------------------------
+
+[4] Zsh vs Bash: 7 Key Differences Tested [2026] (Winner?) - tech-insider.org
+Source: tech-insider.org
+URL: https://news.google.com/rss/articles/CBMiVEFVX3lxTE5nRV93WndyX2wzbXNKenJfbjAyajNuTUI1VW8zaEVxVjc5NEVhUWQwal9SQnFjdnpQajAtNl9JelpfMFE3by04bEljZm1kYnppS1QycA?oc=5
+Published: 2026-04-05T07:00:00+00:00
+
+Content Preview:
+<a href="https://news.google.com/rss/articles/CBMiVEFVX3lxTE5nRV93WndyX2wzbXNKenJfbjAyajNuTUI1VW8zaEVxVjc5NEVhUWQwal9SQnFjdnpQajAtNl9JelpfMFE3by04bEljZm1kYnppS1QycA?oc=5" target="_blank">Zsh vs Bash: 7 Key Differences Tested [2026] (Winner?)</a>&nbsp;&nbsp;<font color="#6f6f6f">tech-insider.org</font>
+----------------------------------------
+
+[5] How to Install and Use Oh My Zsh on Mac - The Mac Observer
+Source: The Mac Observer
+URL: https://news.google.com/rss/articles/CBMidEFVX3lxTE9aQ09sSmRCYVQyN2F2T2c0b0lqaThtNXhpTkh4clZDbzlOSGdxVGxfSkE3eEszUnpHdUI3RzUwVndpT0hYRDhkYnNyd3FzWW1xblQ2YmQzSENjS1lCaERZNWxOM1Fxbll1eGJBcGdIYmhUT2FL?oc=5
+Published: 2025-09-05T07:00:00+00:00
+
+Content Preview:
+<a href="https://news.google.com/rss/articles/CBMidEFVX3lxTE9aQ09sSmRCYVQyN2F2T2c0b0lqaThtNXhpTkh4clZDbzlOSGdxVGxfSkE3eEszUnpHdUI3RzUwVndpT0hYRDhkYnNyd3FzWW1xblQ2YmQzSENjS1lCaERZNWxOM1Fxbll1eGJBcGdIYmhUT2FL?oc=5" target="_blank">How to Install and Use Oh My Zsh on Mac</a>&nbsp;&nbsp;<font color="#6f6f6f">The Mac Observer</font>
+----------------------------------------
+
+[6] 10 Zsh Tips & Tricks: Configuration, Customization & Usage - SitePoint
+Source: SitePoint
+URL: https://news.google.com/rss/articles/CBMiVEFVX3lxTE1iWDFQZ3RWZDdsa1I0WXBwTEFmdGhTcXp2UVBzTFRldWpHSlJpY2R6WkJQdWJGQy1tV0U4ZG9wcUJrYWZtTjJ1UGNiSEVDOUlyV3F6Mg?oc=5
+Published: 2024-11-15T08:00:00+00:00
+
+Content Preview:
+<a href="https://news.google.com/rss/articles/CBMiVEFVX3lxTE1iWDFQZ3RWZDdsa1I0WXBwTEFmdGhTcXp2UVBzTFRldWpHSlJpY2R6WkJQdWJGQy1tV0U4ZG9wcUJrYWZtTjJ1UGNiSEVDOUlyV3F6Mg?oc=5" target="_blank">10 Zsh Tips & Tricks: Configuration, Customization & Usage</a>&nbsp;&nbsp;<font color="#6f6f6f">SitePoint</font>
+----------------------------------------
+
+[7] How to Configure a Custom Zsh Alias - Built In
+Source: Built In
+URL: https://news.google.com/rss/articles/CBMiT0FVX3lxTFBzNF94OVhzdTIxQzg2R0lKUko0NmVPZnJSSmd0V3lRVlMtc1BCYXFqMUs2TFRGS2lYN3UzQXNqMXQ1ZGRoVlBsZ0pzdmJmcVU?oc=5
+Published: 2024-10-04T07:00:00+00:00
+
+Content Preview:
+<a href="https://news.google.com/rss/articles/CBMiT0FVX3lxTFBzNF94OVhzdTIxQzg2R0lKUko0NmVPZnJSSmd0V3lRVlMtc1BCYXFqMUs2TFRGS2lYN3UzQXNqMXQ1ZGRoVlBsZ0pzdmJmcVU?oc=5" target="_blank">How to Configure a Custom Zsh Alias</a>&nbsp;&nbsp;<font color="#6f6f6f">Built In</font>
+----------------------------------------
+
+[8] Upcoming MacOS Catalina to Ditch Bash in Favour of Zsh - infoq.com
+Source: infoq.com
+URL: https://news.google.com/rss/articles/CBMib0FVX3lxTE5za3dwbGc0NW1XRWxpRncxMWJuSGUzQkU2TG5NTDhVa2htNVpmX0FNQVVkUHdGbVZteWN2V2ZQNER2MllXN2xYNWl2NUM3eHNlV05xZzhqMGFhUVd4V2JUNm1vaFpROF9HQ05tLXdNaw?oc=5
+Published: 2019-06-06T07:00:00+00:00
+
+Content Preview:
+<a href="https://news.google.com/rss/articles/CBMib0FVX3lxTE5za3dwbGc0NW1XRWxpRncxMWJuSGUzQkU2TG5NTDhVa2htNVpmX0FNQVVkUHdGbVZteWN2V2ZQNER2MllXN2xYNWl2NUM3eHNlV05xZzhqMGFhUVd4V2JUNm1vaFpROF9HQ05tLXdNaw?oc=5" target="_blank">Upcoming MacOS Catalina to Ditch Bash in Favour of Zsh</a>&nbsp;&nbsp;<font color="#6f6f6f">infoq.com</font>
+----------------------------------------
+
+[9] 4 Linux commands that will make your terminal look incredible - How-To Geek
+Source: How-To Geek
+URL: https://news.google.com/rss/articles/CBMifEFVX3lxTE1qMW1VdzRwZ3VrbW1DUHZ2YzhLZGkyTjd1WlRpX3N5VnE4VVpLUTNId0pLTjB3ZlVKUXAyVjdUa1lJVUNVSW9hQXRmeXJMX1k2WHMtY3F4ZzI0ZjMwNGNNc2NBeHhCR3Fueml0ODNiaFJTQUxZOHBySmhadTk?oc=5
+Published: 2026-02-13T08:00:00+00:00
+
+Content Preview:
+<a href="https://news.google.com/rss/articles/CBMifEFVX3lxTE1qMW1VdzRwZ3VrbW1DUHZ2YzhLZGkyTjd1WlRpX3N5VnE4VVpLUTNId0pLTjB3ZlVKUXAyVjdUa1lJVUNVSW9hQXRmeXJMX1k2WHMtY3F4ZzI0ZjMwNGNNc2NBeHhCR3Fueml0ODNiaFJTQUxZOHBySmhadTk?oc=5" target="_blank">4 Linux commands that will make your terminal look incredible</a>&nbsp;&nbsp;<font color="#6f6f6f">How-To Geek</font>
+----------------------------------------
+
+[10] How to Uninstall Oh My Zsh on Mac - OS X Daily
+Source: OS X Daily
+URL: https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5zaWJzTHhpYlhqUjl6aGs5bDRSY3F1WjBIWFVPOUIxMnBuZVJMZ01mdnA5VmxGZHVhZlRYZmxOQTN6dkxDY2d5RFpHcWhZQ2xLWXNDMjlqVUNtZGpVNlBjVllhY0lpTTA?oc=5
+Published: 2021-11-28T08:00:00+00:00
+
+Content Preview:
+<a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5zaWJzTHhpYlhqUjl6aGs5bDRSY3F1WjBIWFVPOUIxMnBuZVJMZ01mdnA5VmxGZHVhZlRYZmxOQTN6dkxDY2d5RFpHcWhZQ2xLWXNDMjlqVUNtZGpVNlBjVllhY0lpTTA?oc=5" target="_blank">How to Uninstall Oh My Zsh on Mac</a>&nbsp;&nbsp;<font color="#6f6f6f">OS X Daily</font>
+----------------------------------------
+
+## ARXIV (9 items)
+----------------------------------------
+
+[1] Reject Only Critical Tokens: Pivot-Aware Speculative Decoding
+Source: arXiv
+URL: http://arxiv.org/abs/2511.00351v1
+Published: 2025-11-01T01:35:10+00:00
+
+Content Preview:
+Speculative Decoding (SD) ensures that the output matches the target model's distribution exactly. However, we argue that this distribution matching requirement is too stringent and results in unnecessarily low acceptance rates, limiting potential speedups. Instead, we advocate a reformulation of the decoding objective: the proposed decoding strategy should match the expected utility, i.e., the task-specific performance, of the target model. This perspective also aligns better with real-world us
+----------------------------------------
+
+[2] OSMGen: Highly Controllable Satellite Image Synthesis using OpenStreetMap Data
+Source: arXiv
+URL: http://arxiv.org/abs/2511.00345v1
+Published: 2025-11-01T01:05:29+00:00
+
+Content Preview:
+Accurate and up-to-date geospatial data are essential for urban planning, infrastructure monitoring, and environmental management. Yet, automating urban monitoring remains difficult because curated datasets of specific urban features and their changes are scarce. We introduce OSMGen, a generative framework that creates realistic satellite imagery directly from raw OpenStreetMap (OSM) data. Unlike prior work that relies on raster tiles, OSMGen uses the full richness of OSM JSON, including vector 
+----------------------------------------
+
+[3] An Empirical Study of Dotfiles Repositories Containing User-Specific Configuration Files
+Source: arXiv
+URL: http://arxiv.org/abs/2501.18555v1
+Published: 2025-01-30T18:32:46+00:00
+
+Content Preview:
+Storing user-specific configuration files in a "dotfiles" repository is a common practice among software developers, with hundreds of thousands choosing to publicly host their repositories on GitHub. This practice not only provides developers with a simple backup mechanism for their essential configuration files, but also facilitates sharing ideas and learning from others on how best to configure applications that are key to their daily workflows. However, our current understanding of these repo
+----------------------------------------
+
+[4] COMAE: COMprehensive Attribute Exploration for Zero-shot Hashing
+Source: arXiv
+URL: http://arxiv.org/abs/2402.16424v5
+Published: 2024-02-26T09:22:57+00:00
+
+Content Preview:
+Zero-shot hashing (ZSH) has shown excellent success owing to its efficiency and generalization in large-scale retrieval scenarios. While considerable success has been achieved, there still exist urgent limitations. Existing works ignore the locality relationships of representations and attributes, which have effective transferability between seeable classes and unseeable classes. Also, the continuous-value attributes are not fully harnessed. In response, we conduct a COMprehensive Attribute Expl
+----------------------------------------
+
+[5] Cross-modal Zero-shot Hashing
+Source: arXiv
+URL: http://arxiv.org/abs/1908.07388v1
+Published: 2019-08-19T07:14:41+00:00
+
+Content Preview:
+Hashing has been widely studied for big data retrieval due to its low storage cost and fast query speed. Zero-shot hashing (ZSH) aims to learn a hashing model that is trained using only samples from seen categories, but can generalize well to samples of unseen categories. ZSH generally uses category attributes to seek a semantic embedding space to transfer knowledge from seen categories to unseen ones. As a result, it may perform poorly when labeled data are insufficient. ZSH methods are mainly 
+----------------------------------------
+
+[6] Executable formal semantics for the POSIX shell
+Source: arXiv
+URL: http://arxiv.org/abs/1907.05308v1
+Published: 2019-07-11T15:33:34+00:00
+
+Content Preview:
+The POSIX shell is a widely deployed, powerful tool for managing computer systems. The shell is the expert's control panel, a necessary tool for configuring, compiling, installing, maintaining, and deploying systems. Even though it is powerful, critical infrastructure, the POSIX shell is maligned and misunderstood. Its power and its subtlety are a dangerous combination.
+  We define a formal, mechanized, executable small-step semantics for the POSIX shell, which we call Smoosh. We compared Smoosh
+----------------------------------------
+
+[7] Constraints on a 2HDM with a singlet scalar and implications in the search for heavy bosons at the LHC
+Source: arXiv
+URL: http://arxiv.org/abs/1809.06344v3
+Published: 2018-09-17T17:29:54+00:00
+
+Content Preview:
+We study a two-Higgs doublet model extended with an additional singlet scalar (2HDM+S), and provide a brief introduction to the model and its parameters. Constraints are applied to the parameter space of this model in order to accommodate a number of features in the data that have been interpreted in von Buddenbrock et al (2018 J. Phys. G 45 115003) as the result of the $H\rightarrow Sh$ decay produced via gluon-gluon fusion and in association with top quarks. Implications on the phenomenology o
+----------------------------------------
+
+[8] Transductive Zero-Shot Hashing via Coarse-to-Fine Similarity Mining
+Source: arXiv
+URL: http://arxiv.org/abs/1711.02856v1
+Published: 2017-11-08T07:46:47+00:00
+
+Content Preview:
+Zero-shot Hashing (ZSH) is to learn hashing models for novel/target classes without training data, which is an important and challenging problem. Most existing ZSH approaches exploit transfer learning via an intermediate shared semantic representations between the seen/source classes and novel/target classes. However, due to having disjoint, the hash functions learned from the source dataset are biased when applied directly to the target classes. In this paper, we study the transductive ZSH, i.e
+----------------------------------------
+
+[9] Zero-Shot Hashing via Transferring Supervised Knowledge
+Source: arXiv
+URL: http://arxiv.org/abs/1606.05032v1
+Published: 2016-06-16T02:56:39+00:00
+
+Content Preview:
+Hashing has shown its efficiency and effectiveness in facilitating large-scale multimedia applications. Supervised knowledge e.g. semantic labels or pair-wise relationship) associated to data is capable of significantly improving the quality of hash codes and hash functions. However, confronted with the rapid growth of newly-emerging concepts and multimedia data on the Web, existing supervised hashing approaches may easily suffer from the scarcity and validity of supervised information due to th
+----------------------------------------

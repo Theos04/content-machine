@@ -1,0 +1,32 @@
+from typing import List, Dict, Any
+import praw
+from datetime import datetime
+
+def search(query: str, max_results: int = 10) -> List[Dict[str, Any]]:
+    """
+    Unified interface for Reddit collection.
+    Requires praw.ini or environment variables.
+    """
+    try:
+        reddit = praw.Reddit(
+            client_id='YOUR_CLIENT_ID',
+            client_secret='YOUR_SECRET',
+            user_agent='ResearchAgent/1.0'
+        )
+        
+        posts = []
+        for submission in reddit.subreddit('all').search(query, limit=max_results):
+            posts.append({
+                'title': submission.title,
+                'content': submission.selftext[:500],
+                'url': f"https://reddit.com{submission.permalink}",
+                'source': f"r/{submission.subreddit.display_name}",
+                'published': datetime.fromtimestamp(submission.created_utc).isoformat(),
+                'query': query,
+                'collector': 'reddit'
+            })
+        
+        return posts
+    except Exception as e:
+        print(f"Reddit error: {e}")
+        return []

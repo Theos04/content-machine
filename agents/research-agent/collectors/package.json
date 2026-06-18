@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "puppeteer-termux": "^1.5.0"
+  },
+  "name": "collectors",
+  "version": "1.0.0",
+  "description": "",
+  "main": "google_research.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
