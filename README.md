@@ -288,14 +288,17 @@ cd ../../..
 Run the unified runner:
 
 ```bash
-# Run the full pipeline on a topic
-python make_video.py "Artificial Intelligence in Healthcare" --mode full
+# Run the complete multi-agent pipeline with command syntax
+python content_pipeline.py "/pipeline: topic: understanding linux ecosystem"
 
-# Run research only
-python make_video.py "Autonomous Agents" --mode research-only
+# Or using make_video.py
+python make_video.py "/pipeline: topic: understanding linux ecosystem" --mode full
 
-# Launch editor TUI
-python make_video.py dummy --mode edit-only
+# Run research-only down the rabbit hole with custom depth and branches
+python make_video.py "/pipeline: topic: understanding linux ecosystem" --mode research-only --depth 2 --branches 4
+
+# Run directly via the package module
+python -m content_machine.pipeline "/pipeline: topic: understanding linux ecosystem"
 ```
 
 ---
@@ -432,17 +435,22 @@ To make the best use of Content Machine's automation, organize media assets usin
 
 ## 📋 Comprehensive TODO Task List & Roadmap
 
-### Phase 1: Pipeline Harmonization & Core Wiring (High Priority)
-- [ ] **Unify CLI & Editor Engine**:
-  - [ ] Implement `complete_video_pipeline(topic: str, output_dir: str)` in `editor.py` or `content_pipeline.py`.
-  - [ ] Support non-interactive CLI flags in `editor.py` (e.g., `--video`, `--audio`, `--sfx`, `--out`).
-- [ ] **Implement `ContentMachine` Orchestrator**:
-  - [ ] Wire `ContentMachine.research_topic()` to invoke `agents/research-agent/agent.py`.
-  - [ ] Wire `ContentMachine.create_voiceover()` to call Silero TTS or `gTTS`.
-  - [ ] Wire `ContentMachine.auto_edit_video()` to invoke `editor.render_tutorial()`.
-- [ ] **Automated Scaffold Setup**:
-  - [ ] Add an `init` command that auto-creates `raw/`, `segregated/`, `sfx/`, and `output/` directories.
-  - [ ] Bundle a starter SFX pack (creative commons clicks, pops, whooshes).
+### Phase 1: Pipeline Harmonization & Core Wiring (Completed ✅)
+- [x] **Unify CLI & Editor Engine**:
+  - [x] Connect `content_pipeline.py` and `make_video.py` to the multi-agent backend.
+  - [x] Support `/pipeline: topic: <query>` parsing and CLI topic dispatch.
+- [x] **Implement `ContentMachine` Orchestrator**:
+  - [x] Wire `ContentMachine.research_topic()` to invoke multi-agent pub-sub rabbit hole engine.
+  - [x] Wire `ContentMachine.generate_script()` to synthesize dossiers and video script outlines.
+  - [x] Wire `ContentMachine.create_voiceover()` to call TTS.
+  - [x] Wire `ContentMachine.auto_edit_video()` to invoke `editor.render_tutorial()`.
+- [x] **Modular Package & Pub-Sub Architecture (`content_machine/`)**:
+  - [x] Clean Python relative import calling structure (`content_machine.core`, `content_machine.agents`, `content_machine.storage`).
+  - [x] Thread-safe `TopicBus` pub-sub event bus.
+  - [x] `RabbitHoleCoordinator` for recursive nested branch exploration.
+  - [x] `ResearchStitcher` for synthesizing JSON dossiers, Markdown reports, and script outlines.
+- [x] **Automated Scaffold Setup**:
+  - [x] Auto-creates `raw/`, `segregated/`, `sfx/`, and `output/` directories on launch.
 
 ### Phase 2: Autonomous Scripting & LLM Integration (High Priority)
 - [ ] **LLM Script Generator**:
