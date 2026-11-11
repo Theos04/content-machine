@@ -157,6 +157,7 @@ class RabbitHoleCoordinator:
 
         print("\n🎉 Research Synthesis Complete!")
         print(f"📊 Total Sources Stitched: {dossier.total_sources}")
+        print(f"🖼️ Bento HTML Dashboard: {dossier.html_dashboard_path}")
         print(f"📄 Master Markdown Report: {dossier.markdown_report_path}")
         print(f"💾 JSON Research Dossier: {dossier.json_dossier_path}")
         print(f"🎬 Video Script Outline:  {dossier.script_outline_path}")

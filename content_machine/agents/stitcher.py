@@ -78,6 +78,12 @@ class ResearchStitcher:
             f.write(script_md)
         dossier.script_outline_path = str(script_file)
 
+        # 8. Export Modern Bento Grid & Kanban HTML Dashboard
+        from ..ui.dashboard import generate_html_dashboard
+        html_file = self.output_dir / f"{safe_topic}_dashboard.html"
+        generate_html_dashboard(dossier, str(html_file))
+        dossier.html_dashboard_path = str(html_file)
+
         return dossier
 
     def _synthesize_executive_summary(self, root_node: BranchNode, all_findings: List[ResearchItem]) -> str:

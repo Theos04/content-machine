@@ -100,6 +100,7 @@ class ResearchDossier:
     markdown_report_path: Optional[str] = None
     json_dossier_path: Optional[str] = None
     script_outline_path: Optional[str] = None
+    html_dashboard_path: Optional[str] = None
 
     def to_dict(self) -> Dict[str, Any]:
         return {
