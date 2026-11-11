@@ -1,0 +1,29 @@
+[project]
+name = "content-machine"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "arxiv>=4.0.2",
+    "beautifulsoup4>=4.15.0",
+    "feedparser>=6.0.14",
+    "flask>=3.1.3",
+    "gtts>=2.5.4",
+    "matplotlib>=3.11.2",
+    "networkx>=3.7",
+    "nltk>=3.10.4",
+    "numpy>=2.5.4",
+    "openai-whisper>=20250625",
+    "playwright>=1.65.0",
+    "plotly>=7.1.0",
+    "requests>=2.34.2",
+    "rich>=15.0.0",
+    "selenium>=4.52.0",
+    "textual>=8.2.8",
+    "trafilatura>=2.3.1",
+    "typer>=0.29.0",
+    "urllib3>=2.8.0",
+    "websocket-client>=1.9.2",
+    "wikipedia-api>=0.10.0",
+    "youtube-transcript-api>=1.2.5",
+    "yt-dlp>=2026.10.26",
+]
